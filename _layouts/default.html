@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>{{site.title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="{{site.url}}/custom/my.css" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+</head>
+<body class="{{page.body_class}}">
+
+    {{content}}
+
+    <footer class="site-footer" {% if site.data.blog.cover %}style="background-image: url({{site.url}}{{site.data.blog.cover}})"{% endif %}>
+        <div class="footer-nav">
+            {% if site.pages %}
+                <a href="{{site.url}}">Home</a>
+                {% for page in site.pages %}
+                    {% if page.parent %}
+                    {% else %}
+                    {% if page.layout == "page" %}
+                        <a href="{{site.url}}{{page.url}}">{{page.title}}</a>
+                    {% endif %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+        <div class="inner">
+            <a class="subscribe icon-feed" href="{{site.url}}/feed.xml"></a>
+            <section class="poweredby">Built with <a href="http://statiq.io/">Statiq</a></section>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="{{site.url}}/assets/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="{{site.url}}/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="{{site.url}}/assets/js/index.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-31980509-3']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+</body>
+</html>

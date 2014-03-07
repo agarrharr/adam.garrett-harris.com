@@ -1,0 +1,9 @@
+title: Adam Harris
+description: Web Developer
+markdown: kramdown
+pygments: true
+permalink: /:title/
+category_dir: category
+paginate: 5
+url: http://adamwadeharris.com
+disqus_shortname: adamwadeharris
