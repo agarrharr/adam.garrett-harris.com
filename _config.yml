@@ -5,5 +5,5 @@ pygments: true
 permalink: /:title/
 category_dir: category
 paginate: 5
-url: http://adamwadeharris.com
+url: http://www.adamwadeharris.com
 disqus_shortname: adamwadeharris
