@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Wordpress
-slug: wordpress_page
+slug: wordpress
 author: aharris88
 comments: true
-permalink: wordpress
 ---
 
 ##Plugins##

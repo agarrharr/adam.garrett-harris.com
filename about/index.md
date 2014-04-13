@@ -4,7 +4,6 @@ title: About
 slug: about
 author: aharris88
 comments: true
-permalink: about
 ---
 
 I'm a web developer helping to start a church in Herriman, Utah.
