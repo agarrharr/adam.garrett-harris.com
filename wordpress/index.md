@@ -4,6 +4,7 @@ title: Wordpress
 slug: wordpress_page
 author: aharris88
 comments: true
+permalink: wordpress
 ---
 
 ##Plugins##
