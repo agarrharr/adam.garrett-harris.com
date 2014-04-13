@@ -10,6 +10,8 @@ published: true
 comments: true
 ---
 
+**Update**- I've now figured out an easier way to do this in one command instead of 5 ([Android Automation]({{site.url}}/android-automation))
+
 So you've got your awesome app programmed, tested, added a cool icon, and you want to get it out to the world? It's pretty easy to get android apps on your phone when testing, but you have to jump through a few hoops to actually get it in the Google Play store.
 
 It was pretty hard to find a good guide out there on the Internet about what to do to finally get your app to submit to the Google Play Store for Android. The <a href="http://developer.android.com/tools/publishing/publishing_overview.html" target="_blank">official documentation</a> is pretty wordy and somewhat vague. These instructions are specifically for apps built with Phonegap, because that's what I used, but it might be helpful for other people as well.

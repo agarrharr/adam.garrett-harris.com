@@ -10,7 +10,7 @@ published: true
 comments: true
 ---
 
-**Update- There is now an easier way to debug android apps in android Kit Kat (4.4.2) without needing to use weinre ([Remote Debugging in Phonegap with Chrome Devtools]({{site.url}}/remote-debugging-in-phonegap-with-chrome-devtools))
+**Update**- There is now an easier way to debug android apps in android Kit Kat (4.4.2) without needing to use weinre ([Remote Debugging in Phonegap with Chrome Devtools]({{site.url}}/remote-debugging-in-phonegap-with-chrome-devtools))
 
 I finally figured out how to setup remote debugging in Phonegap, or any html for that matter. I've banged my head against the wall more than a few times trying to tweak some css, javascript, or local database storage, and this would have saved me a lot of time and effort.
 
