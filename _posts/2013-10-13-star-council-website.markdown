@@ -14,9 +14,9 @@ I had the privilege of working with STAR Council, which provides substance abuse
 
 It's a custom responsive Wordpress theme, designed by my brother, Austin, and it works well on all screen sizes.
 
-<a href="http://www.adamwadeharris.com/wp-content/uploads/2013/10/STAR-Council-desktop-shot.png"><img class="aligncenter size-full wp-image-378" alt="STAR  Council desktop shot" src="{{site.url}}/assets/uploads/2013/10/STAR-Council-desktop-shot.png" width="1280" height="960" /></a>
+<a href="http://www.adamwadeharris.com/assets/uploads/2013/10/STAR-Council-desktop-shot.png"><img class="aligncenter size-full wp-image-378" alt="STAR  Council desktop shot" src="{{site.url}}/assets/uploads/2013/10/STAR-Council-desktop-shot.png" width="1280" height="960" /></a>
 
-<a href="http://www.adamwadeharris.com/wp-content/uploads/2013/10/STAR-Council-tablet-shot.png"><img class="aligncenter size-full wp-image-380" alt="STAR  Council tablet shot" src="{{site.url}}/assets/uploads/2013/10/STAR-Council-tablet-shot.png" width="1280" height="853" /><a href="http://www.adamwadeharris.com/wp-content/uploads/2013/10/STAR-Council-phone-shot.png"><img class="aligncenter size-full wp-image-379" alt="STAR  Council phone shot" src="{{site.url}}/assets/uploads/2013/10/STAR-Council-phone-shot.png" width="1280" height="850" /></a></a>
+<a href="http://www.adamwadeharris.com/assets/uploads/2013/10/STAR-Council-tablet-shot.png"><img class="aligncenter size-full wp-image-380" alt="STAR  Council tablet shot" src="{{site.url}}/assets/uploads/2013/10/STAR-Council-tablet-shot.png" width="1280" height="853" /><a href="http://www.adamwadeharris.com/assets/uploads/2013/10/STAR-Council-phone-shot.png"><img class="aligncenter size-full wp-image-379" alt="STAR  Council phone shot" src="{{site.url}}/assets/uploads/2013/10/STAR-Council-phone-shot.png" width="1280" height="850" /></a></a>
 
 &nbsp;
 

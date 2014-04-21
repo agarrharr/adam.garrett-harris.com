@@ -22,7 +22,7 @@ zipalign -v 4 AppName-release-unsigned.apk AppName.apk
 
 Well, that's kinda complicated. And it [turns out](http://stackoverflow.com/a/14765511/1665818), there's any easy way to do all of this with just this:
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 ant release
 {% endhighlight %}
 
@@ -32,7 +32,7 @@ The answer is with a few configuration files that will let ant know where the ke
 
 First open build.xml and make sure that it has this line:
 
-{% highlight xml %}
+{% highlight xml linenos %}
 <property file="ant.properties" />
 {% endhighlight %}
 

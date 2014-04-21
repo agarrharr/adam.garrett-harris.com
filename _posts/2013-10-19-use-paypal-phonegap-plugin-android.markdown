@@ -97,4 +97,4 @@ buyButton.onclick = function(e) {
 }{% endhighlight %}
 
 And that's it. build your app and when you click the button it should open up a screen like this:
-<p style="text-align: center;"><a href="http://www.adamwadeharris.com/wp-content/uploads/2013/10/2013-10-19-17.19.46.png"><img class="aligncenter  wp-image-403" alt="2013-10-19 17.19.46" src="{{site.url}}/assets/uploads/2013/10/2013-10-19-17.19.46.png" width="288" height="480" /></a></p>
+<p style="text-align: center;"><a href="http://www.adamwadeharris.com/assets/uploads/2013/10/2013-10-19-17.19.46.png"><img class="aligncenter  wp-image-403" alt="2013-10-19 17.19.46" src="{{site.url}}/assets/uploads/2013/10/2013-10-19-17.19.46.png" width="288" height="480" /></a></p>

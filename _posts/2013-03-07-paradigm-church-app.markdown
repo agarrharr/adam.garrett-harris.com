@@ -10,11 +10,11 @@ published: true
 comments: true
 ---
 
-<a href="http://adamwadeharris.com/wp-content/uploads/2013/03/paradigm-church-app-google-play.png"><img class="aligncenter size-full wp-image-304" alt="paradigm-church-app-google-play" src="http://adamwadeharris.com/wp-content/uploads/2013/03/paradigm-church-app-google-play.png" width="1145" height="608" /></a>
+<a href="http://adamwadeharris.com/assets/uploads/2013/03/paradigm-church-app-google-play.png"><img class="aligncenter size-full wp-image-304" alt="paradigm-church-app-google-play" src="http://adamwadeharris.com/assets/uploads/2013/03/paradigm-church-app-google-play.png" width="1145" height="608" /></a>
 
 I just launched the app for <a href="http://paradigmchurch.com/" target="_blank">Paradigm Church</a> with pulls data from their website (<a href="http://paradigmchurch.com">paradigmchurch.com</a>). It allows them to log into their website and add announcements, event registrations, and directions that show up in the app.
-<p style="text-align: center;"><a href="http://adamwadeharris.com/wp-content/uploads/2013/03/paradigm-church-app-screenshot.png"><img class="aligncenter  wp-image-305" alt="paradigm-church-app-screenshot" src="http://adamwadeharris.com/wp-content/uploads/2013/03/paradigm-church-app-screenshot.png" width="288" height="480" /></a></p>
-<p style="text-align: center;"><a href="http://adamwadeharris.com/wp-content/uploads/2013/03/paradigm-church-app-screenshot-map.png"><img class="aligncenter  wp-image-306" alt="paradigm-church-app-screenshot-map" src="http://adamwadeharris.com/wp-content/uploads/2013/03/paradigm-church-app-screenshot-map.png" width="288" height="480" /></a></p>
+<p style="text-align: center;"><a href="http://adamwadeharris.com/assets/uploads/2013/03/paradigm-church-app-screenshot.png"><img class="aligncenter  wp-image-305" alt="paradigm-church-app-screenshot" src="http://adamwadeharris.com/assets/uploads/2013/03/paradigm-church-app-screenshot.png" width="288" height="480" /></a></p>
+<p style="text-align: center;"><a href="http://adamwadeharris.com/assets/uploads/2013/03/paradigm-church-app-screenshot-map.png"><img class="aligncenter  wp-image-306" alt="paradigm-church-app-screenshot-map" src="http://adamwadeharris.com/assets/uploads/2013/03/paradigm-church-app-screenshot-map.png" width="288" height="480" /></a></p>
 Here's all the technical details:
 
 It pulls the data in json format, thanks to the <a href="http://wordpress.org/extend/plugins/json-api/" target="_blank">JSON API plugin</a> and the Event Espresso API plugin from <a href="http://eventespresso.com/" target="_blank">Event Espresso</a>. It uses <a href="http://jquerymobile.com/" target="_blank">jQuery Mobile</a> for the framework, and I used <a href="http://handlebarsjs.com/" target="_blank">handlebars.js</a> for putting the json data into templates. I used <a href="https://trigger.io/" target="_blank">trigger.io</a> to build the applications.

@@ -10,7 +10,7 @@ published: true
 comments: true
 ---
 
-<a href="http://www.adamwadeharris.com/wp-content/uploads/2013/02/journalist.png"><img class="aligncenter size-full wp-image-257" alt="journalist" src="{{site.url}}/assets/uploads/2013/02/journalist.png" width="960" height="596" /></a>
+<a href="http://www.adamwadeharris.com/assets/uploads/2013/02/journalist.png"><img class="aligncenter size-full wp-image-257" alt="journalist" src="{{site.url}}/assets/uploads/2013/02/journalist.png" width="960" height="596" /></a>
 
 I made this for my good friend who happens to be my wife's best friend. She's the Religion Editor at Tyler Morning Telegraph. This is just a very simple site where she can post her resume and let people get in contact with her.
 
