@@ -11,25 +11,25 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="{{site.url}}/bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="{{site.url}}/assets/css/code.css">
-    <link rel="stylesheet" href="{{site.url}}/assets/css/solarized.css">
-    <link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/styles.css" />
+    <link rel="stylesheet" href="{{site.baseurl}}/bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/code.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/solarized.css">
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/styles.css" />
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
 </head>
-<body class="{{page.body_class}}">
+<body>
 
     {{content}}
 
-    <footer class="col-md-12 site-footer" {% if site.data.blog.cover %}style="background-image: url({{site.url}}{{site.data.blog.cover}})"{% endif %}>
+    <footer class="col-md-12 site-footer" {% if site.data.blog.cover %}style="background-image: url({{site.baseurl}}{{site.data.blog.cover}})"{% endif %}>
         <div class="text-center footer-nav">
             {% if site.pages %}
-                <a href="{{site.url}}">Home</a>
+                <a href="{{site.baseurl}}">Home</a>
                 {% for page in site.pages %}
                     {% if page.parent %}
                     {% else %}
                     {% if page.layout == "page" %}
-                        <a href="{{site.url}}/{{page.slug}}">{{page.title}}</a>
+                        <a href="{{site.baseurl}}/{{page.slug}}">{{page.title}}</a>
                     {% endif %}
                     {% endif %}
                 {% endfor %}
@@ -41,11 +41,11 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="{{site.url}}/bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="{{site.url}}/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="{{site.url}}/assets/js/lunr.min.js"></script>
-    <script type="text/javascript" src="{{site.url}}/search.js"></script>
-    <script type="text/javascript" src="{{site.url}}/assets/js/index.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/lunr.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/search.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/index.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
