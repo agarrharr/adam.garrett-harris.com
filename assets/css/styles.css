@@ -148,6 +148,13 @@ a:hover {
 	text-decoration: none !important;
 }
 
+.sidebar {
+	margin-top: 40px;
+}
+.sidebar h3 {
+	margin-bottom: 20px;
+}
+
 /* highlighing */
 ::-moz-selection {
     color: #222;
@@ -206,3 +213,12 @@ a:hover {
     content: "\e004";
 }
 /* icon font */
+
+
+/* custom styles */
+
+/* search widget */
+#searchResults {
+	margin-top: 20px;
+}
+/* search widget */

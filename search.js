@@ -3,7 +3,7 @@
 
 var docs = [
 	{% for post in site.posts limit:10 %}
-	{% include post.json %},
+		{% include post.json %},
 	{% endfor %}
 ];
 // init lunr
@@ -29,14 +29,34 @@ $(function() {
 });
 
 function search() {
-	console.log('search');
 	var result = idx.search($("#search input").val());
-	console.log(result);
-	if(result && result.length > 0) {
-		// window.location.replace(result[0].ref);
-		console.log(result[0].ref);
-	} else {
-		// alert("Found nothing");
-		console.log('Found nothing');
+	putResultsOnPage(getFullResults(result));
+	// if(result && result.length > 0) {
+	// } else {
+	// }
+}
+
+function putResultsOnPage(results) {
+	var html = '';
+
+	$('#searchResults').text('');
+	for(var i = 0; i < results.length; i += 1) {
+		html += '<div><a href="' + results[i].id + '">' + results[i].title + '</a></div>';
 	}
+	if (html === '') {
+		html = '<div>No results found.</div>';
+	}
+	$('#searchResults').append(html);
+}
+
+function getFullResults(shortResults) {
+	var fullResults = [];
+	for(var i = 0; i < docs.length; i += 1) {
+		for(var j = 0; j < shortResults.length; j += 1) {
+			if (docs[i].id === shortResults[j].ref) {
+				fullResults.push(docs[i]);
+			}
+		}
+	}
+	return fullResults;
 }
