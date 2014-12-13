@@ -1,0 +1,19 @@
+{
+  "name": "adamwadeharris.com",
+  "version": "0.0.0",
+  "homepage": "http://www.adamwadeharris.com",
+  "main": "_layouts/default.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "jquery": "~2.1.1"
+  }
+}
