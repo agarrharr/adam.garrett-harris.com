@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="libs/jquery.min.js"></script>
+        <script src="libs/handlebars.js"></script>
+        <script src="google-bookshelves.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="google_bookshelves_styles.css" />
+    </head>
+    <body>
+        <div id="readingNow"></div>
+        <script>
+            googleBookshelves.showShelf(
+              {
+                idNumber: "113720634485746776434",
+                shelfNumber: 3,
+                container: "#readingNow",
+                limit: 10,
+                random: false,
+                pageCurl: false,
+                imageSize: "thumb",
+                layout: "column"
+              }
+            );
+        </script>
+    </body>
+</html>
