@@ -152,7 +152,10 @@ a:hover {
 	margin-top: 40px;
 }
 .sidebar h3 {
-	margin-bottom: 20px;
+	margin: 40px 0px;
+}
+.widget {
+	margin-top: 20px;
 }
 
 /* highlighing */
@@ -220,5 +223,8 @@ a:hover {
 /* search widget */
 #searchResults {
 	margin-top: 20px;
+}
+#searchResults a {
+	line-height: 35px;
 }
 /* search widget */
