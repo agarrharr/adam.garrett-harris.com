@@ -8,3 +8,5 @@ paginate: 5
 siteurl: http://www.adamwadeharris.com
 baseurl:
 disqus_shortname: adamwadeharris
+google_analytics_code: UA-31980509-3
+google_analytics_url: adamwadeharris.com
