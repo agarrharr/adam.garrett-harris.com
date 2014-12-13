@@ -11,18 +11,18 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/screen.css" />
+    <link rel="stylesheet" href="{{site.url}}/bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{site.url}}/assets/css/code.css">
     <link rel="stylesheet" href="{{site.url}}/assets/css/solarized.css">
-    <link rel="stylesheet" href="{{site.url}}/assets/css/code.css">
-    <link rel="stylesheet" type="text/css" href="{{site.url}}/custom/my.css" />
+    <link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/styles.css" />
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
 </head>
 <body class="{{page.body_class}}">
 
     {{content}}
 
-    <footer class="site-footer" {% if site.data.blog.cover %}style="background-image: url({{site.url}}{{site.data.blog.cover}})"{% endif %}>
-        <div class="footer-nav">
+    <footer class="col-md-12 site-footer" {% if site.data.blog.cover %}style="background-image: url({{site.url}}{{site.data.blog.cover}})"{% endif %}>
+        <div class="text-center footer-nav">
             {% if site.pages %}
                 <a href="{{site.url}}">Home</a>
                 {% for page in site.pages %}
@@ -35,7 +35,7 @@
                 {% endfor %}
             {% endif %}
         </div>
-        <div class="inner">
+        <div class="text-center footer-message">
             <a class="subscribe icon-feed" href="http://feeds.feedburner.com/AdamHarris"></a>
             <section class="poweredby">Built with <a href="http://statiq.io/">Statiq</a></section>
         </div>

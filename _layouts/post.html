@@ -9,7 +9,7 @@ layout: default
         <header class="post-header">
             <a id="blog-logo" href="{{site.url}}">
                 {% if site.data.blog.logo %}
-                    <img src="{{site.url}}{{site.data.blog.logo}}" alt="Blog Logo" />
+                    <img class="img-circle" src="{{site.url}}{{site.data.blog.logo}}" alt="Blog Logo" />
                 {% else %}
                     <span class="blog-title">{{site.title}}</span>
                 {% endif %}
@@ -38,7 +38,6 @@ layout: default
                     })();
                 </script>
                 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                
         {% endif %}
 
         	<span class="post-meta">
@@ -58,7 +57,7 @@ layout: default
                 {% endfor %}
             {% endif %}
 
-            <section class="share">
+            <section class="text-center share">
                 <h4>Share this post</h4>
                 <a class="icon-twitter" href="http://twitter.com/share?text=I just read '{{page.title}}' at {{site.url}}{{page.url}}"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
