@@ -2,7 +2,7 @@
 ---
 
 var docs = [
-	{% for post in site.posts limit:10 %}
+	{% for post in site.posts %}
 		{% include post.json %},
 	{% endfor %}
 ];
