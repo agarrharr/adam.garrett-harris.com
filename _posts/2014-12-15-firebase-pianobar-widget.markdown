@@ -87,7 +87,7 @@ This file includes a library called firebase. You can get it [here](https://gith
 gem install ruby
 {% endhighlight %}
 
-pianobarFirebase read the nowplaying file from earlier and writes it to my firebase database, which is set to read-only, so I need to use the secret-key, which I've deleted from the code here.
+pianobarFirebase reads the nowplaying file from earlier and writes it to my firebase database, which is set to read-only, so I need to use the secret-key, which I've deleted from the code here.
 
 So then my firebase looks like this:
 
