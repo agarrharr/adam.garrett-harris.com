@@ -1,3 +1,6 @@
+---
+---
+
 var googleBookshelves = (function() {
   var idNumber;
   var shelfNumber;
@@ -25,7 +28,7 @@ var googleBookshelves = (function() {
   var displayBooks = function() {
     $(container).addClass('google_bookshelves_shelf_' + layout);
     getBooks(function(data) {
-      getTemplateAjax('assets/google-bookshelves-widget/layouts/' + layout + '.handlebars', function(template) {
+      getTemplateAjax('{{site.url}}assets/google-bookshelves-widget/layouts/' + layout + '.handlebars', function(template) {
         $(container).append(template(data));
       });
     });
