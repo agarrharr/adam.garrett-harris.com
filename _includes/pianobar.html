@@ -9,7 +9,6 @@
 <script>
 	var ref = new Firebase("https://blazing-fire-5020.firebaseio.com/currentSong");
 	ref.on("value", function(snapshot) {
-		console.log(snapshot.val());
 		$('#pianobarSong').text(snapshot.val().title);
 		$('#pianobarArtist').text(snapshot.val().artist);
 		$('#pianobarAlbum').text(snapshot.val().album);
