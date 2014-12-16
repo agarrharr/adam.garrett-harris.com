@@ -1,0 +1,19 @@
+<div class="widget">
+	<h3>Currently Listening To</h3>
+	<div id="pianobar">
+		<div id="pianobarSong"></div>
+		<div id="pianobarArtist"></div>
+		<div id="pianobarAlbum"></div>
+	</div>
+</div>
+<script>
+	var ref = new Firebase("https://blazing-fire-5020.firebaseio.com/currentSong");
+	ref.on("value", function(snapshot) {
+		console.log(snapshot.val());
+		$('#pianobarSong').text(snapshot.val().title);
+		$('#pianobarArtist').text(snapshot.val().artist);
+		$('#pianobarAlbum').text(snapshot.val().album);
+	}, function (errorObject) {
+		console.warn("The read from firebase failed: " + errorObject.code);
+	});
+</script>
