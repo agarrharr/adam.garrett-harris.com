@@ -10,7 +10,9 @@ published: true
 comments: true
 ---
 
-Here's a quick tutorial on what I did to accept paypal payments on android with the <a href="https://github.com/paypal/PayPal-Android-SDK-PhoneGap" target="_blank">PayPal Android SDK PhoneGap Plug-in</a>. These instructions are out there, but you kinda have to dig around a little to piece it all together.
+**Update**- The [PhoneGap Plugin is now deprecated](https://devblog.paypal.com/phonegap-android-sdk-plugin/)
+
+Here's a quick tutorial on what I did to accept paypal payments on android with the PayPal Android SDK PhoneGap Plug-in. These instructions are out there, but you kinda have to dig around a little to piece it all together.
 
 <ol>
 	<li>Download the <a href="https://github.com/paypal/PayPal-Android-SDK">PayPal Android SDK</a>.</li>
