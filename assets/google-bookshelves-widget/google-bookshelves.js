@@ -28,7 +28,7 @@ var googleBookshelves = (function() {
   var displayBooks = function() {
     $(container).addClass('google_bookshelves_shelf_' + layout);
     getBooks(function(data) {
-      getTemplateAjax('{{site.url}}assets/google-bookshelves-widget/layouts/' + layout + '.handlebars', function(template) {
+      getTemplateAjax('{{site.siteurl}}/assets/google-bookshelves-widget/layouts/' + layout + '.handlebars', function(template) {
         $(container).append(template(data));
       });
     });
