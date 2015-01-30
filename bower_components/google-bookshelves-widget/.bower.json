@@ -1,0 +1,29 @@
+{
+  "name": "google-bookshelves-widget",
+  "homepage": "https://github.com/aharris88/google-bookshelves-widget",
+  "description": "This plugin allows you to display the books in your Google Books Library",
+  "main": "google-bookshelves.js",
+  "authors": [
+    "Adam Harris"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "handlebars": "~2.0.0",
+    "jquery": "~2.1.3"
+  },
+  "_release": "6a8b5bb13e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6a8b5bb13ea09a5c1c903b579b5d56711a249820"
+  },
+  "_source": "git://github.com/aharris88/google-bookshelves-widget.git",
+  "_target": "*",
+  "_originalSource": "aharris88/google-bookshelves-widget",
+  "_direct": true
+}
