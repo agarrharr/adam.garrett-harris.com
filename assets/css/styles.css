@@ -222,3 +222,13 @@ a:hover {
 	line-height: 35px;
 }
 /* search widget */
+
+
+/* form */
+form input,
+form textarea,
+form button {
+		display: block;
+		margin-bottom: 20px;
+}
+/* form */
