@@ -20,17 +20,17 @@ But I'm also open to learning something new and possibly better. I'm willing to 
 
 ## Diving into Emacs
 
-First I tried to follow [this tutorial on Clojure with Emacs](http://clojure-doc.org/articles/tutorials/emacs.html) and I ended up installing the gui version of emacs, which isn't what I wanted, but I guess that will actually come in handy as I'm learning, because it has menus and stuff if you forget the commands. Then it wanted me to add some stuff to my emacs config file, which is `~/.emacs.d/init.el`. And to me that already seems like an overly complicated spot for a config file compared to vim's `~/.vimrc`, but that's fine, I'm sure there's a reason for it. And then I realized, I don't know how to edit the file in emacs yet, so I use vim to add the text in the config.
+First I tried to follow [this tutorial on Clojure with Emacs](http://clojure-doc.org/articles/tutorials/emacs.html) and I ended up installing the gui version of emacs, which isn't what I wanted, but I guess that will actually come in handy as I'm learning, because it has menus and stuff if you forget the commands. Then it wanted me to add some stuff to my emacs config file, which is `~/.emacs.d/init.el`. And to me that already seems like an overly complicated spot for a config file compared to vim's `~/.vimrc`, but that's fine, I'm sure there's a reason for it. And then I realized, I don't know how to edit the file in emacs yet, so I used vim to add the text in the config.
 
-I go back to emacs, tried running the commands to install the packages from the config with this command: `M-x eval-buffer`, and after not knowing if it worked (it hadn't), I quit emacs and restarted. Actually I had no idea how to quit. I tried everything, I kept trying vim commands by habit, I even looked it up and couldn't get it right. It turns out I was trying `M-x M-c` instead of `C-x C-c`. I wasn't that confused since I first started learning vim.
+I go back to emacs, tried running the commands to install the packages from the config with this command: `M-x eval-buffer`, and after not knowing if it worked (it hadn't), I quit emacs and restarted. Actually I had no idea how to quit. I tried everything, I kept trying vim commands by habit, I even looked it up and couldn't get it right. It turns out I was trying `M-x M-c` instead of `C-x C-c`.
 
-So then I realize I need to learn some basics before I can follow this tutorial, so I found a [basic tutorial on emacs](http://david.rothlis.net/emacs/howtolearn.html) so I could at least open files and stuff.
+So then I realized I need to learn some basics before I can follow this tutorial, so I found a [basic tutorial on emacs](http://david.rothlis.net/emacs/howtolearn.html) so I could at least open files and stuff.
 
 So I open the `.init.el` file and then run `M-x eval-buffer` and it says it can't find the better-defaults package ("Package `better-defaults-' is unavailable"). So I remove the "better-defaults" part of the config (in emacs this time) and re-run the eval-buffer command. This time a bunch of stuff whizes by and it looks like it worked. Yay!
 
 By this time the Clojure tutorial tells me to go through the built-in emacs tutorial, and even how to hit the emacs key combos like the one to get into the tutorial: `C-h t`. Thanks, I could have used that 5 minutes ago...
 
-I start going through the tutorial, which is very similar to vim's built-in tutorial, and I start to wonder if I could ever get used to it. Hitting the meta key is awkard. I wonder if it's possible to hit it and leave you fingers on the home row. And I wonder if learning emacs would make me forget vim. I hope not. I don't see how I could ever learn to like emacs as much as vim.
+I start going through the tutorial, which is very similar to vim's built-in tutorial, and I start to wonder if I could ever get used to it. Hitting the meta key is awkard. I wonder if it's possible to hit it and leave you fingers on the home row. And I wonder if learning emacs would make me forget vim. I hope not. And my immediate reaction is: I don't see how I could ever learn to like emacs as much as vim.
 
 ## Next Time
 
