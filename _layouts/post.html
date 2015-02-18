@@ -37,7 +37,9 @@ layout: default
 						</section>
 
 						<span class="post-meta">
-							{% for category in post.categories %}{% if forloop.index > 1 %}, {% endif%}<a href="{{site.url}}/category/{{category | replace: ' ', '-'}}">{{category}}</a>{% endfor %}
+							{% for category in post.categories %}
+								{% if forloop.index > 1 %}, {% endif%}{{category}}
+							{% endfor %}
 						</span>
 					</article>
 				</div>

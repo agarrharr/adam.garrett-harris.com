@@ -32,7 +32,7 @@ title: Casper Theme
 					<span class="post-meta">
 						{% for category in post.categories %}
 							{% if forloop.index > 1 %}, {% endif%}
-							<a href="{{site.url}}/category/{{category | replace: ' ', '-'}}">{{category}}</a>
+							{{category}}
 						{% endfor %}
 					</span>
 				</footer>
