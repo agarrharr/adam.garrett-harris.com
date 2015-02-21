@@ -21,3 +21,5 @@ It's a tiny version of 2048. It doesn't have any numbers on the tiles, just the 
 I'm sure there are still a few bugs to work out, but they probably just boil down to a unit test that I didn't think to write.
 
 Let me know what you think!
+
+**Update**- It's no longer a **mini** 2048, but a full blown version of 2048 that pretty much looks exactly like the real thing.
