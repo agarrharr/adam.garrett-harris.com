@@ -122,3 +122,5 @@ And here is the end result:
 ![widget]({{ site.url }}/assets/uploads/2014/12/firebaseWidget.png)
 
 The cool thing is that the website is immediately updated as soon as the song changes, but it doesn't have to constantly check to see if it's changed. Firebase just tells it.
+
+**Update**- I no longer have this on my site.
