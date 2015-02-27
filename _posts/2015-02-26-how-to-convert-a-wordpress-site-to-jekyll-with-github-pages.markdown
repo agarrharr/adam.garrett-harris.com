@@ -9,9 +9,9 @@ published: true
 comments: true
 ---
 
-In this post I'm going to talk about how to convert a wordpress site over from wordpress to jekyll and host it on Github pages. I recently converted a site from Wordpress to Gihub Pages. It's not a fancy site. It's just normal pages and posts with contact form, so I didn't need to use any custom jekyll plugins, so Github pages can just generate the site for me automatically as soon as I make commits. The site does host a podcast though, but I'll leave that for another post.
+I recently converted a site from Wordpress to Gihub Pages. It's not a fancy site. It's just normal pages and posts with contact form, so I didn't need to use any custom jekyll plugins, so Github pages can just generate the site for me automatically as soon as I make commits. The site does host a podcast though, and it was pretty simple to have Jekyll generate that rss feed for me.
 
-I will however want to keep the site looking exactly the same, so I will convert the theme to a jekyll theme.
+I did want to keep the site looking exactly the same, so that no one would see any difference when I switch it over, so I converted the wordpress theme to a jekyll theme.
 
 ## What is Jekyll & Github Pages
 
@@ -27,9 +27,9 @@ First you'll need to install the jekyll importer by running: `gem install jekyll
 
 Then run the command: `ruby -rubygems -e 'require "jekyll-import"; JekyllImport::Importers::WordpressDotCom.run({ "source" => "wordpress.xml" })'`
 
-You might wonder why I'm using the WordpressDotCom version instead of the self-hosted Wordpress importer. It's because the Wordpress version requires acces to the database, whereas, with the Wordpress.com version, you can just export and run this locally on you computer without the database.
+You might wonder why I'm using the WordpressDotCom version instead of the self-hosted Wordpress importer. It's because the Wordpress version requires access to the database, whereas, with the Wordpress.com version, you can just export and run this locally on your computer without the database.
 
-Then you'll end up with something like this in your current directory:
+Then you'll end up with something like this:
 
 * _attachments
 * _audio-itemss
@@ -62,7 +62,7 @@ git checkout gh-pages
 
 Create an index.html to get started and as soon as you commit, Github will create your site at `userame.github.io/project-name`.
 
-Congratulations! You're using Jekyll and Github Pages. Static html sites are technically valid Jekyll. Next we'll learn how to run the site locally, use Jekyll templates, and import your posts from Wordpress.
+Congratulations! You're using Jekyll and Github Pages. Static html sites are actually valid Jekyll sites. Next we'll learn how to run the site locally, use Jekyll templates, and import your posts from Wordpress.
 
 ## Install Jekyll and the Github Pages Gem
 
@@ -88,7 +88,7 @@ Another reason it's good to run you site locally is so that you can spot build e
 
 ## Setup Your Directory Structure
 
-To use jekyll, you could just use static html, but Jekyll makes it super easy to use layouts and apply them on every page. First you'll need to create an `_layouts` directory, and inside of it create a `default.html`. Inside of this file, put your html. But replace the main content with `{{ content}}`. This will tell Jekyll to replace that with your content for each page.
+To use jekyll, you could just use static html, but Jekyll makes it super easy to use layouts and apply them on every page. First you'll need to create an `_layouts` directory, and inside of it create a `default.html`. Inside of this file, put your html. But replace the main content with `{% raw %}{{ content}}{% endraw %}`. This will tell Jekyll to replace that with your content for each page.
 
 Then in index.html put this at the top of the file:
 
@@ -98,7 +98,15 @@ layout: default
 ---
 {% endhighlight %}
 
-Then after that, you can put the main content of the page, The part that will replace the `{{ content }}` part in the layout we just made.
+You'll also need a file called `_config.yml` and all you need in there right now is this:
+
+{% highlight html %}
+baseurl: http://username.github.io/project-name/
+{% endhighlight %}
+
+Then after that, you can put the main content of the page, The part that will replace the `{% raw %}{{ content}}{% endraw %}` part in the layout we just made.
+
+Now you can bring in any css or javascript that your site will need. I Chose to put mine in a folder called assets.
 
 ## Import Wordpress Posts
 
@@ -107,6 +115,12 @@ To import your posts from Wordpress, all you need to do is move the files from t
 ## Import Wordpress Pages
 
 Then to import your pages from Wordpress, you'll need to move each page into the the [correct location](http://jekyllrb.com/docs/pages/) of where you want it in your site. For example if you have an about page, and you want the url to be `site.com/about/` then move the about page's html file to `about/index.html`.
+
+## Clean Things up
+
+At this point, things should be looking pretty good, but you may need to clean a few things up. Make sure all your images are in your new site, and remove any old references to your old url.
+
+You can also use `{% raw %}{{ site.baseurl }}{% endraw%}` anywhere you need the base url, such as at the beginning of the paths for css, javascript, images, or links.
 
 ## List your posts on the homepage
 
@@ -198,3 +212,7 @@ You can use Github Pages as is, and the url will be `username.github.io/repo` or
 ## Don't Forget About Email
 
 If you set up a custom domain and you use email at that domain, then make sure you don't mess up your email. You'll need to set up an A record for mail.domain.com pointing to your IP address, and then change you mx record to point to mail.domain.com instead of domain.com.
+
+## Learn More
+
+Don't forget to check out the excellent documentation on [Jekyll's site](http://jekyllrb.com/), and on [Github Page's site](https://pages.github.com/). Let me know if you any questions or suggestions.
