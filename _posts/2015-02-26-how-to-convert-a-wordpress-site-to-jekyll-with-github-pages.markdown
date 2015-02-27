@@ -213,6 +213,10 @@ You can use Github Pages as is, and the url will be `username.github.io/repo` or
 
 If you set up a custom domain and you use email at that domain, then make sure you don't mess up your email. You'll need to set up an A record for mail.domain.com pointing to your IP address, and then change you mx record to point to mail.domain.com instead of domain.com.
 
+## What about other Services
+
+You might be wondering how you put a contact form on the page, or comments, or have event signups, or a calendar, or a newsletter, etc. So I put together [a list of services for static websites](https://github.com/aharris88/services-for-static-websites) on Github. I'll try to keep it up to date as I hear of new services.
+
 ## Learn More
 
 Don't forget to check out the excellent documentation on [Jekyll's site](http://jekyllrb.com/), and on [Github Page's site](https://pages.github.com/). Let me know if you any questions or suggestions.
