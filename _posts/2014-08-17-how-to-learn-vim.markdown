@@ -4,7 +4,6 @@ title: How to Learn Vim
 categories:
 - vim
 tags: []
-status: publish
 type: post
 published: true
 comments: true
