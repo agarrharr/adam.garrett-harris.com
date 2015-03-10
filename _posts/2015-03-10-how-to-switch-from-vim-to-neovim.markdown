@@ -46,3 +46,9 @@ Then I ran my setup script to create the symlinks:
 {% highlight bash %}
 ./setup.py
 {% endhighlight %}
+
+Then to launch Neovim, just run:
+
+{% highlight bash %}
+nvim
+{% endhighlight %}
