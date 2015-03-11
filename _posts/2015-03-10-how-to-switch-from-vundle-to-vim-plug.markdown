@@ -70,6 +70,28 @@ endfunction
 Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
 {% endhighlight %}
 
+This is what I have for Tern:
+
+{% highlight bash %}
+function! BuildTern(info)
+  if a:info.status == 'installed' || a:info.force
+    !npm install
+  endif
+endfunction
+Plug 'marijnh/tern_for_vim', { 'do': function('BuildTern') }
+{% endhighlight %}
+
+And this is what I have for syntastic, since it requires jshint:
+
+{% highlight bash %}
+function! Installjshint(info)
+  if a:info.status == 'installed' || a:info.force
+    !npm install -g jshint
+  endif
+endfunction
+Plug 'scrooloose/syntastic', { 'do': function('Installjshint') }
+{% endhighlight %}
+
 ## Install Plugins
 
 Open vim and run `:PlugInstall`

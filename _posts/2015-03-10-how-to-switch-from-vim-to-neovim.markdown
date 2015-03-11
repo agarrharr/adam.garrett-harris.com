@@ -52,3 +52,5 @@ Then to launch Neovim, just run:
 {% highlight bash %}
 nvim
 {% endhighlight %}
+
+Also, you can remove `set nocompatible` from your `.nvimrc` because Neovim is always set to nocompatible.

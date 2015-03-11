@@ -55,15 +55,28 @@ Under Hotkey, check "Show/hide iTerm2 with a system-wide hotkey". I set mine to 
 
 Zsh and oh-my-zsh are awesome. If you don't know what they are you should check them out.
 
-## Install Powerline
+## Remap keyboard
 
-[Powerline](https://github.com/Lokaltog/powerline/) adds a nice prompt to my zsh (I also use it for tmux and vim).
+System Preferences -> Keyboard -> "Modifier Keys…”
 
-{% highlight bash %}
-brew install python
-# Install powerline
-pip install --user git+git://github.com/Lokaltog/powerline
-{% endhighlight %}
+For the internal keyboard:
+
+* Change Caps Lock to Control
+* Change Control to Caps Lock
+
+For an external PC keyboard:
+
+* Change Caps Lock to Control
+* Change Control to Caps Lock
+* Change Option to Command
+* Change Command to Option
+
+Setup Control to send Escape unless it’s used in combination
+
+* Download [Karabiner](https://pqrs.org/osx/karabiner/)
+* Find the Change Key > Change Control_L Key (Left Control)
+* Check the Control_L to Control_L (+ When you type Control_L only, send Escape) setting
+* Enable it on login at System Preferences > Users & Groups > Login Items
 
 ## Other stuff
 
