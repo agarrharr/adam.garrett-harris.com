@@ -54,3 +54,14 @@ nvim
 {% endhighlight %}
 
 Also, you can remove `set nocompatible` from your `.nvimrc` because Neovim is always set to nocompatible.
+
+## Update Occasionally
+
+Also remember that this isn't even in beta yet, so you'll want to update nvim by running these commands:
+
+{% highlight bash %}
+brew update
+brew reinstall --HEAD neovim
+{% endhighlight %}
+
+And be sure to check out the [issues on Github](https://github.com/neovim/neovim/issues), if you find any bugs.
