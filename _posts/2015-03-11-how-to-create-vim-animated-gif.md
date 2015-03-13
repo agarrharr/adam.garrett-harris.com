@@ -13,6 +13,8 @@ I wanted to come up with a consistent way to make gifs that show just one vim pl
 
 ![vim-commentary](https://github.com/aharris88/vim-gifs/raw/master/vim-commentary.gif)
 
+## Vim Settings
+
 Create `essential.vim`, which only contains the bare minimum you need for the gif. In my case this is:
 
 {% highlight bash %}
@@ -47,6 +49,8 @@ Then set an alias to easily open vim with this configuration.
 alias vi='vim -u ~/.vim/essential.vim'
 {% endhighlight %}
 
+## iTerm 2 Settings
+
 Open a new iTerm 2 window so that it will open at the exact right size that you have set in your iTerm 2 Preferences under Profiles -> Window. I have it set to 80 columns and 25 rows, which is the default.
 
 ## Record with ttygif
@@ -66,7 +70,7 @@ exit
 Then turn your session into a series of images by running (`-f` makes sure that it doesn't crop anything):
 
 {% highlight bash %}
-ttygif -f myrecording
+ttygif myrecording -f
 {% endhighlight %}
 
 Delete then unnecessary frames, such as at the beginning and the end. Then you can convert it to an animated gif with ttygif
