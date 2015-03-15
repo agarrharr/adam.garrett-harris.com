@@ -128,7 +128,7 @@ If you want your homepage to actually list out your most recent posts then put s
 
 {% highlight html %}
 {% raw %}
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 	<article class="post">
 		<header class="post-header">
 			<span class="post-meta">
