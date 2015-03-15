@@ -14,6 +14,7 @@ comments: true
 
 * I got a job at Domo
 * I learned d3.js
+* I made a [2048 clone]({{ site.baseurl }}/mini-2048-game/) with d3.js
 * I climbed Mt. Timpanogos
 * I played my best game of disc golf (18 over, don't laugh)
 * I read about 24 books
