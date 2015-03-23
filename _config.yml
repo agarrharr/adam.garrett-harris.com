@@ -12,4 +12,5 @@ google_analytics_code: UA-31980509-3
 google_analytics_url: adamwadeharris.com
 exclude: [bower.json, README.md]
 prose:
-  media: "images"
+  rooturl: "/"
+  media: "assets/uploads"
