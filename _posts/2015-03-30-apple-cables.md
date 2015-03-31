@@ -10,4 +10,4 @@ published: true
 comments: true
 ---
 
-![Apple Cables](assets/uploads/2015/03/appleCables.jpg)
+![Apple Cables]({{ site.baseurl }}/assets/uploads/2015/03/appleCables.jpg)
