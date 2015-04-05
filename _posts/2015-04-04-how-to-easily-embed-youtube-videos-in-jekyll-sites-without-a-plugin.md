@@ -2,7 +2,7 @@
 layout: post
 title: How to Easily Embed YouTube Videos in Jekyll Sites Without a Plugin
 categories:
-- vim
+- jekyll
 tags: []
 type: post
 published: true
