@@ -29,9 +29,9 @@ layout: default
 				</section>
 				<footer class="tags">
 					<span class="post-meta">
-						{% for category in post.categories %}
+						{% for tag in post.tags %}
 							{% if forloop.index > 1 %}, {% endif%}
-							{{category}}
+							{{tag}}
 						{% endfor %}
 					</span>
 				</footer>
