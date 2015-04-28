@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Android Automation
-categories:
+tags:
 - Tutorial
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 In my [last post]({{site.url}}/sign-publish-phonegap-app-google-play-store-windows/) about releasing for android, I had a long list of commands that you had to run, to finally create a releasable apk file. It looked something like this:

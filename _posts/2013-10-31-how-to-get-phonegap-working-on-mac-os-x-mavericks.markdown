@@ -1,13 +1,7 @@
 ---
-layout: post
 title: How to Get Phonegap Working on Mac OS X Mavericks
-categories:
+tags:
 - Tutorial
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 After I upgraded from Mountain Lion to Mavericks, all of a sudden, phonegap wasn't working anymore.

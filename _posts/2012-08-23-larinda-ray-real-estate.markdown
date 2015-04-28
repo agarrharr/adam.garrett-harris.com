@@ -1,15 +1,7 @@
 ---
-layout: post
 title: Larinda Ray- Real Estate
-slug: larinda-ray-real-estate
-date: 2012-08-23
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 <img src="{{site.url}}/assets/uploads/2013/02/larindaray-real-estate-listings.png" />

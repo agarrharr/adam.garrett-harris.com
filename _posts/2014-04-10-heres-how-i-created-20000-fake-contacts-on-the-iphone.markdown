@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Here's how I created 20,000 fake contacts on the iPhone
-categories:
+tags:
 - Tutorial
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 I needed to get a large number of fake contacts onto an iPhone recently for testing purposes, but I couldn't find any example data that I could download. So here's what I did to create it.

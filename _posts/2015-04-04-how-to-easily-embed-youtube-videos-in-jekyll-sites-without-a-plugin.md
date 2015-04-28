@@ -1,12 +1,7 @@
 ---
-layout: post
 title: How to Easily Embed YouTube Videos in Jekyll Sites Without a Plugin
-categories:
+tags:
 - jekyll
-tags: []
-type: post
-published: true
-comments: true
 ---
 
 If you're constantly embedding videos on your site, it can be a pain to include the YouTube embed code each time. And if you're hosting on Github, you can't use a [third](https://github.com/tuananh/BetterTube) [party](https://github.com/pibby/jekyll-youtube) [plugin](https://gist.github.com/joelverhagen/1805814). So here is an easy way to use includes instead of a plugin.

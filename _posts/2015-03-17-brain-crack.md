@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Brain Crack
-categories:
+tags:
 - ideas
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/rDHb3vC9OmE" frameborder="0" allowfullscreen></iframe>

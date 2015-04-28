@@ -1,13 +1,7 @@
 ---
-layout: post
 title: 2014
-categories:
+tags:
 - goals
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 2014 was a pretty great year! Here's a recap of some things.

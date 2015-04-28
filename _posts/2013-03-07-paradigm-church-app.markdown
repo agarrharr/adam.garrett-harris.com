@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Paradigm Church App
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 <a href="http://adamwadeharris.com/assets/uploads/2013/03/paradigm-church-app-google-play.png"><img class="aligncenter size-full wp-image-304" alt="paradigm-church-app-google-play" src="http://adamwadeharris.com/assets/uploads/2013/03/paradigm-church-app-google-play.png" width="1145" height="608" /></a>

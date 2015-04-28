@@ -1,13 +1,7 @@
 ---
-layout: post
 title: How to Sign and Publish a Phonegap App in the Google Play Store
-categories:
+tags:
 - Tutorial
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 **Update**- I've now figured out an easier way to do this in one command instead of 5 ([Android Automation]({{site.url}}/android-automation))

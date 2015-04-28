@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Vim Cheatsheet
-categories:
+tags:
 - vim
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 **Update**- I've updated the cheatsheet [here]({{ site.baseurl }}/updated-vim-cheatsheet/)

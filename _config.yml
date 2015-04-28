@@ -2,7 +2,7 @@ title: Adam Harris
 description: Web Developer
 markdown: kramdown
 highlighter: pygments
-permalink: /:title/
+permalink: /:categories/:title/
 category_dir: category
 paginate: 5
 siteurl: http://www.adamwadeharris.com
@@ -14,3 +14,10 @@ exclude: [bower.json, README.md]
 prose:
   media: "assets/uploads"
   siteurl: "http://www.adamwadeharris.com"
+defaults:
+  -
+    scope:
+      type: posts
+    values:
+      layout: post
+      comments: true

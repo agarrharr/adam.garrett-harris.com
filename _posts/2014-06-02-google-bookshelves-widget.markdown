@@ -1,12 +1,7 @@
 ---
-layout: post
 title: Google Bookshelves Widget
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
 comments: true
 ---
 

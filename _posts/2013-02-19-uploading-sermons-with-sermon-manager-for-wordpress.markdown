@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Uploading Sermons with Sermon Manager for Wordpress
-categories:
+tags:
 - Tutorial
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 <iframe src="http://www.youtube.com/embed/yK79t9Yb8gQ" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>

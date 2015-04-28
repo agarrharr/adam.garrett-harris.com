@@ -1,12 +1,7 @@
 ---
-layout: post
 title: How to Create Vim Animated Gifs
-categories:
+tags:
 - vim
-tags: []
-type: post
-published: true
-comments: true
 ---
 
 I wanted to come up with a consistent way to make gifs that show just one vim plugin at a time. Here's what I came up with. [And here's the gifs I made](https://github.com/aharris88/vim-gifs).

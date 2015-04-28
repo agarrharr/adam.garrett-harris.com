@@ -1,13 +1,7 @@
 ---
-layout: post
 title: How to Use the Paypal Phonegap Plugin for Android
-categories:
+tags:
 - Tutorial
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 **Update**- The [PhoneGap Plugin is now deprecated](https://devblog.paypal.com/phonegap-android-sdk-plugin/)
@@ -66,7 +60,7 @@ Add the following to platforms/android/res/xml/config.xml
 </feature>
 {% endhighlight %}
 </li>
-	
+
 <li>Then some sample code might be something like this. Put this in your index.html
 {% highlight ruby %}<button id="buyButton">Buy Now!</button>{% endhighlight %}</li>
 	<li>And put this in your javascript:</li>

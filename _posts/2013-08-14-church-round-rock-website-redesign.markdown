@@ -1,13 +1,7 @@
 ---
-layout: post
 title: The Church at Round Rock Website Redesign
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 I recently got to help my friend Robert install and customize a new theme for his church's website. It uses the <a href="http://themeforest.net/item/churchope-responsive-wordpress-theme/2708562" target="_blank">Churchope</a> theme, which is a great responsive theme for churches. It has a lot of great features built in like an event countdown timer.

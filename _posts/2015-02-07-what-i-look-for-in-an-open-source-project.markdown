@@ -1,13 +1,7 @@
 ---
-layout: post
 title: What I Look For in an Open Source Project
-categories:
+tags:
 - coding
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 I don't have a ton of experience with open source, but I'm really starting to get into it. I've had some ups and downs as I've put some stuff out there in the wild for people to use and as I've tried to use stuff that people have put out there. So, I just thought I'd share my feelings about what makes a good open source project, and what I look for when I need to use an open source project.

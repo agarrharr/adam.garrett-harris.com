@@ -1,12 +1,7 @@
 ---
-layout: post
 title: How to Switch from Vundle to vim-plug
-categories:
+tags:
 - vim
-tags: []
-type: post
-published: true
-comments: true
 ---
 
 I just switched over from vundle to [vim-plug](https://github.com/junegunn/vim-plug). Part of the reason why is because I'm now trying out [Neovim](http://neovim.org/), which allows for asynchronous plugins, and vim-plug supports installing plugins ascynchronously. Another reason is that it supports post-update hooks, which means that I can install [YouCompleteMe](http://valloric.github.io/YouCompleteMe/), without having to manually go and run the install script after installing it.

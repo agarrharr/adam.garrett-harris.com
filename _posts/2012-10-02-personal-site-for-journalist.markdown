@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Personal Site for Journalist
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 <a href="http://www.adamwadeharris.com/assets/uploads/2013/02/journalist.png"><img class="aligncenter size-full wp-image-257" alt="journalist" src="{{site.url}}/assets/uploads/2013/02/journalist.png" width="960" height="596" /></a>

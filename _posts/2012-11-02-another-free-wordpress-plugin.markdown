@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Another Free Wordpress Plugin
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 <p style="text-align: center;"><a href="http://www.adamwadeharris.com/assets/uploads/2013/02/plugin-google-bookshelves.png"><img class="aligncenter size-full wp-image-241" alt="plugin-google-bookshelves" src="{{site.url}}/assets/uploads/2013/02/plugin-google-bookshelves.png" width="1026" height="593" /></a></p>

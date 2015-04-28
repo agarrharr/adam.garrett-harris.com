@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Parallax Scrolling Responsive Site
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 I just launched a new site for my best friend to promote a Bible study he's hosting for 20 something year olds called 20something. I actually used the <a href="http://themespectrum.com/premium-themes/parallax/" target="_blank">Parallax theme from Spectrum</a>.

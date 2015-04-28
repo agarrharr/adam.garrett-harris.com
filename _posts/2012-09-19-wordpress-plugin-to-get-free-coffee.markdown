@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Wordpress Plugin To Get Free Coffee
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 **Update**- This plugin is no longer supported because Starbucks changed their site so that you now have to login to reload your card, which means that you can no longer let random people reload your card.

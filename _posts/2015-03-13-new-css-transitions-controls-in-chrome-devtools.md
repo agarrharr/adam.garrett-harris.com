@@ -1,12 +1,7 @@
 ---
-layout: post
 title: New Css Transitions Controls in Chrome Devtools
-categories:
+tags:
 - vim
-tags: []
-type: post
-published: true
-comments: true
 ---
 
 A coworker of mine, pointed out an awesome new feature of Chrome Devtools. When you have a css transtition in the styles pane, you may notice a new icon next to it:

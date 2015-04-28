@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Fitness Blog
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 <a href="http://www.adamwadeharris.com/assets/uploads/2013/02/befitcanada.png"><img class="aligncenter size-full wp-image-251" alt="befitcanada" src="{{site.url}}/assets/uploads/2013/02/befitcanada.png" width="1280" height="800" /></a>

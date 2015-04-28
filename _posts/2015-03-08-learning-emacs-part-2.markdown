@@ -1,12 +1,7 @@
 ---
-layout: post
 title: Learning Emacs Part 2
-categories:
+tags:
 - emacs
-tags: []
-type: post
-published: false
-comments: true
 ---
 
 http://blog.aaronbieber.com/blog/2015/01/11/learning-to-love-emacs/

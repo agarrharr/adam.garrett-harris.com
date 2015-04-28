@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Mini 2048 Game
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 This weekend I decided to build a little clone based off of 2048, but instead of forking [the main 2048 game](https://github.com/gabrielecirulli/2048), I decided to build one from scratch using [D3](http://d3js.org/), which I've never used before. But it turns out that using D3 was the easy part, the hard part was making the logic for moving the tiles.

@@ -1,13 +1,7 @@
 ---
-layout: post
 title: The Church At Round Rock
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 <a href="http://www.adamwadeharris.com/assets/uploads/2013/02/church-at-round-rock.png"><img class="aligncenter size-full wp-image-262" alt="church-at-round-rock" src="{{site.url}}/assets/uploads/2013/02/church-at-round-rock.png" width="857" height="800" /></a>

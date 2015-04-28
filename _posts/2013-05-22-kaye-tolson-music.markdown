@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Kaye Tolson- Music
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 I had the opportunity to put together a site for Kaye Tolson, a local musician from my hometown of Stephenville Texas. It was a lot of fun to work with her, and to help her start selling her albums online! It has clips from her latest album "Share My World" on the homepage, a page of her upcoming shows, and a shopping cart to sell her CDs.

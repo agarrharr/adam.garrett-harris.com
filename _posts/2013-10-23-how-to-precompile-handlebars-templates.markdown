@@ -1,13 +1,7 @@
 ---
-layout: post
 title: How to Precompile Handlebars Templates
-categories:
+tags:
 - Tutorial
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 First you need to install handlebars with node by running this command. If you don't have node, <a href="http://nodejs.org/" target="_blank"> go ahead and install it first</a>. It's really quick and painless.

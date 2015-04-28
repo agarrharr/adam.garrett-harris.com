@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Learning Emacs Part 1
-categories:
+tags:
 - emacs
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 It seems like there are a lot of die-hard fans of vim or emacs out there, and if you use a console editor, you're in one camp or the other, but for me, the choice to learn vim was just a toss-up. I was pretty happy with Sublime Text 2 at the time. I had dabbled with screen and emacs at one point, and I had heard of vim. The only reason I decided to learn vim was because I met someone who used vim. And that was all it took. Now I knew someone who really used it. Their environment was beautiful, they were productive, and now I knew it was actually possible in the real world to use a console-based editor. So with that I dove right into vim and I've been using it full-time for over a year now.

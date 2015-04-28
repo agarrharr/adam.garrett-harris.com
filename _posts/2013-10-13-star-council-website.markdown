@@ -1,13 +1,7 @@
 ---
-layout: post
 title: STAR Council Website
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 I had the privilege of working with STAR Council, which provides substance abuse education and treatment, in Texas, and has its main location in my hometown of Stephenville. It was really great to bring a fresh look to the website of a company that influenced me when I was a kid by coming into the schools and teaching us about the consequences of substance abuse and drugs.

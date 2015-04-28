@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Paradigm Church Website
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 <a href="http://adamwadeharris.com/assets/uploads/2013/03/paradigm-church.png"><img class="aligncenter size-full wp-image-297" alt="paradigm-church" src="http://adamwadeharris.com/assets/uploads/2013/03/paradigm-church.png" /></a>

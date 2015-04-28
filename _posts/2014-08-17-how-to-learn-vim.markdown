@@ -1,12 +1,7 @@
 ---
-layout: post
 title: How to Learn Vim
-categories:
+tags:
 - vim
-tags: []
-type: post
-published: true
-comments: true
 ---
 
 I've learned vim over the past year. Here's some of the things I recommand to start learning vim.

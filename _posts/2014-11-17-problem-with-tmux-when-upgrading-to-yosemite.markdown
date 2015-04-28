@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Problem with tmux When Upgrading to Yosemite
-categories:
+tags:
 - Tutorial
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 When I updated to Yosemite and started tmux, I get this warning every time I open a new tmux window:

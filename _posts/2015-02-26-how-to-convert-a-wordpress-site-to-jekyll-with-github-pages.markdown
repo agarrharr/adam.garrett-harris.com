@@ -1,12 +1,7 @@
 ---
-layout: post
 title: How to Convert a Wordpress Site to Jekyll with Github Pages
-categories:
+tags:
 - jekyll
-tags: [jekyll, wordpress, static sites, github pages]
-type: post
-published: true
-comments: true
 ---
 
 I recently converted a site from Wordpress to Gihub Pages. It's not a fancy site. It's just normal pages and posts with contact form, so I didn't need to use any custom jekyll plugins, so Github pages can just generate the site for me automatically as soon as I make commits. The site does host a podcast though, and it was pretty simple to have Jekyll generate that rss feed for me.

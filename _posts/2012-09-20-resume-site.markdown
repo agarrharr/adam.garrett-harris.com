@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Resume Site
-categories:
+tags:
 - Portfolio
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 <p style="text-align: center;"><img class=" wp-image-229 aligncenter" alt="jonathan-resume-desktop" src="{{site.url}}/assets/uploads/2013/02/jonathan-resume-desktop.png" width="1129" height="596" /></p>

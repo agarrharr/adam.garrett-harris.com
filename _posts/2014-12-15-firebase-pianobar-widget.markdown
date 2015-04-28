@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Firebase Pianobar Widget
-categories:
+tags:
 - Tutorial
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 I've been using [pianobar](http://6xq.net/projects/pianobar/) for a while now to listen to Pandora in the command line. I've also been experimenting with [Firebase](https://www.firebase.com/) to make real-time apps.

@@ -1,13 +1,7 @@
 ---
-layout: post
 title: My iTerm 2 Setup
-categories:
+tags:
 - Tutorial
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 I started using iTerm 2 recently, mostly because of the ability to use the mouse inside tmux and vim so that my coworkers can still scroll through my code on my computer. Other than that, I probably would have stuck with Terminal. But, with that being said, here are my settings in iTerm.

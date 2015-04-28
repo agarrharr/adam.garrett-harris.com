@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Remote Debugging in Phonegap with Chrome Devtools
-categories:
+tags:
 - Tutorial
-tags: []
-status: publish
-type: post
-published: true
-comments: true
 ---
 
 The requirements are:

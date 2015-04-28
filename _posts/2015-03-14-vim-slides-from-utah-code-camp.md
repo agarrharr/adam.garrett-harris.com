@@ -1,12 +1,7 @@
 ---
-layout: post
 title: Vim Slides from Utah Code Camp
-categories:
+tags:
 - vim
-tags: []
-type: post
-published: true
-comments: true
 ---
 
 I had a great time talking at Utah Code Camp for the first time this year. Here are my slides if you want to check them out. Also, here is a link to all the [vim gifs](https://github.com/aharris88/vim-gifs) of the plugins.
