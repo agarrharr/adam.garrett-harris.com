@@ -28,7 +28,7 @@ layout: default
 
 				<div class="col-md-8">
 					<article>
-						<span class="post-meta"><time datetime="{{site.date}}">{{page.date | date_to_long_string}}</time></span>
+						<span class="post-meta"><time datetime="{{site.date}}">{{page.date | date: "%-d %B %Y" }}</time></span>
 
 						<h1 class="post-title">{{page.title}}</h1>
 

@@ -15,9 +15,12 @@ prose:
   media: "assets/uploads"
   siteurl: "http://www.adamwadeharris.com"
 defaults:
-  -
-    scope:
+  - scope:
       type: posts
     values:
       layout: post
       comments: true
+  - scope:
+      type: pages
+    values:
+      layout: default
