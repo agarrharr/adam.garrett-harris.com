@@ -45,9 +45,9 @@ If, for example, you changed a page from `videos/more-videos/index.html` to `med
 </html>
 {% endhighlight %}
 
-## Use layouts to make it easier
+### Use layouts to make it easier
 
-But you can actually make this easier, no matter which method you use. you can create a layout called `_layouts/redirect.html` with the following in the file.
+But you can actually make this easier. You can create a layout called `_layouts/redirect.html` with the following in the file.
 
 {% highlight html %}
 ---
@@ -78,5 +78,24 @@ Then in your `_redirects` directory, the files can be simplified to this:
 {% highlight html %}
 ---
 newUrl: http://www.lifestonechurch.net/kids/birth-preschool/
+---
+{% endhighlight %}
+
+### Option 3- Use the Jekyll-redirect-from Plugin
+
+And before you say that plugins, don't work on Github Pages, [Github currently supports a limited number of plugins](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/), [this one](https://help.github.com/articles/redirects-on-github-pages/) being one of them.
+
+This options is actually super simple. Simply add this to your config file:
+
+{% highlight bash %}
+gems:
+  - jekyll-redirect-from
+{% endhighlight %}
+
+And then put something like this in the front-matter of the new page:
+
+{% highlight bash %}
+---
+redirect_from: "/foo"
 ---
 {% endhighlight %}
