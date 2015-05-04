@@ -1,4 +1,5 @@
 ---
+layout:
 ---
 
 var docs = [
