@@ -56,8 +56,8 @@ But you can actually make this easier. You can create a layout called `_layouts/
 <!doctype html>
 <html>
     <head>
-	<meta http-equiv="refresh" content="0; url={{page.newUrl}}">
-	<link rel="canonical" href="{{page.newUrl}}" />
+	<meta http-equiv="refresh" content="0; url={{site.lcb}}{page.newUrl}{{site.rcb}}">
+	<link rel="canonical" href="{{site.lcb}}{page.newUrl}{{site.rcb}}" />
     </head>
 </html>
 {% endhighlight %}

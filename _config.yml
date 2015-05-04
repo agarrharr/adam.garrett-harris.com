@@ -11,6 +11,8 @@ disqus_shortname: adamwadeharris
 google_analytics_code: UA-31980509-3
 google_analytics_url: adamwadeharris.com
 exclude: [bower.json, README.md]
+lcb: "{"
+rcb: "}"
 prose:
   media: "assets/uploads"
   siteurl: "http://www.adamwadeharris.com"
