@@ -15,9 +15,9 @@ BEGIN:VCARD\r\nVERSION:3.0\r\nFN:Bob Smith\r\nN:Smith;Bob;;;\r\nEMAIL;TYPE=INTER
 
 Ok, now I knew what the data needed to look like, I just needed to generate it.
 
-I found [this]() open source project that can generate random data. The problem was that it only generates json data.
+I found [this](http://www.json-generator.com/) open source project that can generate random data. The problem was that it only generates json data.
 
-Thankfully, I found [this open source project]() that can convert json to vcard and vcard to json.
+Thankfully, I found [this open source project](https://github.com/andrewppace/vcard-json) that can convert json to vcard and vcard to json.
 
 So I converted our sample vcard data to json and it looked something like this:
 
@@ -268,7 +268,7 @@ And this is a sample of the data it generated:
 ]
 {% endhighlight %}
 
-Now that I had all that data, I used the json to vcard convert and here is a sample of the output:
+Now that I had all that data, I used the [json to vcard](https://github.com/andrewppace/vcard-json) convert and here is a sample of the output:
 
 {% highlight ruby %}
 BEGIN:VCARD
