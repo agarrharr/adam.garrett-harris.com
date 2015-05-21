@@ -83,9 +83,9 @@ newUrl: http://www.lifestonechurch.net/kids/birth-preschool/
 
 ### Option 3- Use the Jekyll-redirect-from Plugin
 
-And before you say that plugins, don't work on Github Pages, [Github currently supports a limited number of plugins](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/), [this one](https://help.github.com/articles/redirects-on-github-pages/) being one of them.
+Github currently supports a [limited number of plugins](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/), and [jekyll-redirect](https://help.github.com/articles/redirects-on-github-pages/) is one of them.
 
-This options is actually super simple. Simply add this to your config file:
+This option is actually really simple. Just add this to your config file:
 
 {% highlight bash %}
 gems:
