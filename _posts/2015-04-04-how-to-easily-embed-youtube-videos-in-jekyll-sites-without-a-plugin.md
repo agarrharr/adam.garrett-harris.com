@@ -8,18 +8,24 @@ If you're constantly embedding videos on your site, it can be a pain to include 
 
 Just create a file in your `_includes` folder called `youtubePlayer.html` with this in it:
 
+{% highlight html %}
 {% raw %}
 <iframe width="560" height="315" src="//www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
 {% endraw %}
+{% endhighlight %}
 
 Then include this wherever you want to embed a youTube video. You can do like I did here and use data from the front matter of the post or page, or you can just put the id of the YouTube video directly.
 
+{% highlight html %}
 {% raw %}
 {% include youtubePlayer.html id=page.youtubeId %}
 {% endraw %}
+{% endhighlight %}
 
 You can also do the same thing with vimeo by making a file called `vimeoPlayer.html`:
 
+{% highlight html %}
 {% raw %}
 <iframe src="//player.vimeo.com/video/{{ include.id }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 {% endraw %}
+{% endhighlight %}
