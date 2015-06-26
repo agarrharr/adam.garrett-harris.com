@@ -2,7 +2,7 @@ I first started learning "web development" when there probably wasn't such a thi
 
 These days, a lot has changed. JavaScript is considered a full-fledged programming language, and there are a whole suite of tools and frameworks built around it. It's overwhelming to know where to start. I had the advantage of learning stuff as it came out. But now, there is so much out there, that I'm sure it just seems daunting, and I can't even image what it's like to start from scratch today.
 
-On the other hand, there is a plethora of resources out there on the web to help beginners get started that I wish I had when I was getting started. I can't tell anyone exactly what to do, but I can point out some resources that I think will be helpful and that I wish I had when I was learning this stuff. It may seem like trying to drink from afirehose at times, but that's ok. At some point, you can turn down the volume of stuff that you're consuming and learning. And at various times throughout your career, you may need to turn it back up. The thing about this field is that you will be constantly learning.
+On the other hand, there is a plethora of resources out there on the web to help beginners get started that I wish I had when I was getting started. I can't tell anyone exactly what to do, but I can point out some resources that I think will be helpful and that I wish I had when I was learning this stuff. It may seem like trying to drink from a firehose at times, but that's ok. At some point, you can turn down the volume of stuff that you're consuming and learning. And at various times throughout your career, you may need to turn it back up. The thing about this field is that you will be constantly learning.
 
 ![Drinking from a firehose]({{site.baseurl}}/assets/uploads/2015/06/firehose.gif)
 
@@ -10,9 +10,9 @@ The first thing is, don't panic. There is an enormous amount of things to learn 
 
 ![Don't Panic]({{site.baseurl}}/assets/uploads/2015/06/dontpanic.jpg)
 
-I got job maintaining a website, when I barely knew html. I got a got writing asp, when I only knew php. I got a job making a [cordova app](http://cordova.apache.org/) when I had never built a full app with Javascript and I had definitely never used cordova. And most recently I got a job using [d3js](http://d3js.org/), when I had never heard of d3 before.
+I got job maintaining a website, when I barely knew html. I got a job writing asp, when I only knew php. I got a job making a [cordova app](http://cordova.apache.org/) when I had never built a full app with Javascript and I had definitely never used cordova. And most recently I got a job using [d3js](http://d3js.org/), when I had never heard of d3 before.
 
-Another quick tip is this. Sometimes you don't have a learn a thing yet. Just knowing that it exists is enough for now. Then later, you know that you can learn it if you need to.
+Another quick tip is this. Sometimes you don't have to learn a certain technology right now. Just knowing that it exists is enough for now. Then you know that you can always come back and learn it later if you need to.
 
 Here's my top tips and a list of resources. This isn't exhaustive or authoritative. They are merely suggestions.
 
@@ -30,7 +30,7 @@ Here's my top tips and a list of resources. This isn't exhaustive or authoritati
 1. Understand HTML and CSS
 1. Learn [bower](http://bower.io/), [npm](https://www.npmjs.com/), [yeoman](http://yeoman.io/), and [grunt](http://gruntjs.com/)
 1. Learn how to search online well
-1. Use stackoverflow to ask and answer questions. Also upvote questions and answers that you found useful
+1. Use [stackoverflow](http://stackoverflow.com/) to ask and answer questions. Also upvote questions and answers that you found useful
 1. Learn how to read documentation. The [jQuery Documentation](http://api.jquery.com/) is a great place to start.
 
 ## Tools
@@ -62,7 +62,7 @@ Here's my top tips and a list of resources. This isn't exhaustive or authoritati
 
 ## Blogs
 
-I can't really tell you which blogs to follow. It's up to you to discover them yourself. I think you'll enjoy it more that way anyway. Don't be afraid of over subscribing. You don't have to read everything, you don't have to understand everything, and you can always unsubscribe.
+I can't really tell you which blogs to follow. It's up to you to discover them yourself. I think you'll enjoy it more that way anyway. Don't be afraid of over-subscribing. You don't have to read everything, you don't have to understand everything, and you can always unsubscribe.
 
 ## Practice
 
@@ -71,14 +71,14 @@ I can't really tell you which blogs to follow. It's up to you to discover them y
 
 ## Other
 
-* [Markdown Tutorial](http://markdowntutorial.com/)- Markdown is used for Readme files on Github as well as other places, so it's useful to know. It's also really easy. I actually write my blog in markdown as well.
+* [Markdown Tutorial](http://markdowntutorial.com/)- Markdown is used for Readme files on Github as well as other places, so it's useful to know. It's also really easy. I actually [write my blog](https://raw.githubusercontent.com/aharris88/aharris88.github.io/master/_posts/2015-06-26-how-to-start-learning-javascript.md) in markdown as well.
 
 ## Other Other
 
 * [25 Days to Better Thinking](http://www.amazon.com/gp/product/0131738593/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0131738593&linkCode=as2&tag=adahar04-20&linkId=5GHJ6JRF2RR3QX7M)
 * [A Mind for Numbers](http://www.amazon.com/gp/product/039916524X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=039916524X&linkCode=as2&tag=adahar04-20&linkId=LBB6XRY2UHHNNHFH)
 
-## List of things not to learn yet (if ever)
+## List of things not to learn yet (but maybe later)
 
 * Coffeescript/Typescript/Flow/etc
 * Less/Sass
