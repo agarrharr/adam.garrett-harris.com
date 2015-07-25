@@ -1,3 +1,9 @@
+---
+title: How to Start Learning Javascript
+tags:
+- javascript
+---
+
 I first started learning "web development" when there probably wasn't such a thing as web development. There were webmasters. And I wanted to be a webmaster when I grew up. It sounded cool to be a master of the web. But back then, there actually wasn't a lot about the web that you need to master. There was html. And there was some css and some JavaScript. But JavaScript wasn't a "real language". You could do some fun stuff with it sure, like have stars follow your cursor across the page, but no serious programming.
 
 These days, a lot has changed. JavaScript is considered a full-fledged programming language, and there are a whole suite of tools and frameworks built around it. It's overwhelming to know where to start. I had the advantage of learning stuff as it came out. But now, there is so much out there, that I'm sure it just seems daunting, and I can't even image what it's like to start from scratch today.
