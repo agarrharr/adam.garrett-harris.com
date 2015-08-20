@@ -3,6 +3,7 @@ title: How to Run Vim with Minimal Settings
 tags:
 - vim
 ---
+
 Sometimes I just need to run a very simple version of vim to check something out, to test for a bug in Neovim, [to make an animated gif]({{ site.baseurl }}/how-to-create-vim-animated-gif/), or maybe to pair program with someone who doesn't know all of the customizations I have in my vimrc. So, here is a simple method of running a very simple version of vim without messing up all of your customizations.
 
 
