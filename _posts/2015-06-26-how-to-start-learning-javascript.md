@@ -54,7 +54,7 @@ Here's my top tips and a list of resources. This isn't exhaustive or authoritati
 ## JavaScript Books
 
 * [Eloquent JavaScript](http://eloquentjavascript.net/)
-* [JavaScript: The Good Parts](http://www.amazon.com/gp/product/0596517742/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596517742&linkCode=as2&tag=adahar04-20&linkId=TMACDAS3RY2AQJXH)
+* [JavaScript: The Good Parts](http://www.amazon.com/gp/product/0596517742/?tag=adahar09-20)
 * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 
 ## JavaScript Resources
@@ -81,8 +81,8 @@ I can't really tell you which blogs to follow. It's up to you to discover them y
 
 ## Other Other
 
-* [25 Days to Better Thinking](http://www.amazon.com/gp/product/0131738593/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0131738593&linkCode=as2&tag=adahar04-20&linkId=5GHJ6JRF2RR3QX7M)
-* [A Mind for Numbers](http://www.amazon.com/gp/product/039916524X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=039916524X&linkCode=as2&tag=adahar04-20&linkId=LBB6XRY2UHHNNHFH)
+* [25 Days to Better Thinking](http://www.amazon.com/gp/product/0131738593/?tag=adahar09-20)
+* [A Mind for Numbers](http://www.amazon.com/gp/product/039916524X/?tag=adahar09-20)
 
 ## List of things not to learn yet (but maybe later)
 
