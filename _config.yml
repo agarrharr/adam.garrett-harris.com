@@ -1,7 +1,7 @@
 title: Adam Harris
 description: Web Developer
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:categories/:title/
 category_dir: category
 paginate: 5
