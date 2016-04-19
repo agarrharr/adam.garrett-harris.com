@@ -10,7 +10,7 @@ Just create a file in your `_includes` folder called `youtubePlayer.html` with t
 
 {% highlight html %}
 {% raw %}
-<iframe width="560" height="315" src="//www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
 {% endraw %}
 {% endhighlight %}
 
@@ -26,6 +26,6 @@ You can also do the same thing with vimeo by making a file called `vimeoPlayer.h
 
 {% highlight html %}
 {% raw %}
-<iframe src="//player.vimeo.com/video/{{ include.id }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/{{ include.id }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 {% endraw %}
 {% endhighlight %}
