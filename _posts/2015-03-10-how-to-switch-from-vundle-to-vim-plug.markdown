@@ -96,7 +96,7 @@ Open vim and run `:PlugInstall`
 You can remove the plugins installed with vundle, which are in the bundle directory, since vim-plug installs them in the plugged directory.
 
 {% highlight bash %}
-rm -rf ~/.vimrc/bundle
+rm -rf ~/.vim/bundle
 {% endhighlight %}
 
 ## Update gitmodules
