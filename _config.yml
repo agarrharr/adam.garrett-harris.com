@@ -5,6 +5,7 @@ highlighter: rouge
 permalink: /:categories/:title/
 category_dir: category
 paginate: 5
+gems: [jekyll-paginate]
 siteurl: http://www.adamwadeharris.com
 baseurl:
 disqus_shortname: adamwadeharris
