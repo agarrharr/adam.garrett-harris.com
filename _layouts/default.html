@@ -31,22 +31,13 @@
 
     <footer class="col-md-12 site-footer" {% if site.data.blog.cover %}style="background-image: url({{site.baseurl}}{{site.data.blog.cover}})"{% endif %}>
         <div class="text-center footer-nav">
-            {% if site.pages %}
-                <a href="{{site.baseurl}}">Home</a>
-                {% for page in site.pages %}
-                    {% if page.parent %}
-                    {% else %}
-                    {% if page.layout == "page" %}
-                        <a href="{{site.baseurl}}/{{page.slug}}">{{page.title}}</a>
-                    {% endif %}
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
-            <a href="https://github.com/aharris88/ama">Contact</a>
+            <a href="/">Home</a>
+            <a href="/recommendations">Recommendations</a>
+            <a href="/about">About</a>
+            <a href="https://github.com/aharris88/ama" target="_blank">Contact</a>
         </div>
         <div class="text-center footer-message">
             <a class="subscribe icon-feed" href="http://feeds.feedburner.com/AdamHarris"></a>
-            <section class="poweredby">Built with <a href="http://statiq.io/">Statiq</a></section>
         </div>
     </footer>
     <script>
