@@ -3,112 +3,111 @@ layout: default
 ---
 
 <main class="content" role="main">
-		<div class="col-md-12">
-				<header class="post-header col-md-12">
-					<div class="col-md-4">
-						<a id="blog-logo" href="{{site.baseurl}}">
-							{% if site.data.blog.logo %}
-								<img class="img-circle" src="{{site.baseurl}}{{site.data.blog.logo}}" alt="Blog Logo" />
-							{% else %}
-								<span class="blog-title">{{site.title}}</span>
-							{% endif %}
-						</a>
-					</div>
+  <div class="col-md-12">
+    <header class="post-header col-md-12">
+      <div class="col-md-4">
+        <a id="blog-logo" href="{{site.baseurl}}">
+          {% if site.data.blog.logo %}
+            <img class="img-circle" src="{{site.baseurl}}{{site.data.blog.logo}}" alt="Blog Logo" />
+          {% else %}
+            <span class="blog-title">{{site.title}}</span>
+          {% endif %}
+        </a>
+      </div>
 
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<!-- Top ad -->
-					<ins class="adsbygoogle"
-						 style="display:inline-block;width:728px;height:90px"
-						 data-ad-client="ca-pub-6884785653664369"
-						 data-ad-slot="7303984044"></ins>
-					<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</header>
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- Top ad -->
+        <ins class="adsbygoogle"
+           style="display:inline-block;width:728px;height:90px"
+           data-ad-client="ca-pub-6884785653664369"
+           data-ad-slot="7303984044"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </header>
 
-				<div class="col-md-8">
-					<article>
-						<span class="post-meta"><time datetime="{{site.date}}">{{page.date | date: "%-d %B %Y" }}</time></span>
+    <div class="col-md-8">
+      <article>
+        <span class="post-meta"><time datetime="{{site.date}}">{{page.date | date: "%-d %B %Y" }}</time></span>
 
-						<h1 class="post-title">{{page.title}}</h1>
+        <h1 class="post-title">{{page.title}}</h1>
 
-						<section class="post-content">
-							{{content}}
-						</section>
+        <section class="post-content">
+          {{content}}
+        </section>
 
-						<span class="post-meta">
-							{% for category in post.categories %}
-								{% if forloop.index > 1 %}, {% endif%}{{category}}
-							{% endfor %}
-						</span>
-					</article>
-				</div>
+        <span class="post-meta">
+          {% for category in post.categories %}
+            {% if forloop.index > 1 %}, {% endif%}{{category}}
+          {% endfor %}
+        </span>
+      </article>
+    </div>
 
-				{% include sidebar.html %}
-		</div>
+    {% include sidebar.html %}
+  </div>
 
-		<div class="col-md-12">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
-				{% if page.comments %}
-						<div id="disqus_thread"></div>
-						<script type="text/javascript">
-							/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-							var disqus_shortname = '{{site.disqus_shortname}}'; // required: replace example with your forum shortname
+  <div class="col-md-12">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      {% if page.comments %}
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+          var disqus_shortname = '{{site.disqus_shortname}}'; // required: replace example with your forum shortname
 
-							/* * * DON'T EDIT BELOW THIS LINE * * */
-							(function() {
-								var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-								dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-								(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-							})();
-						</script>
-						<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-				{% endif %}
-			</div>
-		</div>
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      {% endif %}
+    </div>
+  </div>
 
-        <footer class="post-footer">
+  <footer class="post-footer">
 
-            {% if page.author %}
-                {% for authors in site.data.authors %}
-                    {% if authors.username == page.author %}
-                        <section class="author">
-                            <h4>{{authors.name}}</h4>
-                            <p>{{authors.bio}}</p>
-                        </section>
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
+    {% if page.author %}
+      {% for authors in site.data.authors %}
+        {% if authors.username == page.author %}
+          <section class="author">
+            <h4>{{authors.name}}</h4>
+            <p>{{authors.bio}}</p>
+          </section>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
 
-            <section class="text-center share">
-                <h4>Share this post</h4>
-                <a class="icon-twitter" href="http://twitter.com/share?text=I just read '{{page.title}}' at "
-                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                    <span class="hidden">Twitter</span>
-                </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.siteurl}}{{page.url}}"
-                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                    <span class="hidden">Facebook</span>
-                </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url={{site.siteurl}}{{page.url}}"
-                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-                    <span class="hidden">Google+</span>
-                </a>
-            </section>
+    <section class="text-center share">
+      <h4>Share this post</h4>
+      <a class="icon-twitter" href="http://twitter.com/share?text=I just read '{{page.title}}' at "
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+      </a>
+      <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.siteurl}}{{page.url}}"
+        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+      </a>
+      <a class="icon-google-plus" href="https://plus.google.com/share?url={{site.siteurl}}{{page.url}}"
+         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+      </a>
+    </section>
 
-            {% if page.comments %}
-                <div id="disqus_thread"></div>
-                <script type="text/javascript">
-                    var disqus_shortname = '{{site.disqus_shortname}}';
-                    (function() {
-                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                    })();
-                </script>
-                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            {% endif %}
-
-        </footer>
+    {% if page.comments %}
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = '{{site.disqus_shortname}}';
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    {% endif %}
+  </footer>
 </main>
