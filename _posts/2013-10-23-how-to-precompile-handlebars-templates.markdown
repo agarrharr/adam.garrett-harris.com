@@ -41,10 +41,10 @@ Then with all of your templates in that folder, open up the command prompt, navi
 {% highlight ruby %}
 handlebars -m js/templates/> js/templates/templates.js{% endhighlight %}
 
-Then in your html, all you have to include is that one file plus handlebars:
+Then in your html, all you have to include is that one file plus handlebars (and you only need the runtime version):
 
 {% highlight html %}
-<script src="js/handlebars.js"></script>
+<script src="js/handlebars.runtime.js"></script>
 <script src="js/templates/templates.js"></script>
 {% endhighlight %}
 
@@ -60,5 +60,3 @@ You can now just use it like this:
 {% highlight javascript %}
 var template = Handlebars.templates['booksList'];
 {% endhighlight %}
-
-And you don't have to include the entire javascript library. All you need is the runtime version.
