@@ -1,7 +1,5 @@
 # adamwadeharris.com
 
-My personal website, built with jekyll.
+My personal website, built with [Gatsby](https://github.com/gatsbyjs/gatsby).
 
 # Todo
-
-* Fix Google Plus sharing link
