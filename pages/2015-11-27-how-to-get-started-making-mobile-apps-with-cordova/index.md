@@ -1,5 +1,6 @@
 ---
 title: How to Get Started Making Mobile Apps with Cordova
+date: 2015-11-27
 tags:
 - tutorial
 - cordova

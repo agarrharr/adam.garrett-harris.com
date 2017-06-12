@@ -1,5 +1,6 @@
 ---
 title: Wordpress Plugin To Get Free Coffee
+date: 2012-09-19
 tags:
 - Portfolio
 ---

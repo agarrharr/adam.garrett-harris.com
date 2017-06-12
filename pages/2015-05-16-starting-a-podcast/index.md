@@ -1,5 +1,6 @@
 ---
 title: Starting a Podcast
+date: 2015-05-16
 tags:
 - podcast
 ---

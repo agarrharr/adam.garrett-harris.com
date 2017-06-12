@@ -1,5 +1,6 @@
 ---
 title: My iTerm 2 Setup
+date: 2014-12-09
 tags:
 - Tutorial
 ---

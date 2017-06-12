@@ -1,5 +1,6 @@
 ---
 title: Gitignore Generator Project
+date: 2015-06-11
 tags:
 - portfolio
 ---

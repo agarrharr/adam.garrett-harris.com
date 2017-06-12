@@ -1,5 +1,6 @@
 ---
 title: Google Bookshelves Widget
+date: 2014-06-02
 tags:
 - Portfolio
 comments: true

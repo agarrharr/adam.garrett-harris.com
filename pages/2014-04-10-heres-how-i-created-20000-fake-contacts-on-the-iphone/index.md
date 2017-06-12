@@ -1,5 +1,6 @@
 ---
 title: Here's how I created 20,000 fake contacts on the iPhone
+date: 2014-04-10
 tags:
 - Tutorial
 ---

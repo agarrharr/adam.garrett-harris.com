@@ -1,5 +1,6 @@
 ---
 title: Vim Slides from Utah Code Camp
+date: 2015-03-14
 tags:
 - vim
 ---

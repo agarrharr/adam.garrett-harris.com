@@ -1,5 +1,6 @@
 ---
 title: How to Setup Remote Debugging in Phonegap
+date: 2013-10-17
 tags:
 - Tutorial
 ---

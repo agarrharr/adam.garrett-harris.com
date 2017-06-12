@@ -1,5 +1,6 @@
 ---
 title: Firebase Pianobar Widget
+date: 2014-12-15
 tags:
 - Tutorial
 ---

@@ -1,5 +1,6 @@
 ---
 title: Uploading Sermons with Sermon Manager for Wordpress
+date: 2013-02-19
 tags:
 - Tutorial
 ---

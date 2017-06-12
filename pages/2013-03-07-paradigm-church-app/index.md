@@ -1,5 +1,6 @@
 ---
 title: Paradigm Church App
+date: 2013-03-07
 tags:
 - Portfolio
 ---

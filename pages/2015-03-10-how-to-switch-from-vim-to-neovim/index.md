@@ -1,5 +1,6 @@
 ---
 title: How to Switch from Vim to Neovim
+date: 2015-03-10
 tags:
 - vim
 ---

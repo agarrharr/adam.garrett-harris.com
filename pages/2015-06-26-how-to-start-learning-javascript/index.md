@@ -1,5 +1,6 @@
 ---
 title: How to Start Learning Javascript
+date: 2015-06-26
 tags:
 - javascript
 ---

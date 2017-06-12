@@ -1,5 +1,6 @@
 ---
 title: Android Automation
+date: 2014-04-11
 tags:
 - Tutorial
 ---

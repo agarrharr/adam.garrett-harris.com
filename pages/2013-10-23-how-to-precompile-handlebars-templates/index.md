@@ -1,5 +1,6 @@
 ---
 title: How to Precompile Handlebars Templates
+date: 2013-10-23
 tags:
 - Tutorial
 ---

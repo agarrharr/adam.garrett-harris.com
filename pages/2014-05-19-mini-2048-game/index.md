@@ -1,5 +1,6 @@
 ---
 title: Mini 2048 Game
+date: 2014-05-19
 tags:
 - Portfolio
 ---

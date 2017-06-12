@@ -1,5 +1,6 @@
 ---
 title: Paradigm Church Website
+date: 2013-03-06
 tags:
 - Portfolio
 ---

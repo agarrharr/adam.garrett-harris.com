@@ -1,5 +1,6 @@
 ---
 title: Personal Site for Journalist
+date: 2012-10-02
 tags:
 - Portfolio
 ---

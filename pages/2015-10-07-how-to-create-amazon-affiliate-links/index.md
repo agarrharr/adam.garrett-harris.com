@@ -1,5 +1,6 @@
 ---
 title: How to Create Amazon Affiliate Links
+date: 2015-10-07
 tags:
 - other
 ---

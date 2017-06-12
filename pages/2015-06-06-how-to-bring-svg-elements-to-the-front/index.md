@@ -1,5 +1,6 @@
 ---
 title: How to Bring svg Elements to the Front
+date: 2015-06-06
 tags:
 - d3js
 ---
