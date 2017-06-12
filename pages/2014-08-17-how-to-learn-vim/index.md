@@ -1,5 +1,6 @@
 ---
 title: How to Learn Vim
+path: "/how-to-learn-vim/"
 date: 2014-08-17
 tags:
 - vim

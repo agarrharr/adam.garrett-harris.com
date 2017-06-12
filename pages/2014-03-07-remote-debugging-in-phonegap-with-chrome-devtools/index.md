@@ -1,5 +1,6 @@
 ---
 title: Remote Debugging in Phonegap with Chrome Devtools
+path: "/remote-debugging-in-phonegap-with-chrome-devtools/"
 date: 2014-03-07
 tags:
 - Tutorial

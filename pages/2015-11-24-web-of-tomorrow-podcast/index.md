@@ -1,5 +1,6 @@
 ---
 title: Web of Tomorrow Podcast
+path: "/web-of-tomorrow-podcast/"
 date: 2015-11-24
 tags:
 - other

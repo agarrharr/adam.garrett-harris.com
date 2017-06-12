@@ -1,5 +1,6 @@
 ---
 title: Another Free Wordpress Plugin
+date: 2012-11-02
 tags:
 - Portfolio
 ---

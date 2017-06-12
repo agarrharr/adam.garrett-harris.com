@@ -1,5 +1,6 @@
 ---
 title: Vim Cheatsheet
+path: "/vim-cheatsheet/"
 date: 2015-01-26
 tags:
 - vim

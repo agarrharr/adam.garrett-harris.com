@@ -1,5 +1,6 @@
 ---
 title: Resume Site
+path: "/resume-site/"
 date: 2012-09-20
 tags:
 - Portfolio

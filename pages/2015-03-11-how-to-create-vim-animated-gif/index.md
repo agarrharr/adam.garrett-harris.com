@@ -1,5 +1,6 @@
 ---
 title: How to Create Vim Animated Gifs
+path: "/how-to-create-vim-animated-gif/"
 date: 2015-03-11
 tags:
 - vim

@@ -1,5 +1,6 @@
 ---
 title: Updated Vim Cheatsheet
+date: 2015-03-07
 tags:
 - vim
 ---

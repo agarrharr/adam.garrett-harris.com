@@ -1,5 +1,6 @@
 ---
 title: You Can Define Functions Within a Loop
+path: "/you-can-define-functions-within-a-loop/"
 date: 2016-05-30
 tags:
 - tutorial

@@ -1,5 +1,6 @@
 ---
 title: Fitness Blog
+path: "/fitness-blog/"
 date: 2012-10-03
 tags:
 - Portfolio

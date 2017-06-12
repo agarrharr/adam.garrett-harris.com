@@ -1,5 +1,6 @@
 ---
 title: Problem with tmux When Upgrading to Yosemite
+date: 2014-11-17
 tags:
 - Tutorial
 ---

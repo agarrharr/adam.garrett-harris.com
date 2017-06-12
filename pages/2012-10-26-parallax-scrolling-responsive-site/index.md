@@ -1,5 +1,6 @@
 ---
 title: Parallax Scrolling Responsive Site
+path: "/parallax-scrolling-responsive-site/"
 date: 2012-10-26
 tags:
 - Portfolio

@@ -1,5 +1,6 @@
 ---
 title: How to Sign and Publish a Phonegap App in the Google Play Store
+path: "/sign-publish-phonegap-app-google-play-store-windows/"
 date: 2013-10-16
 tags:
 - Tutorial

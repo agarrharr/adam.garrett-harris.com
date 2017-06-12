@@ -1,5 +1,6 @@
 ---
 title: How to Publish a Jekyll Development Branch with Netlify
+path: "/how-to-publish-a-jekyll-development-branch-with-netlify/"
 date: 2015-08-20
 tags:
 - jekyll

@@ -1,5 +1,6 @@
 ---
 title: Strict Mode in JavaScript
+date: 2016-12-04
 tags:
 - tutorial
 ---

@@ -1,5 +1,6 @@
 ---
 title: The Church at Round Rock Website Redesign
+date: 2013-08-14
 tags:
 - Portfolio
 ---

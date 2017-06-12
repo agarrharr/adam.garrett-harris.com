@@ -1,5 +1,6 @@
 ---
 title: Brain Crack
+date: 2015-03-17
 tags:
 - ideas
 ---

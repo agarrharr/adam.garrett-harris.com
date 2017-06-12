@@ -1,5 +1,6 @@
 ---
 title: The Church At Round Rock
+path: "/the-church-at-round-rock/"
 date: 2013-02-11
 tags:
 - Portfolio

@@ -1,5 +1,6 @@
 ---
 title: How to Get Phonegap Working on Mac OS X Mavericks
+path: "/how-to-get-phonegap-working-on-mac-os-x-mavericks/"
 date: 2013-10-31
 tags:
 - Tutorial

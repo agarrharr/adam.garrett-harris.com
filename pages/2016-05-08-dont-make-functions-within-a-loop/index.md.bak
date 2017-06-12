@@ -1,5 +1,6 @@
 ---
 title: Don't Make Functions Within a Loop
+date: 2016-05-08
 tags:
 - tutorial
 ---

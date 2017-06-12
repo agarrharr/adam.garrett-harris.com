@@ -1,5 +1,6 @@
 ---
 title: How to Use the Paypal Phonegap Plugin for Android
+date: 2013-10-19
 tags:
 - Tutorial
 ---

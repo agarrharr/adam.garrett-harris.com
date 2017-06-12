@@ -1,5 +1,6 @@
 ---
 title: Learning Emacs Part 1
+path: "/learning-emacs-part-1/"
 date: 2015-02-12
 tags:
 - emacs

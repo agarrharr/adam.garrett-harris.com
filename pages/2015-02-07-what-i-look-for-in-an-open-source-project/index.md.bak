@@ -1,5 +1,6 @@
 ---
 title: What I Look For in an Open Source Project
+date: 2015-02-07
 tags:
 - coding
 ---

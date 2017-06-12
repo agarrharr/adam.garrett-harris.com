@@ -1,5 +1,6 @@
 ---
 title: What it Feels Like to Use Vim
+date: 2015-03-08
 tags:
 - vim
 ---

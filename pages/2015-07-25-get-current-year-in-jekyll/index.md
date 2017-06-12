@@ -1,5 +1,6 @@
 ---
 title: Get The Current Year In Jekyll
+path: "/get-current-year-in-jekyll/"
 date: 2015-07-25
 tags:
 - jekyll

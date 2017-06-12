@@ -1,5 +1,6 @@
 ---
 title: How to Run Vim with Minimal Settings
+path: "/how-to-run-vim-with-minimal-settings/"
 date: 2015-04-05
 tags:
 - vim

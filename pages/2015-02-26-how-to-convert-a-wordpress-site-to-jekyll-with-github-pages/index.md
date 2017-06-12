@@ -1,5 +1,6 @@
 ---
 title: How to Convert a Wordpress Site to Jekyll with Github Pages
+path: "/how-to-convert-a-wordpress-site-to-jekyll-with-github-pages/"
 date: 2015-02-26
 tags:
 - jekyll

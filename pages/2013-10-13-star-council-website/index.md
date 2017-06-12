@@ -1,5 +1,6 @@
 ---
 title: STAR Council Website
+path: "/star-council-website/"
 date: 2013-10-13
 tags:
 - Portfolio

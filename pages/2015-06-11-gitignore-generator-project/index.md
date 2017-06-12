@@ -1,5 +1,6 @@
 ---
 title: Gitignore Generator Project
+path: "/gitignore-generator-project/"
 date: 2015-06-11
 tags:
 - portfolio

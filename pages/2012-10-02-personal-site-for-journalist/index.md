@@ -1,5 +1,6 @@
 ---
 title: Personal Site for Journalist
+path: "/personal-site-for-journalist/"
 date: 2012-10-02
 tags:
 - Portfolio

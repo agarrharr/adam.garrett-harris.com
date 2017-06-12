@@ -1,5 +1,6 @@
 ---
 title: Mini 2048 Game
+path: "/mini-2048-game/"
 date: 2014-05-19
 tags:
 - Portfolio
