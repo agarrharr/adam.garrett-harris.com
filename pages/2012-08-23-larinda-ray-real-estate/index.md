@@ -1,5 +1,5 @@
 ---
-title: Larinda Ray- Real Estate
+title: Larinda Ray - Real Estate
 tags:
 - Portfolio
 ---
