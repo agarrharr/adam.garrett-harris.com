@@ -21,3 +21,4 @@ tags:
 - I got 771 sessions on my blog one day and average between 100-300
 - I started using reddit
 - I learned to like my cat
+- I bought my first house
