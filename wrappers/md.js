@@ -39,6 +39,8 @@ class MarkdownWrapper extends React.Component {
         >
           Posted {moment(post.date).format('MMMM D, YYYY')}
         </em>
+        <div id="code-sponsor-widget"></div>
+        <script type="text/javascript" src="https://app.codesponsor.io/scripts/xiDzRKxOaNvmTcbfuWP7ZA?theme=light"></script>
         <hr
           style={{
             marginBottom: rhythm(2),
