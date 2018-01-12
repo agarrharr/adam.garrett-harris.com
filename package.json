@@ -1,13 +1,13 @@
 {
   "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
+  "description": "Adam's website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Adam Garrett-Harris",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
   },
   "dependencies": {
-    "gatsby": "^0.12.41",
+    "gatsby": "^0.12.48",
     "lodash": "^4.17.2",
     "moment": "^2.18.1",
     "query-string": "^4.3.4",
@@ -24,7 +24,7 @@
   "devDependencies": {
     "gh-pages": "^0.12.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "http://www.adamwadeharris.com",
   "keywords": [
     "gatsby"
   ],
@@ -32,7 +32,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/agarrharr/agarrharr.github.io.git"
   },
   "scripts": {
     "dev": "gatsby develop",
@@ -40,6 +40,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+    "deploy": "gatsby build --prefix-links && gh-pages -d public -b master"
   }
 }
