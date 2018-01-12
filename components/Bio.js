@@ -23,7 +23,7 @@ class Bio extends React.Component {
             borderRadius: '50%',
           }}
         />
-        Written by <strong>{config.authorName}</strong> who lives and works in Silicon Slopes. <a href="https://twitter.com/adamCoder">You should follow him on Twitter</a>
+        Written by <strong>{config.authorName}</strong> who lives and works in Silicon Slopes. <a href="https://twitter.com/agarrharr">You should follow him on Twitter</a>
       </p>
     )
   }
