@@ -27,16 +27,6 @@ tags:
   background: #f7f7f7;
 }
 </style>
-<script>var submitted = false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { window.location = '/thankyou/?form=react_native_newsletter'; }"></iframe>
-<div class="EmailForm__Container">
-  <h2>Build An Amazing Native App with React Native</h2>
-  <p>Learn more from my newsletter</p>
-  <form action="https://docs.google.com/forms/d/1oWnIWF9DXp5WszqvWpyGcKLrwNaj_NpoKxeu_Syhn6k/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-    <input class="EmailForm__Input" placeholder="Email" name="entry.1615580823" type="email" />
-    <button class="EmailForm__Button" type="submit">Sign me up!</button>
-  </form>
-</div>
 
 **Update**- I've now figured out an easier way to do this in one command instead of 5 ([Android Automation]({{site.url}}/android-automation))
 
