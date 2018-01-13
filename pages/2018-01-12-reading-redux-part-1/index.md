@@ -104,4 +104,4 @@ typeof isCrushed.name === 'string' &&
 isCrushed.name !== 'isCrushed'
 ```
 
-I know that functions in JavaScript are actually objects, but I didn't know that they have a name property. But sure enough, [here is is on mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name). It's a part of the es2015 spec. Cool! So, since the minified code would shorten the name of the function, this is a very interesting way of checking to see if you're running minified code.
+I know that functions in JavaScript are actually objects, but I didn't know that they have a name property. But sure enough, [here it is on mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name). It's a part of the es2015 spec. Cool! So, since the minified code would shorten the name of the function, this is a very interesting way of checking to see if you're running minified code.
