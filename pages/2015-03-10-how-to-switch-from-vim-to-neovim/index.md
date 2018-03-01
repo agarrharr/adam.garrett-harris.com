@@ -23,7 +23,7 @@ cp -rf ~/.vim ~/.nvim
 cp ~/.vimrc ~/.nvimrc
 ```
 
-But since I have [my dotfiles version controlled](https://github.com/aharris88/dotfiles), I had to do this slightly differently:
+But since I have [my dotfiles version controlled](https://github.com/agarrharr/settings), I had to do this slightly differently:
 
 ```bash
 brew tap neovim/homebrew-neovim
