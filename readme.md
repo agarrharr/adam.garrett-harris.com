@@ -1,4 +1,4 @@
-# adamwadeharris.com
+# adam.garrett-harris.com
 
 My personal website, built with [Gatsby](https://github.com/gatsbyjs/gatsby).
 
