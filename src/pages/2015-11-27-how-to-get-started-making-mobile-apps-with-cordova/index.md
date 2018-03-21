@@ -11,4 +11,4 @@ tags:
 
 Cordova is a great way to make hybrid mobile apps using web technology (HTML, CSS, and JavaScript). This video explains how to get started and setup.
 
-The code from this video is on [Github](https://github.com/aharris88/example-cordova-app).
+The code from this video is on [Github](https://github.com/agarrharr/example-cordova-app).

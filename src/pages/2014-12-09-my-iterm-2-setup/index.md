@@ -79,4 +79,4 @@ Setup Control to send Escape unless it's used in combination
 
 ## Other stuff
 
-I also use tmux and vim, and I have all of my [configurations for them up on github](https://github.com/aharris88/dotfiles). Feel free to check it out, it's all pretty well commented.
+I also use tmux and vim, and I have all of my [configurations for them up on github](https://github.com/agarrharr/settings). Feel free to check it out, it's all pretty well commented.

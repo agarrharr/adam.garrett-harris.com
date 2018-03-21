@@ -6,9 +6,9 @@ tags:
 - vim
 ---
 
-I wanted to come up with a consistent way to make gifs that show just one vim plugin at a time. Here's what I came up with. [And here's the gifs I made](https://github.com/aharris88/vim-gifs).
+I wanted to come up with a consistent way to make gifs that show just one vim plugin at a time. Here's what I came up with. [And here's the gifs I made](https://github.com/agarrharr/vim-gifs).
 
-![vim-commentary](https://github.com/aharris88/vim-gifs/raw/master/vim-commentary.gif)
+![vim-commentary](https://raw.githubusercontent.com/agarrharr/vim-gifs/master/images/vim-commentary.gif)
 
 ## Vim Settings
 

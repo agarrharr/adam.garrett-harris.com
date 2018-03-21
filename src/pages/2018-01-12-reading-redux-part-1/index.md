@@ -1,6 +1,6 @@
 ---
 title: Reading Redux Part 1 - index.js
-path: "/reading-redux-part-1/"
+path: "reading-redux-part-1"
 date: 2018-01-12
 tags:
 - javascript

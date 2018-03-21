@@ -194,7 +194,7 @@ If you need to do something like create an rss feed for your blog or podcast, th
 ---
 ```
 
-This is just empty front-matter, but it will tell Jekyll to process this page. Then you can put whatever code you need to generate your feed. Here is an [example blog rss feed](https://gist.github.com/aharris88/684eeffa6e9eb8e61086), and here is one for an [itunes podcast feed](https://gist.github.com/aharris88/9aaa60ee99e5af8b689d).
+This is just empty front-matter, but it will tell Jekyll to process this page. Then you can put whatever code you need to generate your feed. Here is an [example blog rss feed](https://gist.github.com/agarrharr/684eeffa6e9eb8e61086), and here is one for an [itunes podcast feed](https://gist.github.com/agarrharr/9aaa60ee99e5af8b689d).
 
 ## 404 Page
 
@@ -210,7 +210,7 @@ If you set up a custom domain and you use email at that domain, then make sure y
 
 ## What about other Services
 
-You might be wondering how you put a contact form on the page, or comments, or have event signups, or a calendar, or a newsletter, etc. So I put together [a list of services for static websites](https://github.com/aharris88/services-for-static-websites) on Github. I'll try to keep it up to date as I hear of new services.
+You might be wondering how you put a contact form on the page, or comments, or have event signups, or a calendar, or a newsletter, etc. So I put together [a list of services for static websites](https://github.com/agarrharr/awesome-static-website-services) on Github. I'll try to keep it up to date as I hear of new services.
 
 ## Learn More
 

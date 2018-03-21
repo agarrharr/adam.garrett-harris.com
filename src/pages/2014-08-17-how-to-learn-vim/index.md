@@ -64,7 +64,7 @@ You could go and completely copy someone else's vim configuration, but it would 
 
 ## Version control your dotfiles
 
-You're going to make a lot of changes to your configuration over the years, and it's really nice to have a version controlled history of all your dotfiles and configurations. And if you host them on github, you can share them with other people, and you'll never lose them. It makes setting up a new computer much easier. Here are [my dotfiles](https://github.com/aharris88/dotfiles).
+You're going to make a lot of changes to your configuration over the years, and it's really nice to have a version controlled history of all your dotfiles and configurations. And if you host them on github, you can share them with other people, and you'll never lose them. It makes setting up a new computer much easier. Here are [my dotfiles](https://github.com/agarrharr/settings).
 
 ## Find a vim friend
 

@@ -8,7 +8,7 @@ tags:
 
 This weekend I decided to build a little clone based off of 2048, but instead of forking [the main 2048 game](https://github.com/gabrielecirulli/2048), I decided to build one from scratch using [D3](http://d3js.org/), which I've never used before. But it turns out that using D3 was the easy part, the hard part was making the logic for moving the tiles.
 
-[Here's the repository on Github.](https://github.com/aharris88/2048-mini)
+[Here's the repository on Github.](https://github.com/agarrharr/2048-mini)
 
 [And here's a demo.](http://www.adamwadeharris.com/2048-mini/)
 

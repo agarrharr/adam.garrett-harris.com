@@ -7,7 +7,7 @@ tags:
 - redux
 ---
 
-[Last time](/reading-redux-part-1/), I got Redux cloned to my computer, built it, ran the tests, and read the `index.js` file. Now, I'll read some more code.
+[Last time](/reading-redux-part-1-indexjs/), I got Redux cloned to my computer, built it, ran the tests, and read the `index.js` file. Now, I'll read some more code.
 
 At the bottom of [`index.js`](https://github.com/reactjs/redux/blob/0573abc1acfbb75ba8ded4a876b42cb68e2d6719/src/index.js), it exports the top-level api:
 

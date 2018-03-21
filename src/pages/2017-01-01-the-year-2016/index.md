@@ -29,7 +29,7 @@ Also, 2015 was pretty good too, and I never wrote about it:
 - Started a [podcast called Web of Tomorrow](http://www.weboftomorrowpodcast.com/)
 - Presented on vim at Utah Code Camp
 - Got over 200 stars on a github repo
-- [Got](https://github.com/aharris88/awesome-macos-screensavers) [some](https://github.com/aharris88/awesome-static-website-services) [lists](https://github.com/aharris88/awesome-cli-apps) on the [awesome list](https://github.com/sindresorhus/awesome)
+- [Got](https://github.com/agarrharr/awesome-macos-screensavers) [some](https://github.com/agarrharr/awesome-static-website-services) [lists](https://github.com/agarrharr/awesome-cli-apps) on the [awesome list](https://github.com/sindresorhus/awesome)
 - Helped my wife go to a [design bootcamp in Chicago](http://designation.io/)
 - Rode public transit and my bike to work
 - Our church got a larger location to meet at

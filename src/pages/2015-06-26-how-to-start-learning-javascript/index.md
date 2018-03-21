@@ -79,7 +79,7 @@ I can't really tell you which blogs to follow. It's up to you to discover them y
 
 ## Other
 
-* [Markdown Tutorial](http://markdowntutorial.com/)- Markdown is used for Readme files on Github as well as other places, so it's useful to know. It's also really easy. I actually [write my blog](https://raw.githubusercontent.com/aharris88/aharris88.github.io/master/_posts/2015-06-26-how-to-start-learning-javascript.md) in markdown as well.
+* [Markdown Tutorial](http://markdowntutorial.com/)- Markdown is used for Readme files on Github as well as other places, so it's useful to know. It's also really easy. I actually [write my blog](https://github.com/agarrharr/agarrharr.github.io/blob/9a66e4e1a76d2589a90744d08a87c77d3f18286e/_posts/2015-06-26-how-to-start-learning-javascript.md) in markdown as well.
 
 ## Other Other
 

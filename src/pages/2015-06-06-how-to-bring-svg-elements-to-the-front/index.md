@@ -14,7 +14,7 @@ Often, with svg visualizations, I need to bring an element to the front. For exa
 node.parentElement.appendChild(node);
 ```
 
-Here is a [full example](http://bl.ocks.org/aharris88/cf29caf142c9592af424). It uses d3js, although you don't really need it. The core code (shown above) is vanilla JavaScript.
+Here is a [full example](http://bl.ocks.org/agarrharr/cf29caf142c9592af424). It uses d3js, although you don't really need it. The core code (shown above) is vanilla JavaScript.
 
 ```html
 <html>
@@ -35,7 +35,7 @@ Here is a [full example](http://bl.ocks.org/aharris88/cf29caf142c9592af424). It 
 </html>
 ```
 
-Also, here is [another example](http://bl.ocks.org/aharris88/bd59ffb45f0635667749) that adds a bit of animation after it reorders the dom.
+Also, here is [another example](http://bl.ocks.org/agarrharr/bd59ffb45f0635667749) that adds a bit of animation after it reorders the dom.
 
 ```html
 <html>
