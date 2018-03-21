@@ -10,6 +10,7 @@
     "gatsby": "^0.12.48",
     "lodash": "^4.17.2",
     "moment": "^2.18.1",
+    "npm": "^5.7.1",
     "query-string": "^4.3.4",
     "react-addons-shallow-compare": "^15.5.2",
     "react-dates": "^4.1.0",
