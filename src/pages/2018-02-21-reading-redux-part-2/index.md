@@ -20,6 +20,7 @@ export {
   compose,
   __DO_NOT_USE__ActionTypes
 }
+```
 
 I have no idea what `__DO_NOT_USE__ActionTypes` is all about. I'll have to check that out later. So, let's go check out [`createStore.js`](https://github.com/reactjs/redux/blob/0573abc1acfbb75ba8ded4a876b42cb68e2d6719/src/createStore.js).
 
