@@ -1,11 +1,9 @@
-# adam.garrett-harris.com
+# gatsby-starter-blog
+Gatsby starter for creating a blog
 
-My personal website, built with [Gatsby](https://github.com/gatsbyjs/gatsby).
+Install this starter (assuming Gatsby is installed) by running from your CLI:
 
-# Todo
+`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
 
-## License
-
-[The license for the code](license)
-
-[The license for the content](license-content)
+## Running in development
+`gatsby develop`

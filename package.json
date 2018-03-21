@@ -1,31 +1,41 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "adam.garrett-harris.com",
   "description": "Adam's website",
   "version": "1.0.0",
-  "author": "Adam Garrett-Harris",
+  "author": "Adam Garrett-Harris <agarrharr@users.noreply.github.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+    "url": "https://github.com/agarrharr/agarrharr.github.io/issues"
   },
   "dependencies": {
-    "gatsby": "^0.12.48",
-    "lodash": "^4.17.2",
-    "moment": "^2.18.1",
-    "npm": "^5.7.1",
-    "query-string": "^4.3.4",
-    "react-addons-shallow-compare": "^15.5.2",
-    "react-dates": "^4.1.0",
-    "react-helmet": "^3.2.2",
-    "react-responsive-grid": "^0.3.3",
-    "react-syntax-highlighter": "^5.6.2",
-    "react-typography": "^0.15.0",
-    "typography": "^0.15.0",
-    "typography-theme-wordpress-2016": "^0.15.0",
-    "underscore.string": "^3.2.3"
+    "gatsby": "^1.9.238",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-feed": "^1.3.20",
+    "gatsby-plugin-google-analytics": "^1.0.24",
+    "gatsby-plugin-offline": "^1.0.15",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sharp": "^1.6.41",
+    "gatsby-plugin-typography": "^1.7.18",
+    "gatsby-remark-copy-linked-files": "^1.5.30",
+    "gatsby-remark-images": "^1.5.56",
+    "gatsby-remark-prismjs": "^1.2.19",
+    "gatsby-remark-responsive-iframe": "^1.4.18",
+    "gatsby-remark-smartypants": "^1.4.12",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-remark": "^1.7.37",
+    "gatsby-transformer-sharp": "^1.6.22",
+    "lodash": "^4.17.5",
+    "react-responsive-grid": "^0.3.4",
+    "typeface-merriweather": "0.0.43",
+    "typeface-montserrat": "0.0.43",
+    "typography-theme-wordpress-2016": "^0.15.10"
   },
   "devDependencies": {
-    "gh-pages": "^0.12.0"
+    "eslint": "^4.19.0",
+    "eslint-plugin-react": "^7.7.0",
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.11.1"
   },
-  "homepage": "http://www.adamwadeharris.com",
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
   ],
@@ -33,14 +43,16 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agarrharr/agarrharr.github.io.git"
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public -b master"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }
