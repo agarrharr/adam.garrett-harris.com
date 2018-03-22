@@ -1,6 +1,5 @@
 ---
 title: Vim Slides from Utah Code Camp
-path: "/vim-slides-from-utah-code-camp/"
 date: 2015-03-14
 tags:
 - vim

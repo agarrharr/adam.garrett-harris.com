@@ -1,6 +1,5 @@
 ---
 title: "2016"
-path: "/2016/"
 date: 2017-01-01
 tags:
 - goals

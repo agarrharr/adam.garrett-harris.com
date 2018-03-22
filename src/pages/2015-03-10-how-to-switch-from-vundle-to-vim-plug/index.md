@@ -1,6 +1,5 @@
 ---
 title: How to Switch from Vundle to vim-plug
-path: "/how-to-switch-from-vundle-to-vim-plug/"
 date: 2015-03-10
 tags:
 - vim

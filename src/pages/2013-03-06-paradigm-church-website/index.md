@@ -1,6 +1,5 @@
 ---
 title: "Paradigm Church Website"
-path: "/paradigm-church-website/"
 date: 2013-03-06
 tags:
 - Portfolio

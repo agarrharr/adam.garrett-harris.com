@@ -1,6 +1,5 @@
 ---
 title: "2014"
-path: "/2014/"
 date: 2015-03-01
 tags:
 - goals

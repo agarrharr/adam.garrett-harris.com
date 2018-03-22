@@ -1,6 +1,5 @@
 ---
 title: How to Easily Embed YouTube Videos in Jekyll Sites Without a Plugin
-path: "/how-to-easily-embed-youtube-videos-in-jekyll-sites-without-a-plugin/"
 date: 2015-04-04
 tags:
 - jekyll

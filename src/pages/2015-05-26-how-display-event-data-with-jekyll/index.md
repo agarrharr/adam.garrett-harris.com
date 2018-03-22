@@ -1,6 +1,5 @@
 ---
 title: How to Display Event Data With Jekyll
-path: "/how-display-event-data-with-jekyll/"
 date: 2015-05-26
 tags:
 - jekyll

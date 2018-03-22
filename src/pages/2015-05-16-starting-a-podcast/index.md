@@ -1,6 +1,5 @@
 ---
 title: Starting a Podcast
-path: "/starting-a-podcast/"
 date: 2015-05-16
 tags:
 - podcast

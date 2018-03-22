@@ -1,6 +1,5 @@
 ---
 title: "Larinda Ray - Real Estate"
-path: "/larinda-ray-real-estate/"
 date: 2012-08-23
 tags:
 - Portfolio

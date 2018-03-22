@@ -1,6 +1,5 @@
 ---
 title: How to Redirect Pages in Jekyll
-path: "/how-to-redirect-pages-in-jekyll/"
 date: 2015-04-21
 tags:
 - jekyll

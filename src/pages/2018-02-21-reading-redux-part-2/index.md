@@ -1,6 +1,5 @@
 ---
 title: "Reading Redux Part 2 - getState"
-path: "/reading-redux-part-2/"
 date: 2018-02-21
 tags:
 - javascript

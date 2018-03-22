@@ -1,6 +1,5 @@
 ---
 title: "Kaye Tolson - Music"
-path: "/kaye-tolson-music/"
 date: 2013-05-22
 tags:
 - Portfolio

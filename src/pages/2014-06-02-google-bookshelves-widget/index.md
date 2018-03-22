@@ -1,6 +1,5 @@
 ---
 title: "Google Bookshelves Widget"
-path: "/google-bookshelves-widget/"
 date: 2014-06-02
 tags:
 - Portfolio

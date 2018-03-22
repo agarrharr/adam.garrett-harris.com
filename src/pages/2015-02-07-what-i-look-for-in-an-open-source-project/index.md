@@ -1,6 +1,5 @@
 ---
 title: "What I Look For in an Open Source Project"
-path: "/what-i-look-for-in-an-open-source-project/"
 date: 2015-02-07
 tags:
 - coding

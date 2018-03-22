@@ -1,6 +1,5 @@
 ---
 title: "Another Free Wordpress Plugin"
-path: "/another-free-wordpress-plugin/"
 date: 2012-11-02
 tags:
 - Portfolio

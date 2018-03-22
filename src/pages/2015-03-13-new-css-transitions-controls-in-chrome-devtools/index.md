@@ -1,6 +1,5 @@
 ---
 title: New Css Transitions Controls in Chrome Devtools
-path: "/new-css-transitions-controls-in-chrome-devtools/"
 date: 2015-03-13
 tags:
 - vim

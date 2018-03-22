@@ -1,6 +1,5 @@
 ---
 title: "My iTerm 2 Setup"
-path: "/my-iterm-2-setup/"
 date: 2014-12-09
 tags:
 - Tutorial

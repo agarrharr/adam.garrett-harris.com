@@ -1,6 +1,5 @@
 ---
 title: "Wordpress Plugin To Get Free Coffee"
-path: "/wordpress-plugin-to-get-free-coffee/"
 date: 2012-09-19
 tags:
 - Portfolio

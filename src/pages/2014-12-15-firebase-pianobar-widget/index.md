@@ -1,6 +1,5 @@
 ---
 title: "Firebase Pianobar Widget"
-path: "/firebase-pianobar-widget/"
 date: 2014-12-15
 tags:
 - Tutorial

@@ -1,6 +1,5 @@
 ---
 title: "Here's how I created 20,000 fake contacts on the iPhone"
-path: "/heres-how-i-created-20000-fake-contacts-on-the-iphone/"
 date: 2014-04-10
 tags:
 - Tutorial
