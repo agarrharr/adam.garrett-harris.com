@@ -23,7 +23,7 @@ export {
 
 I have no idea what `__DO_NOT_USE__ActionTypes` is all about. I'll have to check that out later. So, let's go check out [`createStore.js`](https://github.com/reactjs/redux/blob/0573abc1acfbb75ba8ded4a876b42cb68e2d6719/src/createStore.js).
 
-It's only 270 lines of code, but if you delete the comments, it's only 165 lines of code. And right at the beginning, it has a 25 line comment. I think this is great because it explains exactly what `createStore` does. And it's written to the people who use Redux rather than to the people who write Redux. Looking at the `git blame`, I see that these are JSDoc comments [written by Dan Abramov back in July of 2015](https://github.com/reactjs/redux/commit/259c6bfe152f7fa7065b0ac2e038466c100fa18b).u
+It's only 270 lines of code, but if you delete the comments, it's only 165 lines of code. And right at the beginning, it has a 25 line comment. I think this is great because it explains exactly what `createStore` does. And it's written to the people who use Redux rather than to the people who write Redux. Looking at the `git blame`, I see that these are JSDoc comments [written by Dan Abramov back in July of 2015](https://github.com/reactjs/redux/commit/259c6bfe152f7fa7065b0ac2e038466c100fa18b).
 
 ```js
 /**
