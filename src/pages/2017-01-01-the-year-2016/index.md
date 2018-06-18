@@ -24,8 +24,8 @@ Also, 2015 was pretty good too, and I never wrote about it:
 
 - I read 50 books
 - I started renting out our spare room on Airbnb
-- Started a [podcast called Talking Dudes](http://www.talkingdudes.com/)
-- Started a [podcast called Web of Tomorrow](http://www.weboftomorrowpodcast.com/)
+- Started a [podcast called Talking Dudes](https://www.orbit.fm/talkingdudes/)
+- Started a [podcast called Web of Tomorrow](https://www.orbit.fm/weboftomorrow/)
 - Presented on vim at Utah Code Camp
 - Got over 200 stars on a github repo
 - [Got](https://github.com/agarrharr/awesome-macos-screensavers) [some](https://github.com/agarrharr/awesome-static-website-services) [lists](https://github.com/agarrharr/awesome-cli-apps) on the [awesome list](https://github.com/sindresorhus/awesome)
