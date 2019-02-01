@@ -7,7 +7,7 @@ tags:
 
 2017 was a pretty great year! Here's a recap of some things (not in chronological order).
 
-- I read 91 books
+- I read [93 books](https://www.goodreads.com/challenges/5493-2017-reading-challenge)
 - I quit my job and got a new job as a Senior Software Engineer
 - Started going to therapy
 - I went to Paris

@@ -7,7 +7,7 @@ tags:
 
 2016 was a pretty great year! Here's a recap of some things (not in chronological order).
 
-- I read 75 books
+- I read [75 books](https://www.goodreads.com/user_challenges/3747859)
 - I switched to the mobile web team at Domo
 - I learned React
 - Spent a weekend in a yurt
@@ -22,7 +22,7 @@ tags:
 
 Also, 2015 was pretty good too, and I never wrote about it:
 
-- I read 50 books
+- I read [50 books](https://www.goodreads.com/challenges/3082-2015-reading-challenge)
 - I started renting out our spare room on Airbnb
 - Started a [podcast called Talking Dudes](https://www.orbit.fm/talkingdudes/)
 - Started a [podcast called Web of Tomorrow](https://www.orbit.fm/weboftomorrow/)
