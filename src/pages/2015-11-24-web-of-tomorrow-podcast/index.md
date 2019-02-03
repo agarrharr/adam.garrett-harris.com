@@ -2,7 +2,7 @@
 title: Web of Tomorrow Podcast
 date: 2015-11-24
 tags:
-- other
+- podcast
 ---
 
 [![Web of Tomorrow logo](./weboftomorrow.png)](https://www.orbit.fm/weboftomorrow/)
