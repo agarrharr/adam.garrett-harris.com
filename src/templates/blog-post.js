@@ -2,8 +2,10 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
+import rehypeReact from 'rehype-react'
 
 import Bio from '../components/Bio'
+import Saboteur2Scorecard from '../components/saboteur-2-scorecard'
 import { rhythm, scale } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
@@ -11,6 +13,11 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const { previous, next } = this.props.pathContext
+
+    const renderAst = new rehypeReact({
+      createElement: React.createElement,
+      components: { 'saboteur-2-scorecard': Saboteur2Scorecard },
+    }).Compiler
 
     return (
       <div>
@@ -26,7 +33,7 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        {renderAst(post.htmlAst)}
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -76,7 +83,7 @@ export const pageQuery = graphql`
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
-      html
+      htmlAst
       fields {
         slug
       }

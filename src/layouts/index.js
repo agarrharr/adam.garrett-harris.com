@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
-import { rhythm, scale } from '../utils/typography'
 import 'prismjs/themes/prism-solarizedlight.css'
+
+import { rhythm, scale } from '../utils/typography'
 
 class Template extends React.Component {
   render() {
