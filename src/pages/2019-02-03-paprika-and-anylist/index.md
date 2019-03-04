@@ -27,9 +27,9 @@ One downside is that AnyList doesn't import from Reminders until you open the ap
 
 Another possible downside is that it renames the list for anyone that you share the list with, so that could be a little weird, but if your spouse is using Paprika and AnyList as well, that could be what you want.
 
-Also, in order to use Siri to add items to my list it's a little awkward now. I have to say "Add eggs to my Paprika list in Reminders."
+## Siri
 
-![Screenshot of Siri. It says 'Add eggs to my Paprika list in Reminders.' Siri responded with 'Ok, I added it to your Paprika list'](./siri.png)
+To use Siri to add items to my list, there are a couple of options. I can use Reminders and say: "Add eggs to my Paprika list in Reminders." Or I can use AnyList directly and say "Using AnyList add eggs to my Paprika list."
 
 ## How to set it up
 
