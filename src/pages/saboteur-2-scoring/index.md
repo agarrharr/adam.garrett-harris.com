@@ -12,7 +12,7 @@ The rules for figuring out who wins at the end of round of Saboteur 2 can be a l
 
 <saboteur-2-scorecard></saboteur-2-scorecard>
 
-If you're interested, her is what the instructions say:
+If you're interested, here is what the instructions say:
 
 The saboteurs win if there is **NOT** an uninterrupted ROUTE from the start to the treasure. Otherwise, some of the dwarfs win **and** all winning dwarfs in play split the treasure (see below).
 

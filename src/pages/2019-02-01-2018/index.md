@@ -16,3 +16,4 @@ tags:
 - Moved to a new house and started doing a full renovation while living there.
 - Rented out our old house
 - Started fostering an 8-year old boy
+- I went on the Whole 30 diet for about a little over 30 days.
