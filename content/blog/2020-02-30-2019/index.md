@@ -1,5 +1,5 @@
 ---
-title: 2019
+title: "2019"
 date: 2020-02-30
 tags:
 - goals
