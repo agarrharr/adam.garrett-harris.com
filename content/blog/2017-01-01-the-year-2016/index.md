@@ -35,7 +35,6 @@ Also, 2015 was pretty good too, and I never wrote about it:
 - Competed in a Programming Competition
 - Went to a Global Day of Coderetreat
 - Practiced yoga
-- Started renting out our spare bedroom with Airbnb
 - Started budgeting with ynab
 
 But I did write about [2014](/2014/)
