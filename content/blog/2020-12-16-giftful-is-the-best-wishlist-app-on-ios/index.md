@@ -6,7 +6,7 @@ tags:
 - apps
 ---
 
-My wife and I like surprising each other for Christmas, but we still want to give each other ideas. I used another Christmas list app for several years now, but this year, when I went to sign in, there was a PHP error on the page. This sent me on a quest to find the best app for my wife and me to use for our Christmas lists.
+My wife and I like surprising each other for Christmas, but we still want to give each other ideas. We also want to coordinate gift giving with extended family members, including gifts for our son. I've used another wishlist app for several years but never liked it that much, so this year I went on a quest to find the best app for our family to use for our Christmas lists.
 
 ## My requirements were:
 
