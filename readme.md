@@ -2,5 +2,7 @@
 
 ## Running in development
 
-`yarn`
-`yarn develop`
+```
+yarn
+yarn develop
+```
