@@ -16,7 +16,7 @@ I've taken inspiration from [Scotty Jackson](https://heyscottyj.com/) who has be
 
 Here is what the Shortcut looks like:
 
-![Shortcuts code](./christmas-shortcut.png)
+![Shortcuts code](./christmas-shortcut.jpg)
 
 I manually added the date for Christmas at the top. I couldn't think of anything to automatically figure out the nearest Christmas date.
 
