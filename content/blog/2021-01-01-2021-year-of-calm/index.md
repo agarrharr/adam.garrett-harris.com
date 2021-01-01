@@ -26,49 +26,49 @@ At the end of 2019, I had accomplished a lot but felt like I needed to keep goin
 
 I've listed out 10 areas here with some specifics underneath them, but these are just some ideas of what the Year of Calm could look like. This isn't a checklist and this isn't an exhaustive list.
 
-Calm productivity
-	Calm routines
-	Reduce social obligations
-	Block scheduling
-	Don't overcommit
-	Don't change jobs or positions
-Calm technology
-	Calm inbox
-	Automate processes
-	Don't use more technology than necessary
-	Contextual computing
-	Be indistractable
-	Reaccess which apps I'm using, paying for, and which apps we're using as a couple/family
-Calm habits
-	Reduce friction
-	Tiny habits
-Calm finances
-	Budget a month in advance
-	Spend less than we make
-	Stay out of debt
-	Don't buy more real estate
-Calm reading
-	Only read what I'm interested in
-	Surgical reading
-Calm health
-	Meditation
-	Going for walks
-	Running
-	Weight lifting at home
-	Yoga
-Calm food
-	Calm meal planning
-	Calm grocery shopping
-	Calm cooking
-Calm home
-	Decorate
-	Reduce clutter
-	Reset the space
-Calm relationships
-	A few deep relationships
-Calm spirituality
-	Reading the Bible regularly
-	Praying
+- Calm productivity
+  - Calm routines
+  - Reduce social obligations
+  - Block scheduling
+  - Don't overcommit
+  - Don't change jobs or positions
+- Calm technology
+  - Calm inbox
+  - Automate processes
+  - Don't use more technology than necessary
+  - Contextual computing
+  - Be indistractable
+  - Reaccess which apps I'm using, paying for, and which apps we're using as a couple/family
+- Calm habits
+  - Reduce friction
+  - Tiny habits
+- Calm finances
+  - Budget a month in advance
+  - Spend less than we make
+  - Stay out of debt
+  - Don't buy more real estate
+- Calm reading
+  - Only read what I'm interested in
+  - Surgical reading
+- Calm health
+  - Meditation
+  - Going for walks
+  - Running
+  - Weight lifting at home
+  - Yoga
+- Calm food
+  - Calm meal planning
+  - Calm grocery shopping
+  - Calm cooking
+- Calm home
+  - Decorate
+  - Reduce clutter
+  - Reset the space
+- Calm relationships
+  - A few deep relationships
+- Calm spirituality
+  - Reading the Bible regularly
+  - Praying
 
 ## Footnotes
 
