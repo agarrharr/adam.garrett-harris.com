@@ -7,7 +7,6 @@ tags:
 - shortcuts
 ---
 
-
 I just updated my shortcut to pick up groceries. I've been using this since I started picking up groceries more when the pandemic started earlier this year. When I arrive, I say "Hey Siri, I'm picking up groceries." It's so convenient, that I think I'll keep doing it in the future.
 
 ## Old Version
