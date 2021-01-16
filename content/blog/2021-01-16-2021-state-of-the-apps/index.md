@@ -2,10 +2,8 @@
 title: "2021 State of the Apps"
 date: 2021-01-16
 tags:
-- goals
+- apps
 ---
-
-## Productivity
 
 I’ve been listening to the "State of the Apps" episodes of Cortex since the end of 2017.
 
@@ -18,17 +16,17 @@ Originally CGP Grey wrote this in the form of a blog post: [State of the Apps 20
 
 I thought I would list out my favorite and most used apps. This is not a comprehensive list, but it’s my favorite apps (that I’m willing to share), without making the list too long.
 
-### OmniFocus
+## Productivity
+
+### OmniFocus (iOS and macOS)
 
 This is the app that got me to switch to iPhone (I talk more about switching to iPhone in [Talking Dudes S03 Episode 10](https://www.orbit.fm/talkingdudes/season3/10)). I wanted a really powerful and usable task manager that could handle anything I throw at it. OmniFocus does this beautifully and it has only gotten better in the 2 years since I started using it. I’ve even [written automations for it with JavaScript](https://adam.garrett-harris.com/2020-07-05-reading-books-with-omnifocus-automation/).
 
 In [The Year of Calm](https://adam.garrett-harris.com/2021-01-01-2021-year-of-calm/) I want to pair down what I use it for. I want to have less someday/maybe stuff in there and have that in Roam Research instead. I have also moved Podcasting out of OmniFocus and into Roam Research instead because I can plan better and write show notes all in the same place.
 
-### Due
+### Due (iOS)
 
 Even though I use OmniFocus for tasks and project planning, I ~~sometimes~~ always need to be nagged about certain tasks. Due will send me notifications every 5 minutes until I do it. I can also snooze those tasks with a great UI that lets me add and subtraction increments of time right from the notification. It’s one of the apps that supports subscription Family Sharing.
-
-TODO __add screenshot of notification__
 
 I have things in here like:
 
@@ -38,19 +36,19 @@ I have things in here like:
 - Move the wake up time back by 5 minutes
 - Rotate mattress
 
-### Spark
+### Spark (iOS and macOS)
 
 I was using Airmail (and I still use it for my work email), but I switched to Spark for its ability to collaborate on email. This allows my wife and I to chat about emails and to assign emails to each other. We can even write emails together in real-time similar to Google Docs. This allows my wife and I to keep separate email accounts and yet work on email together without forwarding emails back and forth.
 
-### Fantastical
+### Fantastical (iOS and macOS)
 
 Fantastical has been the best email app for a while and it just continues to get better. It switched to a subscription at the beginning of the year and I immediately purchased a year. You can enter events with natural language instead of having to mess with entering data into multiple fields. I love its ability to create and switch between different calendar sets. It also combines events if they have the same title and time on different calendars. It now has the ability to send out calendar invites with multiple time proposals. In 2020, they also made it easy to join video calls, which has been very useful for me. I also like that on the mac, it can display the name of the next event in the menu bar as well as how much time until the next event. It’s widgets are also very good and it supports Shortcuts. I don’t use it’s task or weather features though.
 
-### Cardhop
+### Cardhop (iOS and macOS)
 
 This is another app that I love for it’s natural language support. You can type in someone’s name, phone number, and address all in the same text box to create a new contact. You can also setup a global keyboard shortcut to open Cardhop on mac or send text to Cardhop.
 
-### Drafts
+### Drafts (iOS and macOS)
 
 This is where text starts for me. I have a workspace called Inbox that is any note without tags. Every now and then I go through and clear it out by deleting, or sending to another services. In 2020, I experimented with keeping text in Drafts long term, but when I discovered Roam Research, I went back to just having Drafts be the place where text starts. It’s one of the apps that supports subscription Family Sharing.
 
@@ -58,7 +56,7 @@ I need to go through and clear out all the old notes that I had tagged in here.
 
 The only other thing I use it for is OmniFocus templates with the [Drafts Action Group Rosemary Orchard created](https://actions.getdrafts.com/g/1F6) that she [described on her blog](https://rosemaryorchard.com/blog/automators-5-project-templates/).
 
-### Keep It
+### Keep It (iOS and macOS)
 
 At the end of 2018, I started looking for an alternative to Evernote, which housed written notes (now in Roam Research) and pdf and important documents. I tried DEVONthink for the scans and pdfs. DEVONthink was definitely powerful, but it seemed to finicky and I needed something that was easy for my wife to use. So I landed on Keep It. I thought maybe I could keep some of my personal stuff in DEVONthink, but ultimately decided that it was simpler if everything was in Keep It. It’s one of the apps that supports subscription Family Sharing.
 
@@ -69,30 +67,30 @@ I need to:
 - [ ] Make sure my wife has access to everything and knows how to use it.
 - [ ] I also need to remove some text only notes and put them in Roam Research.
 
-### Roam Research
+### Roam Research (web)
 
 I started hearing about Roam Research on the [Bookworm podcast](https://bookworm.fm) when [they read The Bullet Journal Method](https://bookworm.fm/92/). It sounded interesting, but I didn’t want to try it because it didn’t have a native iOS app and it didn’t have a price yet and it was probably going to be expensive.
 
 But when I took a sabbatical in September, I started learning about it and I basically sent an entire week getting into and learning about Roam Research. Since my subscription comes with 3 graphs, my wife also tried it out and loves it too.
 
-### You Need a Budget
+### You Need a Budget (web and iOS)
 
 YNAB has been a really solid app that syncs with my banks and and just works. They’ve improved the iPad app this year, adding multi-tasking support. Now I just need the Amazon app to support multi-tasking so I can see my Amazon orders side-by-side with my budget.
 
 ## Creating
 
-### MindNode
+### MindNode (iOS, iPadOS, and macOS)
 
 I took the [Sweet Setup Course on Mind Mapping](https://thesweetsetup.com/mindmaps/) and starting paying for MindNode. It’s one of the best ways I know of for brainstorming. I no longer use it as much because of Roam Research’s ability to create outlines. But I still use it for book notes, and I plan on moving those notes into Roam Research when I finish the book. It’s one of the apps that supports subscription Family Sharing.
 
 I need to:
 - [ ] Move book notes into Roam Research.
 
-### GoodNotes
+### GoodNotes (iPadOS, iOS, and macOS)
 
 Since I have an Apple Pencil, I wanted an app that use the pencil. I tried out both Notability and GoodNotes. I think they’re both really good, but I’ve stuck with GoodNotes for a while. I don’t use it a lot, but I may use it more this year with the [2021 Digital Planner from The Sweet Setup](https://thesweetsetup.com/planner/).
 
-### iA Writer (iOS only)
+### iA Writer (iOS and iPadOS)
 
 I heard [Federico Viticci](https://twitter.com/viticci) talk about this app on his various podcasts (probably [Adapt](https://www.relay.fm/adapt)). I just started using this a few weeks ago, but since I’ve been writing more, I’ve been trying it out for writing blog posts along with Grammarly and Working Copy.
 
@@ -110,17 +108,17 @@ Ferrite has been the best audio editing app I’ve used except for that the fact
 
 Picsew is a nice utility app for stitching long screenshots together. It can even create a long screenshot from a video screen recording. Another great feature is that it can remove the scroll bar and clean up the status bar. Along with Federico Viticci’s [Apple Frames shortcut](https://www.macstories.net/ios/shortcuts-corner-apple-frames-for-iphone-11-and-11-pro-app-store-updates-page-logging-completed-reminders-and-time-zones/), I can make nice iPhone screenshots.
 
-### Day One
+### Day One (iOS and macOS)
 
 I have considered moving this to Roam Research and I do some journaling in Roam Research [similar to the approach of Mike Schmitz at The Sweet Setup](https://thesweetsetup.com/how-i-use-roam-research-for-journaling/), but I like how Day One handles locations and photos. The app is really beautiful and focused on journaling. I don’t want to put everything in Roam Research just because I can and I still think Day One is the best tool for the job, [and so does The Sweet Setup](https://thesweetsetup.com/weve-updated-our-review-of-the-best-journaling-app-in-time-for-the-new-year/).
 
 ## Automation
 
-### Shortcuts (iOS only)
+### Shortcuts (iOS)
 
-When I switched to iOS, I was surprised to find such a powerful automation tool with an interface of code-like blocks. I immediately loved it. I’ve been getting lots of ideas for how to used it from [the Automators podcast](https://www.relay.fm/automators) and [Federico Viticci at Macstories](https://www.macstories.net/). Since Apple acquired Workflow and turned it into Shortcuts, it has been getting better and better.
+When I switched to iOS, I was surprised to find such a powerful automation tool with an interface of code-like blocks. I immediately loved it. I’ve been getting lots of ideas for how to used it from [the Automators podcast](https://www.relay.fm/automators) and [Federico Viticci at Macstories](https://www.macstories.net/). Since Apple acquired Workflow and turned it into Shortcuts, it has been getting better and better. Hopefully Shortcuts will come to macOS soon.
 
-### Zapier (web only)
+### Zapier (web)
 
 Zapier is expensive, and I’m not sure it’s worth it for me since it’s aimed more at businesses than individuals. It’s one of the apps I’m going to re-access whether it’s worth paying for this year, but I do like it and I use it.
 
@@ -128,17 +126,17 @@ Some stuff I do in Zapier I may be able to replace with IFTTT now that they supp
 
 Look into if I can replace all zaps with something cheaper.
 
-### Pushcut (iOS only)
+### Pushcut (iOS)
 
 It’s one of the apps that supports subscription Family Sharing. I used it to send myself push notifications from Zapier to start timers for work meetings. I’m also considering using the Pushcut automation server to run shortcuts. I’m very excited about it, but I haven’t figured out a use case yet.
 
-### Apple Home
+### Apple Home (iOS and macOS)
 
 I have Hue bulbs, Lutron Caseta switches, Wemo smart plugs, and a Rachio sprinkler system. It all goes through Apple Home and it’s great. I set up Home Automations based on time of day or people leaving or arriving at the house. I also commonly control them with my voice, through shortcuts, like my Bedtime shortcut, or Control Center on my phone. I currently use an old iPad mini as my home hub because I don’t have an Apple TV or HomePod, but I plan on getting an Apple TV at some point.
 
 The only automation I do inside the Hue app is a wake up routine that slowly turns on our lamps in the morning.
 
-### Eve for Homekit (iOS only)
+### Eve for Homekit (iOS)
 
 I don’t have any Eve products, but their app is great at creating more advanced automations. For example, I have some automations that turn down my son’s lights. One of them turns the lights to 50%, but only if the lights are brighter than 50%. That way it doesn’t turn them back on if he already has his lights off.
 
@@ -276,7 +274,7 @@ I’ve tried out various Bible apps, but this is one of the original apps and it
 
 I was using Echo for my prayer list, but I recently started using Roam Research. I’m still not sure if Roam Research is where I want prayers, but it makes since that it might be mixed in with other notes, like a personal CRM. Although, since I haven’t been to church in almost a year, I don’t have a lot of prayers on my list.
 
-### The Bible Memory App (iOS, watchOS)
+### The Bible Memory App (iOS and watchOS)
 
 I don’t use this app as much as I wish I did, but I really like the way it works. It’s exactly like a web app I was building back in 2010, but never finished. To practice a verse, you type the first letter of each word.
 
