@@ -222,6 +222,10 @@ I tried GoodLinks, but I wanted to be able to send things to Readwise. I switche
 
 I’ve been using Readwise to connect my Instapaper, Kindle (which I don’t currently use), Goodreads, and Airr podcast player. I then review about 5 highlights every day in the app. It also sends those highlights into Roam Research. One of my favorite things about the iOS app is the ability to point your phone at a physical book and then highlight a quote. It then converts it into text, and you can type in the page number and pick the book that’s from. I might just use this in the future to get text out of physical books to copy/paste into MindNode.
 
+### Lookup (iOS)
+
+When I read I like to look up words that I don't know and Lookup is the best and most beautiful looking app I found. The word of the day is nice and they have interesting images. But I don't use that part as much. I add words that I don't know (or am not as familiar with) to collections. I have one collection per book. I also write those words at the front of the book. You can also take quizes on the words in your collections. I don't take those quizzes very often, but it's fun. It also has Shortcuts actions, which I don't use. I would like to see a Shortcuts action to get words from collections and/or an export feature.
+
 ### Plex (web, iOS)
 
 I started using Plex at the beginning of 2019 ([I think](https://www.orbit.fm/talkingdudes/season3/11)) and I’ve really been enjoying it (even though I have to tinker around a bit to keep it up). It’s like having a personal Netflix. I also have a webhooks setup to call Trakt to track what I watch and I have a [webhook with Zapier set up to time track with Toggl](https://adam.garrett-harris.com/2020-07-09-automatic-time-tracking-from-plex/).
