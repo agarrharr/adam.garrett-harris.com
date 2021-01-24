@@ -236,7 +236,7 @@ It’s one of the apps that supports subscription Family Sharing. I heard about 
 
 ### Apple TV (iOS, macOS)
 
-I don’t own a physical Apple TV devices, but when I got my Mac Mini earlier this year, it came with a subscription to Apple TV +. I couldn’t find the time to watch it at first, but I watched all of The Morning Show, For All Mankind, Servant, Defending Jacob, and now I’m watching Ted Lasso with my wife. She doesn’t want to pay for it, but I can’t wait for the second season on all of theses shows. Plus Wolfwalkers, Greyhound, and Foundation all look good. It’s going to be hard to give up this service if Apple keeps coming out with great content like this.
+I don’t own a physical Apple TV devices, but when I got my Mac Mini earlier this year, it came with a subscription to Apple TV +. I couldn’t find the time to watch it at first, but I watched all of The Morning Show, For All Mankind, Servant, Defending Jacob, and now I’m watching Ted Lasso with my wife. She doesn’t want to pay for it, but I can’t wait for the second season on all of theses shows. Plus Wolfwalkers, Greyhound, See, and Foundation all look good. It’s going to be hard to give up this service if Apple keeps coming out with great content like this.
 
 ### Sofa (iOS)
 
