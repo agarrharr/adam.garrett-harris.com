@@ -182,7 +182,7 @@ I spent 411.5 creating and 205.5 consuming, so that’s a 2:1 ratio. I’m not s
 
 I spent about 5,600 hrs awake, so I spent about 64% of the year awake.
 
-### Time spent with Family
+### Family Time and Self-care
 
 635.75 hrs
 
