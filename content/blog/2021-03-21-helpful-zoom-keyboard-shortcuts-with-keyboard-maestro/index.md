@@ -1,3 +1,12 @@
+---
+title: "Helpful Zoom Keyboard Shortcuts with Keyboard Maestro"
+date: 2021-03-21
+tags:
+- automation
+- zoom
+- keyboard maestro
+---
+
 I started using these when the pandemic hit and I started working from home. It's really made using Zoom much easier.
 
 Super 1 = Mute/Unmute
