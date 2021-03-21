@@ -9,9 +9,9 @@ tags:
 
 I started using these when the pandemic hit and I started working from home. It's really made using Zoom much easier.
 
-Super 1 = Mute/Unmute
-Super 2 = Show/hide camera
-Super 0 = Push to talk
+- Super 1 = Mute/Unmute
+- Super 2 = Show/hide camera
+- Super 0 = Push to talk
 
 Yes, Zoom does have shortcuts, and you can enable them to be global shortcuts, but you can't customize what keys you press. So I did that customization with Keyboard Maestro.
 
