@@ -6,7 +6,7 @@ tags:
 - talking dudes
 ---
 
-[![Talking Dudes Logo](../../assets/talking-dudes-logo.jpg)](https://www.orbit.fm/talkingdudes/season3/32)
+[![Talking Dudes Logo](../../assets/talking-dudes-logo.png)](https://www.orbit.fm/talkingdudes/season3/32)
 
 On [this episode of Talking Dudes](https://www.orbit.fm/talkingdudes/season3/32), I talk about my morning routine, Jonathan switched jobs during the snowpocalypse, and he's into timed chess.
 

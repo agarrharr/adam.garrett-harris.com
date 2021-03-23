@@ -6,6 +6,6 @@ tags:
 - bookbytes
 ---
 
-[![BookBytes Logo](../../assets/bookbytes-logo.jpg)](https://www.orbit.fm/bookbytes/42)
+[![BookBytes Logo](../../assets/bookbytes-logo.png)](https://www.orbit.fm/bookbytes/42)
 
 On [this episode of BookBytes](https://www.orbit.fm/bookbytes/42), Jason and I are joined by a new co-host, [Rizel Bobb-Semple](https://twitter.com/RizelBobb). We talk about race and how to talk about race. We covered issues like privilege, intersectionality, police brutality, and microaggressions.
