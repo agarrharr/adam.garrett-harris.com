@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>607267341.316836</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>https://www.google.com/
+https://duckduckgo.com/
+https://www.bing.com/</string>
+						<key>Variable</key>
+						<string>urlList</string>
+					</dict>
+					<dict>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>Argument</key>
+								<string>%Variable%theURL%</string>
+								<key>Command</key>
+								<string>NewTab</string>
+								<key>MacroActionType</key>
+								<string>SafariControl</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>WebBrowser</key>
+								<string>Google Chrome</string>
+							</dict>
+							<dict>
+								<key>MacroActionType</key>
+								<string>Pause</string>
+								<key>Time</key>
+								<string>0.25</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>MacroActionType</key>
+								<string>SelectMenuItem</string>
+								<key>Menu</key>
+								<array>
+									<string>Tab</string>
+									<string>Pin Tab</string>
+								</array>
+								<key>TargetApplication</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.google.Chrome</string>
+									<key>Name</key>
+									<string>Google Chrome</string>
+									<key>NewFile</key>
+									<string>/Applications/Google Chrome.app</string>
+								</dict>
+								<key>TargetingType</key>
+								<string>Specific</string>
+							</dict>
+						</array>
+						<key>Collections</key>
+						<dict>
+							<key>CollectionList</key>
+							<array>
+								<dict>
+									<key>CollectionType</key>
+									<string>LinesIn</string>
+									<key>IncludeBlankLines</key>
+									<false/>
+									<key>Source</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>urlList</string>
+								</dict>
+							</array>
+						</dict>
+						<key>MacroActionType</key>
+						<string>For</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Variable</key>
+						<string>theURL</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>562281302.20906305</real>
+				<key>ModificationDate</key>
+				<real>637793346.857445</real>
+				<key>Name</key>
+				<string>Open Chrome tabs for work</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>122</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>E8D2ABDD-8966-4D01-952E-100D49BDAC7C</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Work</string>
+		<key>ToggleMacroUID</key>
+		<string>668CE93D-3FCD-4DD8-809A-53E8BBF5AA9D</string>
+		<key>UID</key>
+		<string>6B93F418-5833-4BA1-BAF4-F6348B77823F</string>
+	</dict>
+</array>
+</plist>
