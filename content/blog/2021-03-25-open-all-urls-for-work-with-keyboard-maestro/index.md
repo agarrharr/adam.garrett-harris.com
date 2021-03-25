@@ -10,6 +10,6 @@ I have a Keyboard Maestro macro that I run at the beginning of almost every work
 
 It opens a list of urls in Chrome and pins them.
 
-![Keyboard Maestro macro](Blog/2021-03-25-open-all-urls-for-work-with-keyboard-maestro/keyboard-maestro.png)
+![Keyboard Maestro macro](./keyboard-maestro.png)
 
 You can download the macro here: [Open Chrome tabs for work](./Open Chrome tabs for work.kmmacros)
