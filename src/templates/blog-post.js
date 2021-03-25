@@ -3,13 +3,9 @@ import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Bio from "../components/bio"
-import ImageLeft from "../components/ImageLeft"
-import Saboteur2Scorecard from "../components/saboteur-2-scorecard"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
-
-const components = { ImageLeft, Bio, Saboteur2Scorecard }
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -31,7 +27,7 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <MDXRenderer components={components}>{post.body}</MDXRenderer>
+        <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
             marginBottom: rhythm(1),
