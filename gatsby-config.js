@@ -11,7 +11,7 @@ module.exports = {
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-feed`,
+    `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
