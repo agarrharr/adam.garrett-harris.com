@@ -1,7 +1,7 @@
-import React from 'react'
-import cx from 'classnames'
+import React from "react"
+import cx from "classnames"
 
-import './saboteur-2-scorecard.css'
+import "./saboteur-2-scorecard.css"
 
 export default class Counter extends React.Component {
   state = {
@@ -46,8 +46,8 @@ export default class Counter extends React.Component {
     this.setState(
       {
         ...this.state,
-        didBluePlayTheLastCard: event.target.value === 'blue',
-        didGreenPlayTheLastCard: event.target.value === 'green',
+        didBluePlayTheLastCard: event.target.value === "blue",
+        didGreenPlayTheLastCard: event.target.value === "green",
       },
       this.checkWhoWon
     )
@@ -59,12 +59,12 @@ export default class Counter extends React.Component {
     this.setState({
       didTheBlueMinersWin: this.didTheBlueMinersWin(),
       winnerMessage: !this.state.isGoldFound
-        ? 'The saboteurs win!'
+        ? "The saboteurs win!"
         : green
-          ? 'The green dwarfs, the boss, and the profiteer win!'
-          : blue
-            ? 'The blue dwarfs, the boss, and the profiteer win!'
-            : 'The boss, and the profiteer win!',
+        ? "The green dwarfs, the boss, and the profiteer win!"
+        : blue
+        ? "The blue dwarfs, the boss, and the profiteer win!"
+        : "The boss, and the profiteer win!",
     })
   }
 
@@ -88,7 +88,7 @@ export default class Counter extends React.Component {
             type="checkbox"
             checked={this.state.isGoldFound}
             onChange={this.handleIsGoldFound}
-          />{' '}
+          />{" "}
           <label>The gold was found</label>
         </div>
         <div>
@@ -99,7 +99,7 @@ export default class Counter extends React.Component {
             value="blue"
             checked={this.state.didBluePlayTheLastCard}
             onChange={this.handleLastPlayer}
-          />{' '}
+          />{" "}
           <label className={cx({ disabled: !this.state.isGoldFound })}>
             A blue dwarf placed the last card
           </label>
@@ -112,7 +112,7 @@ export default class Counter extends React.Component {
             value="green"
             checked={this.state.didGreenPlayTheLastCard}
             onChange={this.handleLastPlayer}
-          />{' '}
+          />{" "}
           <label className={cx({ disabled: !this.state.isGoldFound })}>
             A green dwarf placed the last card
           </label>
@@ -123,7 +123,7 @@ export default class Counter extends React.Component {
             type="checkbox"
             checked={this.state.isBlueDoorBlocking}
             onChange={this.handleIsBlueDoorBlocking}
-          />{' '}
+          />{" "}
           <label className={cx({ disabled: !this.state.isGoldFound })}>
             A blue door is blocking the path
           </label>
@@ -134,7 +134,7 @@ export default class Counter extends React.Component {
             type="checkbox"
             checked={this.state.isGreenDoorBlocking}
             onChange={this.handleIsGreenDoorBlocking}
-          />{' '}
+          />{" "}
           <label className={cx({ disabled: !this.state.isGoldFound })}>
             A green door is blocking the path
           </label>

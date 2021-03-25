@@ -5,28 +5,6 @@ tags:
 - Tutorial
 ---
 
-<style>
-.EmailForm__Container {
-  padding: 12px;
-  margin: 24px 0px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  background: #f7f7f7;
-}
-.EmailForm__Button {
-  background: #4285f4;
-  color: white;
-  border: 0px;
-  border-radius: 2px;
-  padding: 8px 12px;
-  margin: 12px;
-}
-.EmailForm__Input {
-  border: 0px;
-  border-bottom: 1px solid #4285f4;
-  background: #f7f7f7;
-}
-</style>
-
 **Update**- I've now figured out an easier way to do this in one command instead of 5 ([Android Automation](/android-automation))
 
 So you've got your awesome app programmed, tested, added a cool icon, and you want to get it out to the world? It's pretty easy to get android apps on your phone when testing, but you have to jump through a few hoops to actually get it in the Google Play store.

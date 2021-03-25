@@ -5,7 +5,6 @@ tags:
 - board games
 ---
 
-
 > tl;dr Scoring in Saboteur 2 is a little confusing, so I made a little widget to help me figure out who wins.
 
 The rules for figuring out who wins at the end of round of Saboteur 2 can be a little confusing, so I made a widget to help me figure it out.
