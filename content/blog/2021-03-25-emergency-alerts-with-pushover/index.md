@@ -21,7 +21,7 @@ Here are the things I've done to make sure I wake up (even though I hate waking 
 
 ![Opsgenie Contact](./opsgenie-contact-ringtone.png)
 
-I added [all of the phone numbers that Opsgenie uses](https://docs.opsgenie.com/docs/voice-sms-notifications) to a contact. Then, under Ringtone, I turned on "Emergency Bypass," picked an annoying ringtone (Cosmic), and changed the vibration pattern to "S.O.S." Now when I get a call, I can't miss it. Actually, my wife can't miss it. I don't wake up because my phone is ringing, I wake up because my wife is hitting me and telling me that my phone is ringing.
+I added [all of the phone numbers that Opsgenie uses](https://docs.opsgenie.com/docs/voice-sms-notifications) to a contact. You can download the contact I made [here](./OpsGenie.vcf). Then, under Ringtone, I turned on "Emergency Bypass," picked an annoying ringtone (Cosmic), and changed the vibration pattern to "S.O.S." Now when I get a call, I can't miss it. Actually, my wife can't miss it. I don't wake up because my phone is ringing, I wake up because my wife is hitting me and telling me that my phone is ringing.
 
 I've also turned on "Emergency Bypass" for everyone on my team, my manager, her manager, and a few other people in DevOps.
 
