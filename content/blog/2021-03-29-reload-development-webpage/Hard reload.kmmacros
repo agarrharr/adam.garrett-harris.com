@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>607267341.316836</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>AllWindows</key>
+						<false/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.google.Chrome</string>
+							<key>Name</key>
+							<string>Google Chrome</string>
+							<key>NewFile</key>
+							<string>/Applications/Google Chrome.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Select Chrome Tab</string>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>----------------------------------------------------# Auth: Christopher Stone &lt;scriptmeister@thestoneforge.com&gt;# dCre: 2015/05/14 12:30# dMod: 2015/05/14 13:21# Appl: Google Chrome, System Events# Task: Bring Chrome Tab to front if it exists - otherwise open in new tab.# Libs: None# Osax: None# Tags: @Applescript, @Script, @Google_Chrome, @System_Events----------------------------------------------------set _win to falsetell application "Google Chrome"	set {idList, urlList} to {id, URL} of every tab of every windowend tellset AppleScript's text item delimiters to returnif (urlList as text) contains "localhost:8000" = true then	set theWin to 1	repeat with i in urlList		set theTab to 1		repeat with n in i			if n starts with "localhost:8000" then				set {_win, _tab} to {theWin, theTab}			end if			set theTab to theTab + 1		end repeat		set theWin to theWin + 1	end repeatend ifif _win ≠ false then	tell application "System Events"		if quit delay ≠ 0 then set quit delay to 0		tell process "Google Chrome"			perform action "AXRaise" of window _win		end tell	end tell	tell application "Google Chrome"		tell front window to set active tab index to _tab	end tellelse	tell application "Google Chrome"		open location "localhost:8000"	end tellend if----------------------------------------------------</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>ApplScript_Error</string>
+					</dict>
+					<dict>
+						<key>KeyCode</key>
+						<integer>15</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>607268270.72959995</real>
+				<key>ModificationDate</key>
+				<real>637793554.36284697</real>
+				<key>Name</key>
+				<string>Hard reload</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>38</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6400</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>6191599E-4182-40CB-AC20-4C4A16819CC3</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Work</string>
+		<key>ToggleMacroUID</key>
+		<string>668CE93D-3FCD-4DD8-809A-53E8BBF5AA9D</string>
+		<key>UID</key>
+		<string>6B93F418-5833-4BA1-BAF4-F6348B77823F</string>
+	</dict>
+</array>
+</plist>
