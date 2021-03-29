@@ -40,4 +40,4 @@ If all of those are true, then it shows a notification saying that power is low 
 
 I set this macro to run every 15 minutes.
 
-You can download the macro here: [Alert - Low Battery Status and Docker is Running](./alert-low-battery-status-and-docker is Running.kmmacros)
+You can download the macro here: [Alert - Low Battery Status and Docker is Running](./alert-low-battery-status-and-docker-is-running.kmmacros)

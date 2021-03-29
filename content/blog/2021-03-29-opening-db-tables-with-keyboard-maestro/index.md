@@ -18,4 +18,4 @@ This only works if Postico is already open and in the right database.
 
 The way I used this is by making a simple web page with a list of links for each table. The links look something like this: `kmtrigger://macro=Open%20DB%20Table&value=Awesome%20People`
 
-You can download the macro here: [Open DB Table macro](./Open%20DB%20Table.kmmacros)
+You can download the macro here: [Open DB Table macro](./open-db-table.kmmacros)

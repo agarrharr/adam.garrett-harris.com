@@ -68,4 +68,4 @@ end if
 ```
 
 
-You can download the macro here [Hard reload macro](Blog/2021-03-29-reload-development-webpage/Hard%20reload.kmmacros)
+You can download the macro here [Hard reload macro](./hard-reload.kmmacros)
