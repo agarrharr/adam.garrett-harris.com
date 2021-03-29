@@ -11,7 +11,7 @@ I have a Keyboard Maestro macro where I can hit ⌃⌥⌘J and it will switch to
 
 This macro uses some AppleScript and you'll have to change "localhost:8000" that's in there 3 times to whatever url you use for web development. It could probably be improved by using a variable instead. I got the Applescript from a Keyboard Maestro forum at some point and it says it was written by Christopher Stone, so thanks Christopher!
 
-![Macro](Blog/2021-03-29-reload-development-webpage/macro.png)
+![Macro](./macro.png)
 
 Here is the Applescript:
 

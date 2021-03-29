@@ -34,7 +34,7 @@ Getting those two pieces of information was the hard part. After that it just ch
 - pluggedIn = false
 - Docker is running
 
-![Macro](Blog/2021-03-29-notification-for-low-battery-and-docker-is-running/macro.png)
+![Macro](./macro.png)
 
 If all of those are true, then it shows a notification saying that power is low and Docker is running.
 
