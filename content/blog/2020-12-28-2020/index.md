@@ -10,6 +10,8 @@ tags:
 - Continued [BookBytes podcast](https://www.orbit.fm/bookbytes) with a new co-host and caught up on editing
 - Sort of continued [Web of Tomorrow podcast](https://www.orbit.fm/weboftomorrow) (1 episode)
 - Continued [Talking Dudes podcast](https://www.orbit.fm/talkingdudes) and caught up on editing
+- I was a [guest on Frontier Podcast](../2020-02-16-appearance-frontier-podcast/)
+- I ran a 5K (26:17)
 - Had some family move to Utah and live with us for a bit
 - Sold our first house
 - Bought our third house and moved in
