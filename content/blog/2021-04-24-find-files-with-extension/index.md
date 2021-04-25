@@ -1,5 +1,5 @@
 ---
-title: "Files Files with Extension"
+title: "Find Files with Extension"
 date: 2021-04-24
 tags:
 - cli
