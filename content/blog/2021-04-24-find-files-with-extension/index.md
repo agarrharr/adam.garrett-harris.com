@@ -1,6 +1,6 @@
 ---
 title: "Files Files with Extension"
-date: 2021-04-024
+date: 2021-04-24
 tags:
 - cli
 ---
