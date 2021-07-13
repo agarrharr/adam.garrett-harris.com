@@ -23,5 +23,5 @@ defaults write com.apple.screencapture location -string "${HOME}/Desktop/screens
 To change it back to the default location of the desktop, run:
 
 ```
-defaults write com.apple.screencapture location -string "${HOME}/Desktop/screenshots"
+defaults write com.apple.screencapture location -string "${HOME}/Desktop"
 ```
