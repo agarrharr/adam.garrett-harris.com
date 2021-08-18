@@ -1,9 +1,9 @@
 ---
 title: "Providing Access to Directories in iOS with File Bookmarks"
-date: 2021-07-13
+date: 2021-08-18
 tags:
-- cli
-- macos
+- ios
+- swiftui
 ---
 
 In iOS 13 and later, apps can access directories that are outside of the app's sandbox. And the app can save a bookmark to that location. In this project we're going to allow the user to select multiple folders that are saved using bookmarks.
