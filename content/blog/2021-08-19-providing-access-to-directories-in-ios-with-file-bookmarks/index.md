@@ -1,6 +1,6 @@
 ---
 title: "Providing Access to Directories in iOS with File Bookmarks"
-date: 2021-08-18
+date: 2021-08-19
 tags:
 - ios
 - swiftui
@@ -401,8 +401,8 @@ That works great, but it doesn't help with our preview. We can add a parameter w
 init(loadFakeData: Bool = false) {
     if loadFakeData {
         urls = [
-            (URL(string: "some/path/Notes")!),
-            (URL(string: "some/path/Family%20Notes")!),
+            URL(string: "some/path/Notes")!,
+            URL(string: "some/path/Family%20Notes")!,
         ]
     } else {
         loadAllBookmarks()
@@ -424,19 +424,6 @@ struct ContentView_Previews: PreviewProvider {
 }
 ```
 
-When you open the app, it will load up the existing bookmarks and you can add more. Next time, I'll show you how to delete bookmarks and how to show their contents when you tap on one.
+When you open the app, it will load up the existing bookmarks and you can add more. A big thanks to my friend Elaine who helped me figure all of this out.
 
-## Footnote: Why I wanted to do this
-
-I started using Obsidian lately. It's an app for Mac and iOS that looks at a directory of markdown files on your computer and it has some cool features to help you link notes together. It also supports lots of plugins and of course, since it's markdown, it supports checklists. I'm using a plugin called [Tasks](https://github.com/schemar/obsidian-tasks) to query tasks from across the entire directory in different ways.
-
-Since it's just a directory of markdown files, I could make an app that looks at a directory, finds all the tasks in the files, and displays them to me like a traditional todo app. I should also be able to mark them off, edit them, and create new ones. And since I would be editing the actual markdown file, it would still show up in Obsidian.
-
-So, the first task in making this app is to let the user pick the directory (or folder) they want the app to look at. And they should only have to do this once. After that, the app should remember which directory they picked.
-
-I remember [Federico Viticci]() talking about something called "file bookmarks" and "open in place" or "edit in place" on an episode of [Connected](), [AppStories](), or [Adapt](). And he mentioned that two apps that take advantage of this API are [Working Copy]() and [iA Writer](). He's not a developer, but he knows what he's talking about. 
-
-I searched for those things and came across an article on Apple's developer documentation called [Providing Access to Directories](https://developer.apple.com/documentation/uikit/view_controllers/providing_access_to_directories).
-
-With the knowledge that this should be doable and where to look, I set out to make a proof of concept. And since I'm so new to iOS development, I was banging my head against the wall until my friend Elaine helped me out and pair programmed with me. Thanks, Elaine!
-
+Next time, I'll show you how to delete bookmarks and how to show their contents when you tap on one.

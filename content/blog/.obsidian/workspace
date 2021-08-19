@@ -1,0 +1,112 @@
+{
+  "main": {
+    "id": "031021e7ed909010",
+    "type": "split",
+    "children": [
+      {
+        "id": "d169edbbd80d1ac0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2021-08-19-providing-access-to-directories-in-ios-with-file-bookmarks/index.md",
+            "mode": "source"
+          }
+        },
+        "group": "cd34e6b471a5ebcd"
+      },
+      {
+        "id": "bd7d4fc184582925",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2021-08-19-providing-access-to-directories-in-ios-with-file-bookmarks/index.md",
+            "mode": "preview"
+          }
+        },
+        "group": "cd34e6b471a5ebcd"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7a0fcb410d11781c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b0db6d05c9b6194",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8e43e399f725f54",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a1f31e7dbc28fe30",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bae125de6b142441",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec433c9281511661",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea57ce5f2990d3d4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2021-08-19-providing-access-to-directories-in-ios-with-file-bookmarks/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d169edbbd80d1ac0",
+  "lastOpenFiles": [
+    "2021-08-19-providing-access-to-directories-in-ios-with-file-bookmarks/index.md",
+    "2021-08-18-obsidian-todo-app/index.md",
+    "2021-08-17-learning-ios-development/index.md",
+    "2021-08-18/index.md",
+    "2021-08-20/index.md",
+    "2021-08-18-learning-ios-development/index.md",
+    "Untitled.md"
+  ]
+}
