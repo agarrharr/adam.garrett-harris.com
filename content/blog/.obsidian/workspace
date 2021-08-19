@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-08-19-providing-access-to-directories-in-ios-with-file-bookmarks/index.md",
+            "file": "2021-08-16-learning-ios-development/index.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-08-19-providing-access-to-directories-in-ios-with-file-bookmarks/index.md",
+            "file": "2021-08-16-learning-ios-development/index.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-08-19-providing-access-to-directories-in-ios-with-file-bookmarks/index.md",
+                "file": "2021-08-16-learning-ios-development/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,9 +101,9 @@
   },
   "active": "d169edbbd80d1ac0",
   "lastOpenFiles": [
+    "2021-08-17-learning-ios-development/index.md",
     "2021-08-19-providing-access-to-directories-in-ios-with-file-bookmarks/index.md",
     "2021-08-18-obsidian-todo-app/index.md",
-    "2021-08-17-learning-ios-development/index.md",
     "2021-08-18/index.md",
     "2021-08-20/index.md",
     "2021-08-18-learning-ios-development/index.md",
