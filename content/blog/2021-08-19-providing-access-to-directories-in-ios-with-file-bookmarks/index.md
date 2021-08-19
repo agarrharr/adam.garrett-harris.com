@@ -68,7 +68,7 @@ Apple has a documentation page called [Providing Access to Directories](https://
 
 He explains that to wrap a UIKit `ViewController` we have to create a struct that conforms to the `UIViewControllerRepresentable` protocol.
 
-On the [UIViewControllerRepresentable](https://developer.apple.com/documentation/swiftui/uiviewcontrollerrepresentable) page, it says "Use a `UIViewControllerRepresentable` instance to create and manage a `UIViewController`](https://developer.apple.com/documentation/uikit/uiviewcontroller) object in your SwiftUI interface."
+On the [UIViewControllerRepresentable](https://developer.apple.com/documentation/swiftui/uiviewcontrollerrepresentable) page, it says "Use a `UIViewControllerRepresentable` instance to create and manage a [`UIViewController`](https://developer.apple.com/documentation/uikit/uiviewcontroller) object in your SwiftUI interface."
 
 So let's do that. Create a new Swift file called `DocumentPicker.swift` and make a struct named `DocumentPicker` that conforms to `UIViewControllerRepresentable`:
 
@@ -83,11 +83,11 @@ Xcode will say that it doesn't conform. Take its suggestion and let it add the p
 
 ```swift
 func makeUIViewController(context: Context) -> UIDocumentPickerViewController {
-    <#code#>
+    code
 }
     
 func updateUIViewController(_ uiViewController: UIDocumentPickerViewController, context: Context) {
-    <#code#>
+    code
 }
 ```
 
@@ -181,7 +181,7 @@ What is a bookmark? According to Apple's documentation on [Bookmarks](https://de
 Let's make a new Swift file called `BookmarkController.swift`. Inside of this file, make a class that conforms to `ObservableObject` so that it can publish an array of URLs for the SwiftUI view to use. We need a property called `urls` that will contain an array of URLs. We will also need a method called `addBookmark`.
 
 ```swift
-import Foundation
+import SwiftUI
 
 class BookmarkController: ObservableObject {
     @Published var urls: [URL] = []	
@@ -318,7 +318,7 @@ ContentView()
 Then use a `ForEach` to show each url in the list:
 
 ```swift
-ForEach(bookmarkController.urls, id: \.0) { uuid, url in
+ForEach(bookmarkController.urls, id: \.0) { url in
     Text(url.lastPathComponent)
 }
 ```
@@ -356,14 +356,14 @@ catch let error {
 }
 ```
 
-We can use this code inside a `.compactMap`:
+We can use this code inside a `compactMap()`:
 
 ```swift
 func loadAllBookmarks() {
     // Get all the bookmark files
     let files = try? FileManager.default.contentsOfDirectory(at: getAppSandboxDirectory(), includingPropertiesForKeys: nil)
     // Map over the bookmark files
-    self.urls = files?.compactMap({ file in
+    self.urls = files?.compactMap { file in
         do {
             let bookmarkData = try Data(contentsOf: file)
             var isStale = false
@@ -383,7 +383,7 @@ func loadAllBookmarks() {
             print(error)
             return nil
         }
-    }) ?? []
+    } ?? []
 }
 ```
 
