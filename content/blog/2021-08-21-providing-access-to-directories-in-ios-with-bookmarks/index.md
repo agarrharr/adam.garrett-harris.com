@@ -1,16 +1,19 @@
 ---
-title: "Providing Access to Directories in iOS with File Bookmarks"
-date: 2021-08-19
+title: "Providing Access to Directories in iOS with Bookmarks"
+date: 2021-08-21
 tags:
 - ios
 - swiftui
+- tutorial
 ---
 
-In iOS 13 and later, apps can access directories that are outside of the app's sandbox. And the app can save a bookmark to that location. In this project we're going to allow the user to select multiple folders that are saved using bookmarks.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/62M2BVR_ISw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+In iOS 13 and later, apps can access directories that are outside of the app's sandbox. And the app can save a bookmark to that location. In this project we're going to allow the user to select multiple folders and save them using bookmarks.
 
 ## Start the Project
 
-Make a new project. I'll call mine called "Access To Directories".
+Make a new project. I'll call mine called "BookmarkDirectories".
 
 ![](new-project.png)
 
@@ -64,13 +67,13 @@ It should look like this and open a sheet when you tap the button:
 
 ## Show the Document Picker
 
-Apple has a documentation page called [Providing Access to Directories](https://developer.apple.com/documentation/uikit/view_controllers/providing_access_to_directories), and it says the framework is UIKit. This is important because there are some things that SwiftUI can't do yet. And according to a video I found on Hacking With Swift called [Wrapping a UIViewController in a SwiftUI view](https://www.hackingwithswift.com/books/ios-swiftui/wrapping-a-uiviewcontroller-in-a-swiftui-view), "...you have to learn to talk to UIKit if you want to add more advanced functionality." The whole video/article is great and worth the watch/read.
+Apple has a documentation page called [Providing Access to Directories](https://developer.apple.com/documentation/uikit/view_controllers/providing_access_to_directories), and it says the framework is UIKit. This is important because there are some things that SwiftUI can't do yet. And according to a video I found on Hacking With Swift called [Wrapping a UIViewController in a SwiftUI view](https://www.hackingwithswift.com/books/ios-swiftui/wrapping-a-uiviewcontroller-in-a-swiftui-view), "...you need to learn to talk to UIKit if you want to add more advanced functionality." The whole video/article is great and worth the watch/read.
 
 He explains that to wrap a UIKit `ViewController` we have to create a struct that conforms to the `UIViewControllerRepresentable` protocol.
 
 On the [UIViewControllerRepresentable](https://developer.apple.com/documentation/swiftui/uiviewcontrollerrepresentable) page, it says "Use a `UIViewControllerRepresentable` instance to create and manage a [`UIViewController`](https://developer.apple.com/documentation/uikit/uiviewcontroller) object in your SwiftUI interface."
 
-So let's do that. Create a new Swift file called `DocumentPicker.swift` and make a struct named `DocumentPicker` that conforms to `UIViewControllerRepresentable`:
+So let's do that. Create a new Swift file called `DocumentPicker.swift` and make a struct named `DocumentPicker` that conforms to `UIViewControllerRepresentable`. You also have to import SwiftUI.
 
 ```swift
 import SwiftUI
@@ -79,7 +82,7 @@ struct DocumentPicker: UIViewControllerRepresentable {
 }
 ```
 
-Xcode will say that it doesn't conform. Take its suggestion and let it add the protocol stubs. It will add a line that says `typealias UIViewControllerType = <#type#>`. Change the type to `UIDocumentPickerViewController`. Then Xcode will still say that it doesn't conform. Take its suggestion again to add protocol stubs. This time, it will add two methods, `makeUIViewController`, and `updateUIViewController`. Notice that the return type of `makeUIViewController` is `UIDocumentPickerViewController`. Now, you can delete the `typealias` line because Swift can figure out the type from the return type of the function.
+Xcode will say that it doesn't conform. Take its suggestion and let it add the protocol stubs. It will add a line that says `typealias UIViewControllerType = type`. Change the type to `UIDocumentPickerViewController`. Then Xcode will still say that it doesn't conform. Take its suggestion again to add protocol stubs. This time, it will add two methods, `makeUIViewController`, and `updateUIViewController`. Notice that the return type of `makeUIViewController` is `UIDocumentPickerViewController`. Now, you can delete the `typealias` line because Swift can figure out the type from the return type of the function.
 
 ```swift
 func makeUIViewController(context: Context) -> UIDocumentPickerViewController {
@@ -155,7 +158,7 @@ struct DocumentPicker: UIViewControllerRepresentable {
 
 Since we are assigning an instance of the `Coordinator` class to the `documentPicker` delegate, it must conform to `UIDocumentPickerDelegate`, and because of that, it must first conform to `NSObject`.
 
-Now we need to make the coordinator actually do something when the user picks a document. On the [UIDocumentPickerDelegate](https://developer.apple.com/documentation/uikit/uidocumentpickerdelegate) page, there is a deprecated function called `documentPicker(UIDocumentPickerViewController, didPickDocumentsAt: [URL])`. There is also a deprecated function that returns just one URL instead of an array. Don't accidentally use that one. The easiest way to add this to your code is start typing `didPick`, then selected the correct one. For now, add a `print` statement:
+Now we need to make the coordinator actually do something when the user picks a document. On the [UIDocumentPickerDelegate](https://developer.apple.com/documentation/uikit/uidocumentpickerdelegate) page, there is a function called `documentPicker(UIDocumentPickerViewController, didPickDocumentsAt: [URL])`. There is also a deprecated function that returns just one URL instead of an array. Don't accidentally use that one. The easiest way to add this to your code is start typing `didPick`, then select the correct one. For now, add a `print` statement:
 
 ```swift
 class Coordinator: NSObject, UIDocumentPickerDelegate {
@@ -195,13 +198,13 @@ class BookmarkController: ObservableObject {
 }
 ```
 
-To add this to the environment, go back to `Access_To_DirectoriesApp.swift` and add an instance of this class to the environment:
+To add this to the environment, go back to `BookmarkDirectoriesApp.swift` and add an instance of this class to the environment:
 
 ```swift
 import SwiftUI
 
 @main
-struct Access_to_DirectoriesApp: App {
+struct BookmarkDirectoriesApp: App {
     @StateObject var bookmarkController = BookmarkController()
     
     var body: some Scene {
@@ -214,7 +217,7 @@ struct Access_to_DirectoriesApp: App {
 
 ```
 
-Most of the code we need for the `addBookmark` function is on the [Providing Access to Directories](https://developer.apple.com/documentation/uikit/view_controllers/providing_access_to_directories) page under "Save the URL as a Bookmark", but we need to add a few other things like creating a UUID, getting the location to save the bookmark, and adding the URL to the `urls` array. When you append the URL to the array, you can wrap that in a `withAnimation` block so that it will animate into the view. We have to import `SwiftUI` because of the `withAnimation` line. The function should look like this now:
+Most of the code we need for the `addBookmark` function is on the [Providing Access to Directories](https://developer.apple.com/documentation/uikit/view_controllers/providing_access_to_directories) page under "Save the URL as a Bookmark", but we need to add a few other things like creating a UUID for the file name, getting the location to save the bookmark, and adding the URL to the `urls` array. When you append the URL to the array, you can wrap that in a `withAnimation` block so that it will animate into the view. We have to import `SwiftUI` because of the `withAnimation` line. The function should look like this now:
 
 ```swift
     func addBookmark(for url: URL) {
@@ -308,7 +311,7 @@ book0$Usersadamgarrett-harrisLibrary	Developer
 
 ## Retrieve Bookmarks
 
-To show the bookmarks to the user access the `bookmarkController` as an environment variable. Add `@EnvironmentObject var bookmarkController: BookmarkController` to the top of the `ContentView` struct and pass a new `BookmarkController` to the `ContentView` in the preview:
+To show the bookmarks to the user, access the `bookmarkController` as an environment variable. Add `@EnvironmentObject var bookmarkController: BookmarkController` to the top of the `ContentView` struct and pass a new `BookmarkController` to the `ContentView` in the preview:
 
 ```swift
 ContentView()
@@ -318,7 +321,7 @@ ContentView()
 Then use a `ForEach` to show each url in the list:
 
 ```swift
-ForEach(bookmarkController.urls, id: \.0) { url in
+ForEach(bookmarkController.urls, id: \.self) { url in
     Text(url.lastPathComponent)
 }
 ```
