@@ -15,4 +15,4 @@ I remember [Federico Viticci](https://twitter.com/viticci) talking about somethi
 
 I searched for those things and came across an article on Apple's developer documentation called [Providing Access to Directories](https://developer.apple.com/documentation/uikit/view_controllers/providing_access_to_directories).
 
-With the knowledge that this should be doable and where to look, I set out to make a proof of concept. And since I'm so new to iOS development, I was banging my head against the wall until my friend Elaine helped me out and pair programmed with me. I wrote a post about [how to get access to directories from other apps](https://adam.garrett-harris.com/2021-08-19-providing-access-to-directories-in-ios-with-file-bookmarks/).
+With the knowledge that this should be doable and where to look, I set out to make a proof of concept. And since I'm so new to iOS development, I was banging my head against the wall until my friend Elaine helped me out and pair programmed with me. I wrote a post about [how to get access to directories from other apps](https://adam.garrett-harris.com/2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/).
