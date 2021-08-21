@@ -1,7 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Adam Garrett-Harris`,
-    author: `Adam Garrett-Harris`,
+    author: {
+      name: `Adam Garrett-Harris`,
+      summary: `, a podcaster and software engineer in Utah.`,
+    },
     description: `Adam's blog`,
     siteUrl: `http://adam.garrett-harris.com`,
     social: {
@@ -9,70 +12,7 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-feed-mdx`,
-      options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                description
-                siteUrl
-                site_url: siteUrl
-              }
-            }
-          }
-        `,
-        feeds: [
-          {
-            serialize: ({ query: { site, allMdx } }) => {
-              return allMdx.edges.map(edge => {
-                return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.excerpt,
-                  date: edge.node.frontmatter.date,
-                  url:
-                    site.siteMetadata.siteUrl + "/blog" + edge.node.fields.slug,
-                  guid:
-                    site.siteMetadata.siteUrl + "/blog" + edge.node.fields.slug,
-                  custom_elements: [{ "content:encoded": edge.node.body }],
-                })
-              })
-            },
-            query: `
-              {
-                allMdx(
-                  sort: { order: DESC, fields: [frontmatter___date] },
-                ) {
-                  edges {
-                    node {
-                      excerpt
-                      body
-                      fields { slug }
-                      frontmatter {
-                        title
-                        date
-                      }
-                    }
-                  }
-                }
-              }
-            `,
-            output: "/rss.xml",
-            title: "Your Site's RSS Feed",
-            // optional configuration to insert feed reference in pages:
-            // if `string` is used, it will be used to create RegExp and then test if pathname of
-            // current page satisfied this regular expression;
-            // if not provided or `undefined`, all pages will have feed reference inserted
-            match: "^/blog/",
-          },
-        ],
-      },
-    },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -88,14 +28,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        extensions: [`.md`, `.mdx`],
-        gatsbyRemarkPlugins: [
+        plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 630,
             },
           },
           {
@@ -110,29 +49,82 @@ module.exports = {
         ],
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: `ADD YOUR TRACKING ID HERE`,
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-feed`,
       options: {
-        trackingId: `UA-31980509-3`,
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.nodes.map((node) => {
+                return Object.assign({}, node.frontmatter, {
+                  description: node.excerpt,
+                  date: node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + node.fields.slug,
+                  custom_elements: [{ "content:encoded": node.html }],
+                })
+              })
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                ) {
+                  nodes {
+                    excerpt
+                    html
+                    fields {
+                      slug
+                    }
+                    frontmatter {
+                      title
+                      date
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+          },
+        ],
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Adam Garrett-Harris`,
-        short_name: `Adam`,
+        name: `Gatsby Starter Blog`,
+        short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-gatsby-cloud`,
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
   ],
 }

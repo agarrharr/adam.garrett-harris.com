@@ -3,6 +3,6 @@
 ## Running in development
 
 ```
-yarn
-yarn develop
+npm i
+npm run develop
 ```
