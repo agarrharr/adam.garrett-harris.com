@@ -5,7 +5,7 @@ tags:
 - Tutorial
 ---
 
-**Update**- I've now figured out an easier way to do this in one command instead of 5 ([Android Automation](/android-automation))
+**Update**- I've now figured out an easier way to do this in one command instead of 5 ([Android Automation](/2014-04-11-android-automation/))
 
 So you've got your awesome app programmed, tested, added a cool icon, and you want to get it out to the world? It's pretty easy to get android apps on your phone when testing, but you have to jump through a few hoops to actually get it in the Google Play store.
 

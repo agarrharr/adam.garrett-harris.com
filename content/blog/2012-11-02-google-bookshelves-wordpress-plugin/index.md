@@ -1,5 +1,5 @@
 ---
-title: "Another Free Wordpress Plugin"
+title: "Google Bookshelves Wordpress Plugin"
 date: 2012-11-02
 tags:
 - Portfolio

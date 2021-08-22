@@ -5,7 +5,7 @@ tags:
 - Tutorial
 ---
 
-In my [last post](../sign-publish-phonegap-app-google-play-store-windows/) about releasing for android, I had a long list of commands that you had to run, to finally create a releasable apk file. It looked something like this:
+In my [last post](/2013-10-16-sign-publish-phonegap-app-google-play-store-windows//) about releasing for android, I had a long list of commands that you had to run, to finally create a releasable apk file. It looked something like this:
 
 ```bash
 ant release
