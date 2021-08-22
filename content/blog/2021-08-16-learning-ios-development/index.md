@@ -6,7 +6,7 @@ tags:
 - career
 ---
 
-I quit my job as a full-stack software engineer back in March 2021. I was burned out, depressed and I didn't enjoy working on back end software. After a year of quarantining at home it felt like I valued different things than the company I worked for and I had zero motivation to work on what I was supposed to work on. That's not a good place to be, so I told my team, they were very understanding, and I took a week off and got a therapist. Eventually I decided that the best thing for me to do was to take a break.
+I quit my job as a full-stack software engineer back in March 2021. I was burned out, depressed and I didn't enjoy working on back-end software. After a year of quarantining at home, it felt like I valued different things than the company I worked for and I had zero motivation to work on what I was supposed to work on. That's not a good place to be, so I told my team, they were very understanding, and I took a week off and got a therapist. Eventually, I decided that the best thing for me to do was to take a break.
 
 What I've been wanting to do for a while is learn iOS development. But I also needed to finish renovating the main floor of our house so that we can rent it out.
 
