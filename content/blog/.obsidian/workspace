@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-08-23-deleting-bookmarks-in-ios/index.md",
+            "file": "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-08-23-deleting-bookmarks-in-ios/index.md",
+            "file": "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-08-23-deleting-bookmarks-in-ios/index.md",
+                "file": "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,8 +101,8 @@
   },
   "active": "d169edbbd80d1ac0",
   "lastOpenFiles": [
-    "2021-08-23-deleting bookmarks/index.md",
     "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",
+    "2021-08-23-deleting bookmarks/index.md",
     "2021-08-23-deleting bookmarks/Untitled.md",
     "2021-08-20-investigating-what-i-value-at-work/index.md",
     "2021-08-16-learning-ios-development/index.md",

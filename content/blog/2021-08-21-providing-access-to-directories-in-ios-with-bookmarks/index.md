@@ -429,4 +429,4 @@ struct ContentView_Previews: PreviewProvider {
 
 When you open the app, it will load up the existing bookmarks and you can add more. A big thanks to my friend Elaine who helped me figure all of this out. The [final code for this step can be found on GitHub](https://github.com/agarrharr/BookmarkDirectories/tree/be9c71275364037fbfd8aac927119db80838ae23).
 
-Next time, I'll show you how to delete bookmarks and how to show their contents when you tap on one.
+[Next time](/2021-08-23-deleting-bookmarks-in-ios/), I'll show you how to delete bookmarks and how to show their contents when you tap on one.
