@@ -7,7 +7,7 @@ tags:
 - tutorial
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5BMsDP7lOq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7rBmXk6NC0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Last time](/2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/) we made an app that allows the user to select multiple folders and save them using bookmarks. And it displays those bookmarks in a list. But the user can't delete them from the list or tap on them to see the files inside the folder. Today we'll tackle deleting bookmarks from the list.
 
