@@ -5,16 +5,6 @@ tags:
 - apps
 ---
 
-<Helmet>
-<style>{`
-.gatsby-resp-image-link {
-  float: left;
-  width: 50px;
-  margin: 15px 20px 20px 0;
-}
-`}</style>
-</Helmet>
-
 I’ve been listening to the "State of the Apps" episodes of Cortex since the end of 2017.
 
 - [Cortex #61: State of the Apps 2018](https://www.relay.fm/cortex/61)
@@ -28,7 +18,7 @@ I thought I would list out my favorite and most used apps. This is not a compreh
 
 ## Productivity
 
-![OmniFocus logo](./omnifocus.png)
+![OmniFocus logo](./omnifocus.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### OmniFocus (iOS and macOS)
 
@@ -36,7 +26,7 @@ This is the app that got me to switch to iPhone (I talk more about switching to 
 
 In [The Year of Calm](https://adam.garrett-harris.com/2021-01-01-2021-year-of-calm/) I want to pair down what I use it for. I want to have less someday/maybe stuff in there and have that in Roam Research instead. I have also moved Podcasting out of OmniFocus and into Roam Research instead because I can plan better and write show notes all in the same place.
 
-![Due logo](./due.png)
+![Due logo](./due.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Due (iOS)
 
@@ -50,25 +40,25 @@ I have things in here like:
 - Move the wake up time back by 5 minutes
 - Rotate mattress
 
-![Spark logo](./spark.png)
+![Spark logo](./spark.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Spark (iOS and macOS)
 
 I was using Airmail (and I still use it for my work email), but I switched to Spark for its ability to collaborate on email. This allows my wife and I to chat about emails and to assign emails to each other. We can even write emails together in real-time similar to Google Docs. This allows my wife and I to keep separate email accounts and yet work on email together without forwarding emails back and forth.
 
-![Fantastical logo](./fantastical.png)
+![Fantastical logo](./fantastical.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Fantastical (iOS and macOS)
 
 Fantastical has been the best email app for a while and it just continues to get better. It switched to a subscription at the beginning of the year and I immediately purchased a year. You can enter events with natural language instead of having to mess with entering data into multiple fields. I love its ability to create and switch between different calendar sets. It also combines events if they have the same title and time on different calendars. It now has the ability to send out calendar invites with multiple time proposals. In 2020, they also made it easy to join video calls, which has been very useful for me. I also like that on the mac, it can display the name of the next event in the menu bar as well as how much time until the next event. It’s widgets are also very good and it supports Shortcuts. I don’t use it’s task or weather features though.
 
-![Cardhop logo](./cardhop.png)
+![Cardhop logo](./cardhop.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Cardhop (iOS and macOS)
 
 This is another app that I love for it’s natural language support. You can type in someone’s name, phone number, and address all in the same text box to create a new contact. You can also setup a global keyboard shortcut to open Cardhop on mac or send text to Cardhop.
 
-![Drafts logo](./drafts.png)
+![Drafts logo](./drafts.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Drafts (iOS and macOS)
 
@@ -78,7 +68,7 @@ I need to go through and clear out all the old notes that I had tagged in here.
 
 The only other thing I use it for is OmniFocus templates with the [Drafts Action Group Rosemary Orchard created](https://actions.getdrafts.com/g/1F6) that she [described on her blog](https://rosemaryorchard.com/blog/automators-5-project-templates/).
 
-![Keep It logo](./keep-it.png)
+![Keep It logo](./keep-it.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Keep It (iOS and macOS)
 
@@ -91,7 +81,7 @@ I need to:
 - [ ] Make sure my wife has access to everything and knows how to use it.
 - [ ] I also need to remove some text only notes and put them in Roam Research.
 
-![Roam Research logo](./roam-research.png)
+![Roam Research logo](./roam-research.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Roam Research (web)
 
@@ -99,7 +89,7 @@ I started hearing about Roam Research on the [Bookworm podcast](https://bookworm
 
 But when I took a sabbatical in September, I started learning about it and I basically sent an entire week getting into and learning about Roam Research. Since my subscription comes with 3 graphs, my wife also tried it out and loves it too.
 
-![YNAB logo](./ynab.png)
+![YNAB logo](./ynab.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### You Need a Budget (web and iOS)
 
@@ -107,7 +97,7 @@ YNAB has been a really solid app that syncs with my banks and and just works. Th
 
 ## Creating
 
-![MindNode logo](./mindnode.png)
+![MindNode logo](./mindnode.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### MindNode (iOS, iPadOS, and macOS)
 
@@ -116,25 +106,25 @@ I took the [Sweet Setup Course on Mind Mapping](https://thesweetsetup.com/mindma
 I need to:
 - [ ] Move book notes into Roam Research.
 
-![GoodNotes logo](./goodnotes.png)
+![GoodNotes logo](./goodnotes.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### GoodNotes (iPadOS, iOS, and macOS)
 
 Since I have an Apple Pencil, I wanted an app that use the pencil. I tried out both Notability and GoodNotes. I think they’re both really good, but I’ve stuck with GoodNotes for a while. I don’t use it a lot, but I may use it more this year with the [2021 Digital Planner from The Sweet Setup](https://thesweetsetup.com/planner/).
 
-![iA Writer logo](./ia-writer.png)
+![iA Writer logo](./ia-writer.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### iA Writer (iOS and iPadOS)
 
 I heard [Federico Viticci](https://twitter.com/viticci) talk about this app on his various podcasts (probably [Adapt](https://www.relay.fm/adapt)). I just started using this a few weeks ago, but since I’ve been writing more, I’ve been trying it out for writing blog posts along with Grammarly and Working Copy.
 
-![Working Copy logo](./working-copy.png)
+![Working Copy logo](./working-copy.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Working Copy (iOS only)
 
 I also heard about this one from [Federico Viticci](https://twitter.com/viticci). Since I’ve been writing and publishing blog posts from my iPad, I needed a git client and Working Copy is great.
 
-![Ferrite logo](./ferrite.png)
+![Ferrite logo](./ferrite.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Ferrite (iOS only)
 
@@ -142,13 +132,13 @@ I started using Ferrite to edit my podcasts after I upgraded to macOS Catalina i
 
 Ferrite has been the best audio editing app I’ve used except for that the fact that I can’t listen at a higher playback speed. [I asked the developer about it](https://twitter.com/agarrharr/status/1220183538852458496) and they want to add that feature, but it’s difficult because of the audio engine. Even though it doesn’t have this feature, it more than makes up for it with other features like automatically removing silence, tightening clips, and templates.
 
-![Picsew logo](./picsew.png)
+![Picsew logo](./picsew.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Picsew (iOS only)
 
 Picsew is a nice utility app for stitching long screenshots together. It can even create a long screenshot from a video screen recording. Another great feature is that it can remove the scroll bar and clean up the status bar. Along with Federico Viticci’s [Apple Frames shortcut](https://www.macstories.net/ios/shortcuts-corner-apple-frames-for-iphone-11-and-11-pro-app-store-updates-page-logging-completed-reminders-and-time-zones/), I can make nice iPhone screenshots.
 
-![Day One logo](./day-one.png)
+![Day One logo](./day-one.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Day One (iOS and macOS)
 
@@ -156,13 +146,13 @@ I have considered moving this to Roam Research and I do some journaling in Roam 
 
 ## Automation
 
-![Shortcuts logo](./shortcuts.png)
+![Shortcuts logo](./shortcuts.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Shortcuts (iOS)
 
 When I switched to iOS, I was surprised to find such a powerful automation tool with an interface of code-like blocks. I immediately loved it. I’ve been getting lots of ideas for how to used it from [the Automators podcast](https://www.relay.fm/automators) and [Federico Viticci at Macstories](https://www.macstories.net/). Since Apple acquired Workflow and turned it into Shortcuts, it has been getting better and better. Hopefully Shortcuts will come to macOS soon.
 
-![Zapier logo](./zapier.png)
+![Zapier logo](./zapier.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Zapier (web)
 
@@ -172,13 +162,13 @@ Some stuff I do in Zapier I may be able to replace with IFTTT now that they supp
 
 Look into if I can replace all zaps with something cheaper.
 
-![Pushcut logo](./pushcut.png)
+![Pushcut logo](./pushcut.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Pushcut (iOS)
 
 It’s one of the apps that supports subscription Family Sharing. I used it to send myself push notifications from Zapier to start timers for work meetings. I’m also considering using the Pushcut automation server to run shortcuts. I’m very excited about it, but I haven’t figured out a use case yet.
 
-![Apple Home logo](./apple-home.png)
+![Apple Home logo](./apple-home.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Apple Home (iOS and macOS)
 
@@ -186,25 +176,25 @@ I have Hue bulbs, Lutron Caseta switches, Wemo smart plugs, and a Rachio sprinkl
 
 The only automation I do inside the Hue app is a wake up routine that slowly turns on our lamps in the morning.
 
-![Eve logo](./eve.png)
+![Eve logo](./eve.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Eve for Homekit (iOS)
 
 I don’t have any Eve products, but their app is great at creating more advanced automations. For example, I have some automations that turn down my son’s lights. One of them turns the lights to 50%, but only if the lights are brighter than 50%. That way it doesn’t turn them back on if he already has his lights off.
 
-![TextExpander logo](./textexpander.png)
+![TextExpander logo](./textexpander.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### TextExpander (macOS and iOS)
 
 I think of this mostly as a macOS app, but technically it’s on iOS too, but specific apps have to support it. Thankfully Drafts supports it. It allows you to type abbreviations and then it "expands" it into a longer snippet.
 
-![Keyboard Maestro logo](./keyboard-maestro.png)
+![Keyboard Maestro logo](./keyboard-maestro.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Keyboard Maestro (macOS)
 
 I used this for automations on my mac like [joining the Zoom video call for my standup meeting at work](https://adam.garrett-harris.com/2020-12-23-joining-standup-video-call-automatically/) or muting and unmuting Skype.
 
-![Moom logo](./moom.png)
+![Moom logo](./moom.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Moom (macOS)
 
@@ -212,67 +202,67 @@ Moom is one of many apps that help you move your windows around. You can even do
 
 ## Tracking
 
-![Timery logo](./timery.png)
+![Timery logo](./timery.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Timery (iOS)
 
 Timery is the app that finally made it possible for me to not only time track the most important things, but it made it possible to time track everything in my life. The user interface is really easy to use and it supports Shortcuts so that I don’t have to use the Toggl API. I still use the Toggl API from Zapier, but I could switch those to use a Pushcuts Automation Server that uses Timery shortcuts actions. I really want this app on watchOS and macOS.
 
-![Airtable logo](./airtable.png)
+![Airtable logo](./airtable.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Airtable (web and iOS)
 
 Airtable has a lot of potential and I want to love it. I’ve tried using it for several things, but I usually stop after a while. I currently have tracked something in Airtable with my wife. We probably could use Notion, but Airtable works fine. My only complaint is that you can’t see a calendar view on iOS and the Pro plan is $12/month/user if you want addons like charts. I don’t want to pay $24/month to see charts for one thing that I track.
 
-![Deliveries logo](./deliveries.png)
+![Deliveries logo](./deliveries.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Deliveries (iOS)
 
 I don’t usually track my shipments, but when something is on the way that I’m really excited about, especially if it’s not from Amazon, I’ll usually add it to Deliveries. It’s good at recognizing tracking numbers and URLs from your clipboard and automatically figuring out which carrier it is.
 
-![Streaks logo](./streaks.png)
+![Streaks logo](./streaks.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Streaks (iOS and watchOS)
 
 I like using Streaks to help me create new habits. I used it to create a new flossing habit in 2019, and now I’m using it to make my morning routine a habit.
 
-![Apple Health logo](./apple-health.png)
+![Apple Health logo](./apple-health.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Apple Health (iOS)
 
 I add as much data as I can to Health. I don’t know what to do with it, but I think it’s fun.
 
-![Waterminder logo](./waterminder.png)
+![Waterminder logo](./waterminder.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### WaterMinder (iOS and watchOS)
 
 I use WaterMinder to track my water consumption. You can track different types of drinks like coffee and soda as well, but I only track water. It syncs the data to Apple Health.
 
-![FoodNoms logo](./foodnoms.png)
+![FoodNoms logo](./foodnoms.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### FoodNoms (iOS)
 
 I used to use MyFitnessPal and hated it even though it had an extensive food database. When I discovered FoodNoms, I immediately loved it because it takes advantage of all the modern iOS features. It has added new features very quickly and the developer is very responsive. It supports Shortcuts, although I haven’t figured out a good way to use it. I used it extensively when it first came out and then I stopped. I need to start using it again to figure out a possible food allergy. It syncs data to Apple Health and it’s one of the apps that supports subscription Family Sharing.
 
-![Fitbod logo](./fitbod.png)
+![Fitbod logo](./fitbod.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Fitbod (iOS and watchOS)
 
 Fitbod was the best weight lifting app I could find when I was still going to a gym. Since staying at home I haven’t used it as much, but I should because you can configure which equipment you have at different locations, and it’s good at automatically creating a workout based on your equipment, how much time you have, and how sore your muscles are (based on previous workouts). It also syncs to Apple Health.
 
-![Runkeeper logo](./runkeeper.png)
+![Runkeeper logo](./runkeeper.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### RunKeeper (iOS and watchOS)
 
 I use this to track my runs. In the past, I have paid for Premium so that I can get training plans, but right now I’m just tracking runs on the free plan. It syncs to Apple Health, but the route can’t sync to Apple Health and stays in Runkeeper.
 
-![Tempo logo](./tempo.png)
+![Tempo logo](./tempo.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Tempo
 
 I like using Tempo to visualize my running data from Apple Health in a different way. It’s simple, but it has nice charts. It’s one of the apps that supports subscription Family Sharing.
 
-![Headspace logo](./headspace.png)
+![Headspace logo](./headspace.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Headspace (iOS)
 
@@ -280,7 +270,7 @@ Headspace is the app my wife and I use to meditate. It’s great for beginners a
 
 ## Consuming
 
-![Overcast logo](./overcast.png)
+![Overcast logo](./overcast.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Overcast (iOS and watchOS)
 
@@ -288,61 +278,61 @@ Overcast is my favorite podcast player. I love that has voice boost, smart speed
 
 I tried out Airr because you can take notes on podcasts and send them to Readwise, but it was buggy and missing so many features that I love from Overcast that I couldn’t use it.
 
-![Goodreads logo](./goodreads.png)
+![Goodreads logo](./goodreads.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Goodreads (web, iOS)
 
 I’ve been using this to track my books for years. I am starting to move my "Want to read" books out of Goodreads though and using Roam Research instead because I want more information about where I heard about the book and why I wanted to read it in the first place.
 
-![Reeder logo](./reeder.png)
+![Reeder logo](./reeder.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Reeder 5 (iOS)
 
 I was using NetNewsWire earlier this year, but then I heard [Myke Hurley](https://www.relay.fm/people/mykehurley) say how much he enjoyed Reeder 5 that I decided to try it out. I really like Reeder and NetNewsWire. They’re both have a simple and clean UI. I can switch back and forth if I want because I’m using Feedly as the backend for my RSS subscriptions. I’m also using [Kill The Newsletter!](https://kill-the-newsletter.com/) to turn some email newsletters into RSS feeds, and I paid for Feedly so that I can use email rules to automatically forward emails from certain senders to Feedly.
 
-![Instapaper logo](./instapaper.png)
+![Instapaper logo](./instapaper.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Instapaper (web, iOS)
 
 I tried GoodLinks, but I wanted to be able to send things to Readwise. I switched to Instapaper, which I hadn’t really used in years and I had to pay for Instapaper Premium so that I could make more than 3 highlights per article and make unlimited notes.
 
-![Readwise logo](./readwise.png)
+![Readwise logo](./readwise.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Readwise (iOS)
 
 I’ve been using Readwise to connect my Instapaper, Kindle (which I don’t currently use), Goodreads, and Airr podcast player. I then review about 5 highlights every day in the app. It also sends those highlights into Roam Research. One of my favorite things about the iOS app is the ability to point your phone at a physical book and then highlight a quote. It then converts it into text, and you can type in the page number and pick the book that’s from. I might just use this in the future to get text out of physical books to copy/paste into MindNode.
 
-![Lookup logo](./lookup.png)
+![Lookup logo](./lookup.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Lookup (iOS)
 
 When I read I like to look up words that I don't know and Lookup is the best and most beautiful looking app I found. The word of the day is nice and they have interesting images. But I don't use that part as much. I add words that I don't know (or am not as familiar with) to collections. I have one collection per book. I also write those words at the front of the book. You can also take quizes on the words in your collections. I don't take those quizzes very often, but it's fun. It also has Shortcuts actions, which I don't use. I would like to see a Shortcuts action to get words from collections and/or an export feature.
 
-![Plex logo](./plex.png)
+![Plex logo](./plex.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Plex (web, iOS)
 
 I started using Plex at the beginning of 2019 ([I think](https://www.orbit.fm/talkingdudes/season3/11)) and I’ve really been enjoying it (even though I have to tinker around a bit to keep it up). It’s like having a personal Netflix. I also have a webhooks setup to call Trakt to track what I watch and I have a [webhook with Zapier set up to time track with Toggl](https://adam.garrett-harris.com/2020-07-09-automatic-time-tracking-from-plex/).
 
-![Infuse logo](./infuse.png)
+![Infuse logo](./infuse.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Infuse (iOS)
 
 It’s one of the apps that supports subscription Family Sharing. I heard about this from [Federico Viticci](https://twitter.com/viticci) and at first I didn’t realize why you would use it when you have Plex, but it works really well at playing videos on my Synology NAS. Sometimes it plays it no problem when Plex struggles with trying to transcode it.
 
-![Apple TV logo](./apple-tv.png)
+![Apple TV logo](./apple-tv.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Apple TV (iOS, macOS)
 
 I don’t own a physical Apple TV devices, but when I got my Mac Mini earlier this year, it came with a subscription to Apple TV +. I couldn’t find the time to watch it at first, but I watched all of The Morning Show, For All Mankind, Servant, Defending Jacob, and now I’m watching Ted Lasso with my wife. She doesn’t want to pay for it, but I can’t wait for the second season on all of theses shows. Plus Wolfwalkers, Greyhound, See, and Foundation all look good. It’s going to be hard to give up this service if Apple keeps coming out with great content like this.
 
-![Sofa logo](./sofa.png)
+![Sofa logo](./sofa.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Sofa (iOS)
 
 This is where I have been keeping track of movies and shows I want to watch. It’s nice because instead of just typing the name of a show into a list, you’re actually searching for shoes and movies and you can see the release date, cover, and other information.
 
-![Trakt logo](./trakt.png)
+![Trakt logo](./trakt.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Trakt (web, iOS beta)
 
@@ -352,13 +342,13 @@ Maybe I could make a shortcut that called a Trakt API or webhook URL.
 
 ## Food
 
-![Paprika logo](./paprika.png)
+![Paprika logo](./paprika.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Paprika (iOS, macOS)
 
 Paprika is a great app for recipes. We don’t use the shopping features, but my wife has been using the meal planning feature this year and it’s been pretty good. The meal planning feature seems a little buggy on iOS sometimes (crashing the app). I used to use Paprika to create a shopping list based on recipes, and then [export from Paprika into AnyList](https://adam.garrett-harris.com/2019-02-03-paprika-and-anylist/).
 
-![Anylist logo](./anylist.png)
+![Anylist logo](./anylist.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### AnyList (iOS)
 
@@ -366,13 +356,13 @@ My wife and I use AnyList for grocery shopping. We have also lists for other sto
 
 ## Travel
 
-![Tripsy logo](./tripsy.png)
+![Tripsy logo](./tripsy.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Tripsy (iOS)
 
 I haven’t traveled much this year, but my wife and I have used some of our travel points for local hotels. I can forward flight, hotel reservation, and car rental emails to Tripsy and it automatically adds all of the details. It’s one of the apps that supports subscription Family Sharing, although my wife doesn’t really need a subscription because when I share a trip with her, she doesn’t need a subscription.
 
-![Flighty logo](./flighty.png)
+![Flighty logo](./flighty.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Flighty (iOS)
 
@@ -380,19 +370,19 @@ Even though I use Tripsy, Flighty is really cool for tracking flights. It gives 
 
 ## Christian
 
-![YouVersion logo](./youversion.png)
+![YouVersion logo](./youversion.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### YouVersion Bible app (web and iOS)
 
 I’ve tried out various Bible apps, but this is one of the original apps and it’s still one of the best. It has 62 English versions of the Bible, which you can download offline. You can also listen to the audio version. It has Bible reading plans, a great search. It has a ton of features, most of which I don’t use, like friends, bookmarks, highlights, notes, verse of the day, and more. I also just realized that it supports a prayer list.
 
-![Echo logo](./echo.png)
+![Echo logo](./echo.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Echo (iOS)
 
 I was using Echo for my prayer list, but I recently started using Roam Research. I’m still not sure if Roam Research is where I want prayers, but it makes since that it might be mixed in with other notes, like a personal CRM. Although, since I haven’t been to church in almost a year, I don’t have a lot of prayers on my list.
 
-![Bible Memory logo](./bible-memory.png)
+![Bible Memory logo](./bible-memory.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### The Bible Memory App (iOS and watchOS)
 
@@ -400,13 +390,13 @@ I don’t use this app as much as I wish I did, but I really like the way it wor
 
 ## Other
 
-![Anki logo](./anki.png)
+![Anki logo](./anki.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Anki (iOS and macOS)
 
 Anki isn’t the best looking app, but it’s one of the best memorization apps that uses spaced repetition. I go through periods of using this more or less.
 
-![Apple Photos logo](./apple-photos.png)
+![Apple Photos logo](./apple-photos.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Apple Photos (iOS and macOS)
 
@@ -416,25 +406,25 @@ I need to:
 - [ ] I need to figure out my system for getting my wife’s photos into the same library.
 - [ ] I also need to figure out my system for sharing albums with my family (since I don’t use Facebook).
 
-![GIFwrapped logo](./gifwrapped.png)
+![GIFwrapped logo](./gifwrapped.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### GIFwrapped (iOS)
 
 I started building up a personal collection of gifs that I can use because it always seems like I can’t find the gif I’m looking for if I search in the moment. GIFwrapped is a simple app where you can search for apps and save your favorites and it syncs with iCloud so I even have access to them on my mac.
 
-![Things logo](./things.png)
+![Things logo](./things.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Things (iOS)
 
 Wait, don’t I use OmniFocus? and Due? Yes. And sometimes I either get overwhelmed by all the things in OmniFocus that I need to make a list somewhere else. Or sometimes, I just want to make a one-off, temporary list. That’s what I use Things for. It’s beautiful UI, that’s very different from OmniFocus also feels different to my brain when I want a change from my usual task manager.
 
-![Reminders logo](./reminders.png)
+![Reminders logo](./reminders.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Reminders (iOS and macOS)
 
 Another task manager? Yeah, OmniFocus doesn’t support sharing and assigning tasks (yet). So I use Reminders to share tasks with my wife. We don’t use it a lot, but sometimes we need a list of things we can both see and check off. We usually use it for packing lists.
 
-![Dark Noise logo](./dark-noise.png)
+![Dark Noise logo](./dark-noise.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Dark Noise (iOS)
 
@@ -444,7 +434,7 @@ When I discovered this app, it was exactly what I was looking for: a dead simple
 
 Other apps that I’m currently trying out are:
 
-![Craft logo](./craft.png)
+![Craft logo](./craft.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Craft
 
@@ -454,13 +444,13 @@ Other apps that I’m currently trying out are:
 - I could use it with my wife, but we don’t really have a use-case for it.
 - It’s one of the apps that supports subscription Family Sharing.
 
-![Obsidian logo](./obsidian.png)
+![Obsidian logo](./obsidian.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Obsidian
 
 - It’s very similar to Roam Research, but I tried it before I eventually went with Roam and it didn’t quite click with me, but I’m thinking about using this to publish a digital garden like [Rosie Campbell’s](https://publish.obsidian.md/rosie/Digital+gardens).
 
-![Apple Music logo](./apple-music.png)
+![Apple Music logo](./apple-music.png '#float=left;width=50px;margin=15px 20px 0 0;')
 
 ### Apple Music
 
