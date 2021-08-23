@@ -9,23 +9,21 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-08-23-deleting-bookmarks-in-ios/index.md",
+            "file": "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",
             "mode": "source"
           }
-        },
-        "group": "80624ad8051507c4"
+        }
       },
       {
-        "id": "2358fbdcad7ca41e",
+        "id": "123b1f252da2d0ca",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "2021-08-23-deleting-bookmarks-in-ios/index.md",
-            "mode": "preview"
+            "mode": "source"
           }
-        },
-        "group": "80624ad8051507c4"
+        }
       }
     ],
     "direction": "vertical"
@@ -99,7 +97,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d169edbbd80d1ac0",
+  "active": "123b1f252da2d0ca",
   "lastOpenFiles": [
     "2021-08-23-deleting-bookmarks-in-ios/index.md",
     "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",

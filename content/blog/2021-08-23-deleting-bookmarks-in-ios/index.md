@@ -110,6 +110,6 @@ func removeBookmark(at offsets: IndexSet) {
 }
 ```
 
-Now when you run the app, you can swipe to delete bookmarks, and they're still gone when you restart the app.
+Now when you run the app, you can swipe to delete bookmarks, and they're still gone when you restart the app. The [final code for this step can be found on GitHub](https://github.com/agarrharr/BookmarkDirectories/tree/c201e220681bf5b29c824ee71157aed0e37b7329).
 
 Next time, we'll display the content of the directories when you tap on them.
