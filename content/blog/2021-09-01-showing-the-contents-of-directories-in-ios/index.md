@@ -210,3 +210,18 @@ if isPreview {
    ]
 }
 ```
+
+In `DetailView.swift` change the preview code to pass true to `isPreview`.
+
+```swift
+struct DetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView {
+            DetailView(url: URL(string: "path/to/Notes")!)
+                .environmentObject(FileController(isPreview: true))
+        }
+    }
+}
+```
+
+The [final code for this step can be found on GitHub](https://github.com/agarrharr/BookmarkDirectories/tree/300ff5071572d08f0cb485050e368b33dcdcea23/BookmarkDirectories).
