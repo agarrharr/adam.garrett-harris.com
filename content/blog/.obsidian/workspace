@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d169edbbd80d1ac0",
+        "id": "1b32c2d6df129bab",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "123b1f252da2d0ca",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2021-08-23-deleting-bookmarks-in-ios/index.md",
+            "file": "2021-09-01-showing-the-contents-of-directories-in-ios/index.md",
             "mode": "source"
           }
         }
@@ -50,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "removebookmark",
+                "query": "tag:#ios",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 474
   },
   "right": {
     "id": "bae125de6b142441",
@@ -79,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-08-23-deleting-bookmarks-in-ios/index.md",
+                "file": "2021-09-01-showing-the-contents-of-directories-in-ios/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "123b1f252da2d0ca",
+  "active": "1b32c2d6df129bab",
   "lastOpenFiles": [
+    "2021-09-01-showing-the-contents-of-directories-in-ios/index.md",
     "2021-08-23-deleting-bookmarks-in-ios/index.md",
+    "2021-08-24-showing-the-contents-of-directories/index.md",
+    "2021-08-24-showing-the-contents-of-directories/detail-view-with-icons 1.png",
+    "2021-08-24-showing-the-contents-of-directories/detail-view-with-icons.png",
+    "2021-08-24-showing-the-contents-of-directories/detail-view.png",
     "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",
-    "2021-08-23-deleting bookmarks/index.md",
-    "2021-08-23-deleting bookmarks/Untitled.md",
-    "2021-08-20-investigating-what-i-value-at-work/index.md",
-    "2021-08-16-learning-ios-development/index.md",
-    "Investigating What I Value at Work.md",
-    "2021-08-18-obsidian-todo-app/index.md",
-    "Visual Interactive Apps.md",
-    "Untitled.md"
+    "2021-08-24-showing-the-contents-of-directories/detail-view.png.png",
+    "2021-08-24-showing-the-contents-of-directories/Untitled.md",
+    "2021-08-23-deleting bookmarks/index.md"
   ]
 }

@@ -1,13 +1,15 @@
 ---
-title: "Showing the Contents of Directories"
-date: 2021-08-24
+title: "Showing the Contents of Directories in iOS"
+date: 2021-09-01
 tags:
 - ios
 - swiftui
 - tutorial
 ---
 
-[Last time](/2021-08-23-deleting-bookmarks-in-ios/) we made an app that allows the user to select multiple folders and save them using bookmarks. It displays those bookmarks in a list. And the user can delete them from the list by swiping. Now, let's make it a bit more interesting by showing the user the contents of the folder when they tap on it.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kQL3NawzQ0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Last time](/2021-08-23-deleting-bookmarks-in-ios/) we made an app that allows the user to select multiple folders and save them using bookmarks. It displays those bookmarks in a list. And the user can delete them from the list by swiping. Now, let's make it a bit more interesting by showing the user the contents of the folder when they tap on it. And we'll show an icon depending on whether it's a folder or a file.
 
 ## Make the DetailView
 
@@ -28,6 +30,7 @@ struct DetailView: View {
             Text("Home")
         }
         .navigationTitle(url.lastPathComponent)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
@@ -79,7 +82,7 @@ struct BookmarkDirectoriesApp: App {
 }
 ```
 
-Now, in `DetailsView.swift`, we can use the `FileController` by adding it as an environment object. To call the `FileController`'s method everytime this view loads, we can call it with `onAppear()`. We can save the results of this in a state variable called `urls`. Then you can show the actual files in the list.
+Now, in `DetailView.swift`, we can use the `FileController` by adding it as an environment object. To call the `FileController`'s method everytime this view loads, we can call it with `onAppear()`. We can save the results of this in a state variable called `urls`. Then you can show the actual files in the list.
 
 ```swift
 import SwiftUI
@@ -99,7 +102,8 @@ struct DetailView: View {
             urls = fileController.getContentsOfDirectory(url: url)
             print(urls)
         }
-        .navigationTitle(url.lastPathComponent)
+        .navigationTitle(url.lastPathComponent)      
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
@@ -117,11 +121,11 @@ struct DetailView_Previews: PreviewProvider {
 
 Now we can link to the detail view from `ContentView.swift`:
 
-Instead of showing `Text` in the list, use a `NavigationLink`. And add `@State var urlSelection: URL?` to the top of the view.
+Instead of showing `Text` in the list, use a `NavigationLink`.
 
 ```swift
 ForEach(bookmarkController.bookmarks, id: \.uuid) { uuid, url in
-    NavigationLink(url.lastPathComponent, destination: DetailView(url: url), tag: url, selection: $urlSelection)
+    NavigationLink(url.lastPathComponent, destination: DetailView(url: url))
 }
 ```
 
@@ -179,6 +183,8 @@ ForEach(items, id: \.url) { item in
     }
 }
 ```
+
+When you run the app and tap on the folder, we now have icons next to each item showing whether it's a folder or a file.
 
 ![](detail-view-with-icons.png)
 
