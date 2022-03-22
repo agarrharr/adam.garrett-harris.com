@@ -1,5 +1,5 @@
 ---
-title: "# Using Shortcuts Automations To Remind Me of Coupon Codes"
+title: "Using Shortcuts Automations To Remind Me of Coupon Codes"
 date: 2022-03-21
 tags:
 - ios
