@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",
-            "mode": "source"
+            "file": "2022-03-22-using-a-home-automation-trigger-as-an-improvised-doorbell-for-deliveries/index.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",
+                "file": "2022-03-22-using-a-home-automation-trigger-as-an-improvised-doorbell-for-deliveries/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "1b32c2d6df129bab",
   "lastOpenFiles": [
-    "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",
-    "2021-08-23-deleting-bookmarks-in-ios/index.md",
+    "2022-03-22-using-a-home-automation-trigger-as-an-improvised-doorbell-for-deliveries/index.md",
+    "2022-03-22-using-a-home-automation-trigger-as-an-improvised-doorbell-for-deliveries/automation-action.jpeg",
+    "2022-03-22-using-a-home-automation-trigger-as-an-improvised-doorbell-for-deliveries/automation.jpeg",
+    "2022-03-22-using-a-home-automation-trigger-as-an-improvised-doorbell-for-deliveries/notification.jpeg",
+    "2022-03-22-using-a-home-automation-trigger-as-an-improvised-doorbell-for-deliveries/doorbell.jpeg",
+    "2021-03-29-opening-db-tables-with-keyboard-maestro/macro.png",
+    "2022-03-21-using-shortcuts-automations-to-remind-me-of-coupon-codes/index.md",
+    "2021-03-29-opening-db-tables-with-keyboard-maestro/index.md",
     "2021-09-01-showing-the-contents-of-directories-in-ios/index.md",
-    "2021-08-24-showing-the-contents-of-directories/index.md",
-    "2021-08-24-showing-the-contents-of-directories/detail-view-with-icons 1.png",
-    "2021-08-24-showing-the-contents-of-directories/detail-view-with-icons.png",
-    "2021-08-24-showing-the-contents-of-directories/detail-view.png",
-    "2021-08-24-showing-the-contents-of-directories/detail-view.png.png",
-    "2021-08-24-showing-the-contents-of-directories/Untitled.md",
-    "2021-08-23-deleting bookmarks/index.md"
+    "2022-03-21/sudshare-automation-actions.jpeg"
   ]
 }
