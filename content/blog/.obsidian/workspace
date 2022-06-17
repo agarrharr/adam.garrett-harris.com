@@ -9,9 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< Updated upstream
             "file": "2022-03-22-using-a-home-automation-trigger-as-an-improvised-doorbell-for-deliveries/index.md",
             "mode": "source",
             "source": false
+||||||| constructed merge base
+            "file": "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",
+            "mode": "source"
+=======
+            "file": "2021-08-21-providing-access-to-directories-in-ios-with-bookmarks/index.md",
+            "mode": "source",
+            "source": false
+>>>>>>> Stashed changes
           }
         }
       }
